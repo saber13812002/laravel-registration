@@ -1,0 +1,1 @@
+resources/views/verify.blade.php
