@@ -6,7 +6,7 @@
       <div class="row no-gutter">
         <div class="headingsyle">
           <h1>
-            <span>بازی ها</span>
+            <span>شیفت ها</span>
           </h1>
         </div>
         <!-- @foreach ($games as $game) -->
@@ -50,7 +50,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "http://fans.ffiri.ir";
+        : "https://jjj.liara.run";
     },
     isLoggedIn() {
       if (localStorage.getItem("jwt")) {

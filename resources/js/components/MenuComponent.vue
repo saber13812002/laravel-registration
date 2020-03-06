@@ -162,7 +162,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "http://fans.ffiri.ir";
+        : "https://jjj.liara.run";
     }
   }
 };

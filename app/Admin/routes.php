@@ -46,6 +46,11 @@ Route::group([
         'subway/stops'          => Subway\StopController::class,
 
         'documents'             => DocumentController::class,
+
+        'timesheets'            => TimesheetController::class,
+        'periods'               => PeriodController::class,
+        'bakhshes'              => BakhshController::class,
+        'shifts'                => ShiftController::class,
     ]);
 
     $router->group(['prefix' => 'editors'], function ($router) {

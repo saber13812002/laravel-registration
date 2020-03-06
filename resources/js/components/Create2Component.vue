@@ -43,7 +43,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "http://fans.ffiri.ir";
+        : "https://jjj.liara.run";
     },
     requestOtp() {
       let uri = `${this.url}/api/v1/otp22/${this.$route.params.phone}/${this.formInline1.pin}`;

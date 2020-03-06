@@ -10,7 +10,6 @@ use JWTAuth;
 use Illuminate\Support\Facades\Input;
 use App\Models\Info;
 use DateTime;
-use App\Models\Pay;
 
 class OtpController extends Controller
 {
@@ -28,7 +27,7 @@ class OtpController extends Controller
         return $this->otp1function($phone);
     }
 
-    public function otp11get( $phone)
+    public function otp11get($phone)
     {
         if ($phone) {
             return $this->otp1function($phone);
@@ -85,7 +84,7 @@ class OtpController extends Controller
 
     public function otp2function($phone, $code)
     {
-        $exist = 0;
+        $otp_number_verified = 0;
         $correctToken = 0;
 
         $len = strlen($phone);
@@ -95,20 +94,20 @@ class OtpController extends Controller
         }
         //echo $phone;
         foreach (Otp::where('mobile_number', $phone)->where('verification_code', $code)->where('verified', 0)->orderBy('created_at', 'desc')->take(1)->cursor() as $otp) {
-            $exist = 1;
+            $otp_number_verified = 1;
             if ($otp->verification_code == $code) {
                 $correctToken = 1;
             }
         }
         //echo $phone;
-        //echo $exist;
-        if ($exist) {
+        //echo $otp_number_verified;
+        if ($otp_number_verified) {
             //echo $correctToken;
             if ($correctToken) {
                 $username = "user_" . MD5($phone);
                 $password = MD5($code);
                 $email = $username . "@berimbasket.ir";
-                //check user exist
+                //check user otp_number_verified
 
                 if (User::where('email', '=', $email)->exists()) {
                     //echo 1;
@@ -134,12 +133,9 @@ class OtpController extends Controller
                         'password' => Hash::make($password),
                     ];
 
-                    //$inf = new Info;
                     $inf = Info::where('author_id', $ids->id)->first();
                     $inf->req_date = now();
                     $inf->req_time = now();
-                    //$inf->author_id = $ids->id;
-                    //$inf->mobile = $phone;
                     $inf->save();
 
 
@@ -177,11 +173,10 @@ class OtpController extends Controller
                     $inf->author_id = $user->id;
                     $inf->mobile = $phone;
                     $inf->token = $token;
+                    $inf->active = 1;
                     $inf->save();
 
-                    $p = new Pay;
-                    $p->author_id = $user->id;
-                    $p->save();
+
 
                     return response()->json(compact('usr', 'token'), 201);
                 }
