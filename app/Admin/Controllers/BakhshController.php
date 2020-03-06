@@ -72,11 +72,14 @@ class BakhshController extends AdminController
         $form = new Form(new Bakhsh());
 
         $form->text('name', __('Name'));
-        $form->switch('floor', __('Floor'));
-        $form->switch('room', __('Room'));
-        $form->text('sex', __('Sex'))->default('All');
-        $form->switch('capacity', __('Capacity'));
-        $form->switch('extra', __('Extra'));
+        $form->number('floor', __('Floor'));
+        $form->number('room', __('Room'));
+        // $form->text('sex', __('Sex'))->default('All');
+        // $form->select('sex')->options(["Male","Female","All"]);
+        $form->select('sex')->options([1 => 'Male', 2 => 'Female', 3 => 'All']);
+
+        $form->number('capacity', __('Capacity'));
+        $form->number('extra', __('Extra'));
 
         return $form;
     }

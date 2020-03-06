@@ -15,6 +15,7 @@
           <div class="row">
             <div class="card-body">
               <div v-if="success != ''" class="alert alert-success" role="alert">{{success}}</div>
+              <div v-if="output != ''" class="alert alert-danger" role="alert">{{output}}</div>
               <form @submit="formSubmit" enctype="multipart/form-data">
                 <strong>عکس پروفایل:</strong>
                 <input type="file" class="form-control" v-on:change="onImageChange" />
@@ -215,6 +216,7 @@ export default {
       provLoad: false,
       counLoad: false,
       success: "",
+      output: "",
       cityLoad: false,
       editedButNotSaved: false,
       validNationalCode: false
@@ -240,8 +242,7 @@ export default {
         if (this.infoss.profile_picture) {
           this.hasPic = true;
           this.profile_picture =
-            `${this.url}/images/avatars/` +
-            this.infoss.profile_picture;
+            `${this.url}/images/avatars/` + this.infoss.profile_picture;
         } else {
           this.hasPic = true;
           this.profile_picture = `${this.url}/images/noimage.png`;
@@ -292,7 +293,7 @@ export default {
           let res = response;
           currentObj.success = res.data.success;
 
-          currentObj.profile_picture = `${this.url}/images/avatars/${res.data.imageName}`;
+          currentObj.profile_picture = `${currentObj.url}/images/avatars/${res.data.imageName}`;
           console.log(res.data.imageName);
           currentObj.updateInfoss();
         })
@@ -301,7 +302,7 @@ export default {
         });
     },
     validation(param) {
-      console.log("validation National Code")
+      console.log("validation National Code");
       switch (param) {
         case "NationalCode":
           this.validNationalCode = this.checkCodeMeli(

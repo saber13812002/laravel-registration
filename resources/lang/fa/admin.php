@@ -98,5 +98,5 @@ return [
         'filter_clear'       => 'نمایش همه',
         'filter_placeholder' => 'فیلتر کردن',
     ],
-    'menu_titles'           => [],
+    'menu_titles'           => []
 ];

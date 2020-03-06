@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700);
-@import url(http://fonts.googleapis.com/css?family=Cardo:400,400italic,700);
+@import url(//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700);
+@import url(//fonts.googleapis.com/css?family=Cardo:400,400italic,700);
 
 @font-face {
     font-family: "yekan";
@@ -11,7 +11,7 @@
 
 
 @font-face {
-    font-family: "byekan";
+    font-family: "BYekan";
     src: url(/fonts/BYekan.eot);
     src: url(/fonts/BYekan.eot?#iefix) format("embedded-opentype"), url(/fonts/BYekan.woff) format("woff"), url(/fonts/BYekan.ttf) format("truetype"), url(/fonts/BYekan.svg#BYekan) format("svg");
     font-weight: normal;
@@ -94,7 +94,7 @@ a {
     }
 
 body {
-    font-family: yekan, byekan;
+    font-family: yekan, BYekan;
     font-weight: 400;
     color: #6c7279;
 }
@@ -400,7 +400,7 @@ ul, ol {
 
     .banner-text h1 {
         color: #fff;
-        font-family: yekan, byekan;
+        font-family: yekan, BYekan;
         font-weight: 750;
         font-size: 55px;
         line-height: 62px;
@@ -409,7 +409,7 @@ ul, ol {
     .banner-text h3 {
         font-size: 28px;
         color: #B0ABD3;
-        font-family: yekan, byekan;
+        font-family: yekan, BYekan;
         font-weight: lighter;
         line-height: 38px;
         margin-bottom: 30px;

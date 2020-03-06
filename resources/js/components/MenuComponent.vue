@@ -173,7 +173,7 @@ export default {
 
 <style lang="scss">
 :root {
-  --font-primary: "byekan", "Open Sans", sans-serif;
+  --font-primary: "BYekan", "Open Sans", sans-serif;
   --color-gray: #dadce0;
 }
 

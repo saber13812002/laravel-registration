@@ -104,7 +104,7 @@ class InfoController extends Controller
         if ($request['phone'])
             $inf->phone = $request['phone'];
 
-        if ($inf->smsSent != "1" && $request['name'] && $request['family'] && $request['email'] && $request['national_code'] && $request['shomshenas'] && $request['fathername'] && $request['birthdate'] && $request['tahsilat'] && $request['ostan'] && $request['shahr'] && $request['address'] && $request['postalcode'] && $request['phone']) {
+        if ($inf->smsSent != "1" && $request['name'] && $request['family'] && $request['email'] && $request['national_code'] && $request['shomshenas'] && $request['fathername'] && $request['birthdate'] && $request['tahsilat'] && $request['address'] && $request['postalcode'] && $request['phone']) {
             app('App\Http\Controllers\SmsController')->smsSent($inf->mobile, env("KaveNegarVerificationTemplateNameForRegistrationCompleted"));
             // app('App\Http\Controllers\SmsController')->smsSent($inf->mobile, "firiFansVerificationCode");
             $inf->smsSent = "1";

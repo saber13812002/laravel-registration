@@ -25,6 +25,8 @@
                 class="alert alert-danger"
                 role="alert"
               >شماره موبایل صحیح نیست</div>
+              <div v-if="success != ''" class="alert alert-success" role="alert">{{success}}</div>
+              <div v-if="output != ''" class="alert alert-danger" role="alert">{{output}}</div>
             </div>
           </div>
         </div>
@@ -42,6 +44,8 @@
 export default {
   data() {
     return {
+      success: "",
+      output: "",
       url: "",
       step1flag: false,
       formInline1: {
@@ -91,12 +95,18 @@ export default {
     requestOtp() {
       let uri = `${this.url}/api/v1/otp11/${this.formInline1.mobno}`;
       console.log(uri);
-      this.axios.get(uri).then(response => {
-        this.$router.push({
-          name: "reg2",
-          params: { phone: this.formInline1.mobno }
+      this.axios
+        .get(uri)
+        .then(response => {
+          this.$router.push({
+            name: "reg2",
+            params: { phone: this.formInline1.mobno }
+          });
+        })
+        .catch(error => {
+          console.log("Error counties");
+          console.log(error);
         });
-      });
     },
     validationMobile() {
       this.validNationalCode = this.checkMobile(this.formInline1.mobno);

@@ -70,8 +70,8 @@ class ShiftController extends AdminController
         $form = new Form(new Shift());
 
         $form->text('name', __('Name'));
-        $form->switch('from', __('From'));
-        $form->switch('to', __('To'));
+        $form->number('from', __('From'));
+        $form->number('to', __('To'));
         $form->time('fromHour', __('FromHour'))->default(date('H:i:s'));
         $form->time('toHour', __('ToHour'))->default(date('H:i:s'));
 

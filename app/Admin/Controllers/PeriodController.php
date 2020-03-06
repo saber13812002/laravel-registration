@@ -72,10 +72,10 @@ class PeriodController extends AdminController
         $form = new Form(new Period());
 
         $form->text('name', __('Name'));
-        $form->switch('week_number', __('Week number'));
+        $form->number('week_number', __('Week number'));
         $form->date('from_date', __('From date'))->default(date('Y-m-d'));
         $form->date('to_date', __('To date'))->default(date('Y-m-d'));
-        $form->switch('number_of_days', __('Number of days'));
+        $form->number('number_of_days', __('Number of days'));
         $form->switch('active', __('Active'));
 
         return $form;

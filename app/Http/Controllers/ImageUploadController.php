@@ -35,7 +35,7 @@ class ImageUploadController extends Controller
         $p->save();
 
         return response()->json([
-            'success' => 'You have successfully upload image.',
+            'success' => 'عکس پروفایل شما با موفقیت بارگذاری شد.',
             'imageName' => $imageName
         ]);
     }

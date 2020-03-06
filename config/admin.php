@@ -290,7 +290,10 @@ return [
     | "sidebar-mini".
     |
     */
-    'layout' => ['sidebar-mini', 'sidebar-collapse'],
+    'layout' => [
+        'fixed', "layout-boxed", "layout-top-nav", "sidebar-collapse",
+        "sidebar-mini"
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -403,7 +406,7 @@ return [
             'config' => []
         ],
         'chartjs' => [
-        
+
             // Set to `false` if you want to disable this extension
             'enable' => true,
         ]

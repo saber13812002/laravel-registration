@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'fifa-web-api'),
+    'name' => env('APP_NAME', 'saber-web-api'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://fans.ffiri.com'),
+    'url' => env('APP_URL', 'http://liara.ir'),
 
     'asset_url' => env('ASSET_URL', null),
 

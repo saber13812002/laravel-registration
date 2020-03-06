@@ -104,7 +104,7 @@ class OtpController extends Controller
         if ($otp_number_verified) {
             //echo $correctToken;
             if ($correctToken) {
-                $username = "user_" . MD5($phone);
+                $username = "user_" . ($phone);
                 $password = MD5($code);
                 $email = $username . "@berimbasket.ir";
                 //check user otp_number_verified
@@ -143,7 +143,9 @@ class OtpController extends Controller
                     //echo $token;
                     //echo $usr;
                     //echo $usr->toJson();
-                    return response()->json(compact('usr', 'token'), 201);
+                    $status = 201;
+
+                    return response()->json(compact('usr', 'token', 'status'), 201);
                 }
                 //not exist sigup
                 else {
@@ -176,9 +178,9 @@ class OtpController extends Controller
                     $inf->active = 1;
                     $inf->save();
 
+                    $status = 201;
 
-
-                    return response()->json(compact('usr', 'token'), 201);
+                    return response()->json(compact('usr', 'token', 'status'), 201);
                 }
             } else {
                 return json_encode(array('status' => 310, 'msg' => "incorrect verification code"));
