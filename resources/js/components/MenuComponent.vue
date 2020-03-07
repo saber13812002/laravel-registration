@@ -31,7 +31,7 @@
           <div class="dropdown__menu" v-bind:class="{ active: show }" v-if="show">
             <ul class="dropdown__menu-nav">
               <li class="dropdown__menu-item">
-                <a href="/reserve" class="dropdown__menu-link" title="Account">
+                <a href="/shift" class="dropdown__menu-link" title="Account">
                   <div class="dropdown__menu-svg">
                     <svg viewBox="0 0 496 512">
                       <path
