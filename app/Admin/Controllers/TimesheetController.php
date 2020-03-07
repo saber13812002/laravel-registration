@@ -47,9 +47,9 @@ class TimesheetController extends AdminController
 
         // $grid->column('bakhsh_id', __('Bakhsh id'));
         
-        $grid->bakhsh_id(__('my.bakhsh'))->display(function ($bakhsh_id) {
-            return ($bakhsh_id ? \App\Models\Bakhsh::find($bakhsh_id)->name : null);
-        });
+        // $grid->bakhsh_id(__('my.bakhsh'))->display(function ($bakhsh_id) {
+        //     return ($bakhsh_id ? \App\Models\Bakhsh::find($bakhsh_id)->name : null);
+        // });
 
         $grid->column('date', __('Date'));
         $grid->column('extra', __('Extra'));
@@ -82,7 +82,7 @@ class TimesheetController extends AdminController
 
         $show->field('user_id', __('User id'));
         $show->field('shift_id', __('Shift id'));
-        $show->field('bakhsh_id', __('Bakhsh id'));
+        // $show->field('bakhsh_id', __('Bakhsh id'));
         $show->field('date', __('Date'));
         $show->field('extra', __('Extra'));
         $show->field('created_at', __('Created at'));
@@ -111,7 +111,7 @@ class TimesheetController extends AdminController
         $form->select('shift_id', __('my.shift'))->options(\App\Models\Shift::all()->pluck('name', 'id'));
 
         // $form->number('bakhsh_id', __('Bakhsh id'));
-        $form->select('bakhsh_id', __('my.bakhsh'))->options(\App\Models\Bakhsh::all()->pluck('name', 'id'));
+        // $form->select('bakhsh_id', __('my.bakhsh'))->options(\App\Models\Bakhsh::all()->pluck('name', 'id'));
 
         $form->date('date', __('Date'))->default(date('Y-m-d'));
         $form->switch('extra', __('Extra'));

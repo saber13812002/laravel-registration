@@ -31,7 +31,7 @@
           <div class="dropdown__menu" v-bind:class="{ active: show }" v-if="show">
             <ul class="dropdown__menu-nav">
               <li class="dropdown__menu-item">
-                <a href="#" class="dropdown__menu-link" title="Account">
+                <a href="/reserve" class="dropdown__menu-link" title="Account">
                   <div class="dropdown__menu-svg">
                     <svg viewBox="0 0 496 512">
                       <path
@@ -40,11 +40,11 @@
                       />
                     </svg>
                   </div>
-                  <div class="dropdown__menu-text">کاربری</div>
+                  <div class="dropdown__menu-text">رزرو شیفت</div>
                 </a>
               </li>
               <li class="dropdown__menu-item">
-                <a href="#" class="dropdown__menu-link" title="Personal info">
+                <a href="/profile" class="dropdown__menu-link" title="Personal info">
                   <div class="dropdown__menu-svg">
                     <svg viewBox="0 0 576 512">
                       <path

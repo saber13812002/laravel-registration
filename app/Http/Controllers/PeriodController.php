@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Period;
+use App\Models\Period;
 use Illuminate\Http\Request;
 
 class PeriodController extends Controller
@@ -14,7 +14,15 @@ class PeriodController extends Controller
      */
     public function index()
     {
-        //
+        $p = Period::where('active', true)->orderBy('id', 'desc')->first();
+
+        if (!$p)
+            return response()->json([
+                'code' => '405',
+                'message' => 'not exist',
+                "data" => array($p)
+            ]);
+        return $p->toJson();
     }
 
     /**

@@ -30,8 +30,8 @@ Route::post('v1/verifyOtp/', 'OtpController@otp2');
 Route::post('v1/profile_picture', 'InfoController@profile_picture');
 Route::post('v1/upload_profile_picture', 'ImageUploadController@imageUploadSimple');
 
-Route::post('v1/formSubmit','ImageUploadController@formSubmit');
-Route::post('v1/store','ImageUploadController@store');
+Route::post('v1/formSubmit', 'ImageUploadController@formSubmit');
+Route::post('v1/store', 'ImageUploadController@store');
 
 
 Route::get('v1/province', 'ProvinceController@index');
@@ -39,6 +39,9 @@ Route::get('v1/county/{id}', 'CountyController@index');
 Route::get('v1/city/{id}', 'CityController@index');
 
 Route::get('v1/init', 'PagesettingController@index');
+Route::get('v1/period', 'PeriodController@index');
+Route::post('v1/timesheet/mine', 'TimesheetController@index');
+
 Route::get('v1/gallery', 'MultipleImageController@index');
 
 Route::group(['middleware' => ['jwt.verify']], function () {
@@ -54,4 +57,5 @@ Route::group([
     // 'prefix' => 'api',
 ], function ($router) {
     Route::post('v1/info/me',  'InfoController@me');
+    Route::post('v1/reserve',  'TimesheetController@store');
 });
