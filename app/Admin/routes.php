@@ -51,6 +51,8 @@ Route::group([
         'periods'               => PeriodController::class,
         'bakhshes'              => BakhshController::class,
         'shifts'                => ShiftController::class,
+        
+        'page-settings'         => PagesettingController::class,
     ]);
 
     $router->group(['prefix' => 'editors'], function ($router) {
