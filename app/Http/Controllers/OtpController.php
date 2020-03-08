@@ -64,6 +64,7 @@ class OtpController extends Controller
             if (env('SMS_ENABLE') == "1")
                 app('App\Http\Controllers\SmsController')->send($phone, $rand_no);
         }
+        // TODOBB {"status":200,"msg":"ok"}
         return json_encode(array('status' => 200, 'msg' => "ok"));
     }
 
@@ -180,6 +181,7 @@ class OtpController extends Controller
 
                     $status = 201;
 
+                    // TODOBB {"status":200,"id":null,"msg":"ok","token":"0bab9af56671570e6eb8536602601dc2","user_email":"user_68c70612f305b4d8d9e3bd04d0255585","user_nicename":"user_68c70612f305b4d8d9e3bd04d0255585","user_display_name":"user_68c70612f305b4d8d9e3bd04d0255585"}
                     return response()->json(compact('usr', 'token', 'status'), 201);
                 }
             } else {
