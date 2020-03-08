@@ -1,7 +1,11 @@
-## How to start
+# How to start
 
 
-# Installation:
+## Demo
+
+https://jjj.liara.run
+
+## Installation:
 
 you need xampp 
 
@@ -14,7 +18,7 @@ you need xampp
 5- install nodejs LTS
 
 
-# Setup:
+## Setup:
 
 - first clone into your pc by git clone https://github.com/saber13812002/laravel-registration.git
 - run: composer i
@@ -37,7 +41,7 @@ then you need to run vuejs app
 
 if ok please
 
-# Amazon CDN S3 :
+## Amazon CDN S3 :
 
 create new liara.ir account 
 then create a storage from AMAZON s3
@@ -45,13 +49,23 @@ then paste your config into env file
 then you can test upload pictures
 
 
-# OTP:
+## OTP:
 
 then you can open this: http://localhost:8000/reg
 then you need to configure your sms server to send sms or open otps table from phpmyadmin
 if you type a phone number for registration you can see 5 digit otp in opts table
 
+## Hosting
 
+create new account in liara.ir
+
+then create a mashine
+
+then install npm liara npm package
+
+then run liara deploy
+
+now you can have a sample demo site like this: jjj.liara.run
 
 ## License:
 
