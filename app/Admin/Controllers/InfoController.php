@@ -34,6 +34,7 @@ class InfoController extends AdminController
         $grid->column('mobile', __('Mobile'));
         $grid->column('national_code', __('National code'));
         // $grid->column('psn_id', __('Psn id'));
+        $grid->image('profile_picture_cdn', __('Profile picture'));
         // $grid->column('profile_picture', __('Profile picture'));
         $grid->column('shomshenas', __('Shomshenas'));
         $grid->column('type', __('Type'));
@@ -78,6 +79,7 @@ class InfoController extends AdminController
         $show->field('national_code', __('National code'));
         $show->field('psn_id', __('Psn id'));
         $show->field('profile_picture', __('Profile picture'));
+        $show->image('profile_picture_cdn', __('Profile picture'));
         $show->field('shomshenas', __('Shomshenas'));
         $show->field('type', __('Type'));
         $show->field('token', __('Token'));
@@ -119,6 +121,7 @@ class InfoController extends AdminController
         $form->text('national_code', __('National code'));
         $form->text('psn_id', __('Psn id'));
         $form->textarea('profile_picture', __('Profile picture'));
+        $form->image('profile_picture_cdn', __('Profile picture'));
         $form->text('shomshenas', __('Shomshenas'));
         $form->textarea('type', __('Type'));
         $form->textarea('token', __('Token'));
@@ -137,6 +140,7 @@ class InfoController extends AdminController
         $form->text('postalcode', __('Postalcode'));
         $form->mobile('phone', __('Phone'));
         $form->textarea('smsSent', __('SmsSent'));
+        $form->switch('active', __('active'));
 
         return $form;
     }

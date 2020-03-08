@@ -7,8 +7,11 @@
     <div class="wrapper">
       <form :model="infoss" @submit.prevent="updateInfoss" v-if="loading" class="form">
         <h1>اطلاعات شما</h1>
-        <div v-if="hasPic" class="form-photo">
+        <div v-if="hasPic&&!hasPic_cdn" class="form-photo">
           <img class="img" v-bind:src="profile_picture" />
+        </div>
+        <div v-if="hasPic_cdn" class="form-photo">
+          <img class="img" v-bind:src="profile_picture_cdn" />
         </div>
 
         <div class="panel-body">
@@ -208,7 +211,9 @@ export default {
       loading: false,
       save: false,
       hasPic: false,
+      hasPic_cdn: false,
       profile_picture: "",
+      profile_picture_cdn: "",
       image: "",
       provinces: [],
       counties: [],
@@ -236,13 +241,17 @@ export default {
       .then(response => {
         console.log(response);
         this.infoss = response.data.data[0];
+        console.log("infoss");
         console.log(this.infoss);
         this.validation("NationalCode");
 
         if (this.infoss.profile_picture) {
           this.hasPic = true;
+          this.hasPic_cdn =
+            this.infoss.profile_picture_cdn == null ? false : true;
           this.profile_picture =
             `${this.url}/images/avatars/` + this.infoss.profile_picture;
+          this.profile_picture_cdn = this.infoss.profile_picture_cdn;
         } else {
           this.hasPic = true;
           this.profile_picture = `${this.url}/images/noimage.png`;
@@ -294,6 +303,11 @@ export default {
           currentObj.success = res.data.success;
 
           currentObj.profile_picture = `${currentObj.url}/images/avatars/${res.data.imageName}`;
+          currentObj.profile_picture_cdn = `${res.data.cdn}`;
+
+          this.hasPic_cdn =
+            currentObj.profile_picture_cdn == null ? false : true;
+
           console.log(res.data.imageName);
           currentObj.updateInfoss();
         })
@@ -412,3 +426,17 @@ export default {
   }
 };
 </script>
+<style>
+.form-photo {
+  margin: 0 auto;
+  width: 192px;
+  border-radius: 50%;
+}
+.img {
+  width: 180px;
+  padding: 15px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px dashed #171c23;
+}
+</style>

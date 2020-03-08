@@ -31,19 +31,33 @@ class ImageUploadController extends Controller
         // $request->image->move(public_path('images'), $imageName);
         request()->image->move(public_path('images') . '/avatars', $imageName);
 
+        // $imageFile = \Image::make($uploadedFile)->resize(600, 600)->stream();
+
+
+        // Image::make($path)->encode('png')->fit(250, 250, function ($c) {
+        //     $c->upsize();
+        // })->save();
+
         // $file = $request->file('image');
         // $filePath = "/images/avatars/" . $imageName;
-        Storage::disk('liara')->put($imageName, 'public');
-
+        // $url = "https://jjj.liara.run/images/avatars/1583674707.jpg";
+        $url = env("APP_URL") . "/images/avatars/" . $imageName;
+        // $url = "http://localhost:8000/images/avatars/1583676197.jpg";
+        $file = file_get_contents($url);
+        // `/images/avatars/` . $imageName;
+        Storage::disk('liara')->put($imageName, $file, 'images');
+        $cdn = env("LIARA_ENDPOINT") . "/" . env("LIARA_BUCKET") . "/" . $imageName;
         // Storage::put('/avatars/1', request()->image);
 
         $p = Info::where('token', $request->token)->first();
         $p->profile_picture = $imageName;
+        $p->profile_picture_cdn = $cdn;
         $p->save();
 
         return response()->json([
             'success' => 'عکس پروفایل شما با موفقیت بارگذاری شد.',
-            'imageName' => $imageName
+            'imageName' => $imageName,
+            'cdn' => $cdn
         ]);
     }
 

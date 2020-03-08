@@ -19,19 +19,7 @@
 body {
   background: #ddeefc;
 }
-.form-photo {
-  margin: 0 auto;
-  width: 192px;
-  border-radius: 50%;
-  border: 6px solid blue;
-}
-.img {
-  width: 180px;
-  padding: 14px;
-  height: 180px;
-  border-radius: 50%;
-  border: 2px dashed #171c23;
-}
+
 select {
   height: 40px !important;
 }
