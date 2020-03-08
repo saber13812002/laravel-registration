@@ -81,6 +81,17 @@ return [
             'url' => env('AWS_URL'),
         ],
 
+        
+        'liara' => [
+            'driver' => 's3',
+            'region' => 'us-east-1',
+            'use_path_style_endpoint' => true,
+            'key' => env('LIARA_ACCESS_KEY'),
+            'secret' => env('LIARA_SECRET_KEY'),
+            'bucket' => env('LIARA_BUCKET'),
+            'endpoint' => env('LIARA_ENDPOINT'),
+        ],
+
 
     ],
 

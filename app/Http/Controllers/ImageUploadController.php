@@ -1,6 +1,7 @@
 <?php
 
 
+use Illuminate\Support\Facades\Storage;
 
 namespace App\Http\Controllers;
 
@@ -29,6 +30,12 @@ class ImageUploadController extends Controller
         $imageName = time() . '.' . request()->image->getClientOriginalExtension();
         // $request->image->move(public_path('images'), $imageName);
         request()->image->move(public_path('images') . '/avatars', $imageName);
+
+        // $file = $request->file('image');
+        // $filePath = "/images/avatars/" . $imageName;
+        Storage::disk('liara')->put($imageName, 'public');
+
+        // Storage::put('/avatars/1', request()->image);
 
         $p = Info::where('token', $request->token)->first();
         $p->profile_picture = $imageName;
