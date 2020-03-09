@@ -5,7 +5,7 @@
 
 https://jjj.liara.run
 
-## Installation:
+## Installation: https://github.com/saber13812002/laravel-registration/wiki
 
 you need xampp 
 
@@ -17,6 +17,7 @@ you need xampp
 
 5- install nodejs LTS
 
+https://github.com/saber13812002/laravel-registration/wiki
 
 ## Setup:
 
