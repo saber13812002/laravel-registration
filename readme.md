@@ -19,7 +19,7 @@ you need xampp
 
 https://github.com/saber13812002/laravel-registration/wiki
 
-## Setup:
+## Setup: https://github.com/saber13812002/laravel-registration/wiki/SETUP
 
 - first clone into your pc by git clone https://github.com/saber13812002/laravel-registration.git
 - run: composer i
@@ -40,7 +40,9 @@ then you need to run vuejs app
 
 - run npm run watch
 
-if ok please
+https://github.com/saber13812002/laravel-registration/wiki/SETUP
+
+if ok please next
 
 ## Amazon CDN S3 :
 
