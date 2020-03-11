@@ -26,7 +26,7 @@ https://github.com/saber13812002/laravel-registration/wiki
 - run: npm i
 - create new database in your mysql
 - rename .env.example into .env file
-- change dbname and credential to connect to mysql
+- change dbname and credential to connect to mysql in .env file and change APP_ENV from **productio**n to **local**
 - run: php artisan serve
 - run: php artisan migrate
 - run: php artisan db:seed
@@ -51,6 +51,18 @@ then create a storage from AMAZON s3
 then paste your config into env file
 then you can test upload pictures
 
+
+## OTP:
+
+### Kavenegar Config
+
+you should create a new account in kavenegar to continue.
+
+after registration you need to use use verification service
+
+create a new verification template and config it by your test messsage 
+
+then use token in user panel copy and paste it into you project KavenegarApiKey in .env file
 
 ## OTP:
 
