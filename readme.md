@@ -5,7 +5,7 @@
 
 https://jjj.liara.run
 
-## Installation:
+## Installation: https://github.com/saber13812002/laravel-registration/wiki
 
 you need xampp 
 
@@ -17,15 +17,16 @@ you need xampp
 
 5- install nodejs LTS
 
+https://github.com/saber13812002/laravel-registration/wiki
 
-## Setup:
+## Setup: https://github.com/saber13812002/laravel-registration/wiki/SETUP
 
 - first clone into your pc by git clone https://github.com/saber13812002/laravel-registration.git
 - run: composer i
 - run: npm i
 - create new database in your mysql
 - rename .env.example into .env file
-- change dbname and credential to connect to mysql
+- change dbname and credential to connect to mysql in .env file and change APP_ENV from **productio**n to **local**
 - run: php artisan serve
 - run: php artisan migrate
 - run: php artisan db:seed
@@ -39,7 +40,9 @@ then you need to run vuejs app
 
 - run npm run watch
 
-if ok please
+https://github.com/saber13812002/laravel-registration/wiki/SETUP
+
+if ok please next
 
 ## Amazon CDN S3 :
 
@@ -48,6 +51,18 @@ then create a storage from AMAZON s3
 then paste your config into env file
 then you can test upload pictures
 
+
+## OTP:
+
+### Kavenegar Config
+
+you should create a new account in kavenegar to continue.
+
+after registration you need to use use verification service
+
+create a new verification template and config it by your test messsage 
+
+then use token in user panel copy and paste it into you project KavenegarApiKey in .env file
 
 ## OTP:
 
