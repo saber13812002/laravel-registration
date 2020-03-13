@@ -22,10 +22,10 @@ Vue.use(VueAxios, axios);
 
 import ShiftComponent from "./components/ShiftComponent.vue";
 import HomeComponent from "./components/HomeComponent.vue";
-import CreateComponent from "./components/CreateComponent.vue";
-import Create2Component from "./components/Create2Component.vue";
+import RegisterComponent from "./components/RegisterComponent.vue";
+import VerifyComponent from "./components/VerifyComponent.vue";
 import IndexComponent from "./components/IndexComponent.vue";
-import EditComponent from "./components/EditComponent.vue";
+import ProfileComponent from "./components/ProfileComponent.vue";
 import MenuComponent from "./components/MenuComponent.vue";
 import HeaderComponent from "./components/HeaderComponent.vue";
 import SignoutComponent from "./components/SignoutComponent.vue";
@@ -39,12 +39,12 @@ const routes = [
     {
         name: "reg",
         path: "/reg",
-        component: CreateComponent
+        component: RegisterComponent
     },
     {
         name: "reg2",
         path: "/reg2",
-        component: Create2Component
+        component: VerifyComponent
     },
     {
         name: "posts",
@@ -54,7 +54,7 @@ const routes = [
     {
         name: "profile",
         path: "/profile",
-        component: EditComponent
+        component: ProfileComponent
     },
     {
         name: "signout",
@@ -73,7 +73,7 @@ const app = new Vue(Vue.util.extend({ router }, App)).$mount("#app");
 
 import VuePersianDatetimePicker from "vue-persian-datetime-picker";
 Vue.component("date-picker", VuePersianDatetimePicker);
-Vue.component("image-component", require("./components/EditComponent.vue"));
+Vue.component("image-component", require("./components/ProfileComponent.vue"));
 
 Vue.component("MenuComponent", MenuComponent);
 Vue.component("HeaderComponent", HeaderComponent);
