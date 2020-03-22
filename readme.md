@@ -27,18 +27,41 @@ https://github.com/saber13812002/laravel-registration/wiki
 - create new database in your mysql
 - rename .env.example into .env file
 - change dbname and credential to connect to mysql in .env file and change APP_ENV from **productio**n to **local**
-- run: php artisan serve
-- run: php artisan migrate
-- run: php artisan db:seed
-- run: php artisan admin:install
+- run: 
 
-open this link:
+      php artisan serve
 
-localhost:8000/admin
+- run: 
+
+      php artisan migrate
+        
+- run: 
+
+      php artisan db:seed
+        
+        
+- run 
+
+      npm run watch
+      
+- now you can open localhost:8000 in develop mode by applu these configs:
+
+      APP_URL=http://localhost:8000
+      ASSET_URL=http://localhost:8000
+      MIX_API_URL=http://localhost:8000
+
+- run: 
+
+      php artisan admin:install
+
+if you are in localhost please set and configure 
+
+      ADMIN_HTTPS=false
+    
+open this link: localhost:8000/admin
 
 then you need to run vuejs app
 
-- run npm run watch
 
 https://github.com/saber13812002/laravel-registration/wiki/SETUP
 

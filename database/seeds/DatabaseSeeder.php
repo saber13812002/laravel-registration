@@ -17,6 +17,5 @@ class DatabaseSeeder extends Seeder
         $this->call(CitiesTableSeeder::class);
         $this->call(CountiesTableSeeder::class);
         $this->call(PagesettingsTableSeeder::class);
-        $this->call(AdminMenuTableSeeder::class);
     }
 }
