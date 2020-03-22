@@ -233,6 +233,7 @@ export default {
   created() {
     const jwt = localStorage.getItem("jwt");
     if (!jwt) this.$router.push({ name: "reg" });
+    this.urlInit();
     let uri = `${this.url}/api/v1/info/me`;
     console.log(uri);
     this.infoss.token = jwt;
@@ -277,7 +278,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://jjj.liara.run";
+        : "https://wiki.liara.run";
     },
     onImageChange(e) {
       console.log(e.target.files[0]);

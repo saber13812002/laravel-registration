@@ -43,6 +43,7 @@ export default {
     };
   },
   created() {
+    this.urlInit();
     this.getInit();
     this.isLoggedIn();
   },
@@ -50,7 +51,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://jjj.liara.run";
+        : "https://wiki.liara.run";
     },
     isLoggedIn() {
       if (localStorage.getItem("jwt")) {

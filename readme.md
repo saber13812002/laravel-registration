@@ -3,7 +3,7 @@
 
 ## Demo
 
-https://jjj.liara.run
+https://wiki.liara.run
 
 ## Installation: https://github.com/saber13812002/laravel-registration/wiki
 
@@ -80,7 +80,7 @@ then install npm liara npm package
 
 then run liara deploy
 
-now you can have a sample demo site like this: jjj.liara.run
+now you can have a sample demo site like this: wiki.liara.run
 
 ## License:
 

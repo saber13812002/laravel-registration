@@ -121,6 +121,7 @@ export default {
     const jwt = localStorage.getItem("jwt");
     if (!jwt) this.$router.push({ name: "reg" });
     this.infoss.token = jwt;
+    this.urlInit();
     this.init();
   },
   mounted: function() {
@@ -204,7 +205,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://jjj.liara.run";
+        : "https://wiki.liara.run";
     },
     initUI() {
       // console.log($(e.target));

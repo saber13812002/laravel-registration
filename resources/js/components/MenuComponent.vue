@@ -162,7 +162,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://jjj.liara.run";
+        : "https://wiki.liara.run";
     }
   }
 };

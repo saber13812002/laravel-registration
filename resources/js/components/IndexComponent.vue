@@ -45,6 +45,7 @@ export default {
   },
   created() {
     let uri = "http://localhost:8000/api/infos";
+    this.urlInit();
     this.axios.get(uri).then(response => {
       this.posts = response.data.data;
     });
@@ -53,7 +54,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://jjj.liara.run";
+        : "https://wiki.liara.run";
     },
     deletePost(id) {
       let uri = `http://localhost:8000/api/info/delete/${id}`;

@@ -83,6 +83,7 @@ export default {
     };
   },
   created() {
+    this.urlInit();
     const jwt = localStorage.getItem("jwt");
     const smsSent = localStorage.getItem("smsSent") ? 1 : 0;
     if (jwt && smsSent == 0) this.$router.push({ path: "/profile" });
@@ -92,7 +93,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://jjj.liara.run";
+        : "https://wiki.liara.run";
     },
     requestOtp() {
       let uri = `${this.url}/api/v1/otp11/${this.formInline1.mobno}`;
