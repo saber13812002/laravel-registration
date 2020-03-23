@@ -53,6 +53,12 @@ Route::group([
         'shifts'                => ShiftController::class,
         
         'page-settings'         => PagesettingController::class,
+
+        'playgrounds'           => PlaygroundController::class,
+        'matches'               => MatchController::class,
+        'teams'                 => TeamController::class,
+
+
     ]);
 
     $router->group(['prefix' => 'editors'], function ($router) {
