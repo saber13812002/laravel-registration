@@ -26,13 +26,11 @@ Route::post('v1/otp2', 'OtpController@otp2');
 Route::get('v1/otp22/{phone}/{code}', 'OtpController@otp22get');
 Route::post('v1/verifyOtp/', 'OtpController@otp2');
 
-
 Route::post('v1/profile_picture', 'InfoController@profile_picture');
 Route::post('v1/upload_profile_picture', 'ImageUploadController@imageUploadSimple');
 
 Route::post('v1/formSubmit', 'ImageUploadController@formSubmit');
 Route::post('v1/store', 'ImageUploadController@store');
-
 
 Route::get('v1/province', 'ProvinceController@index');
 Route::get('v1/county/{id}', 'CountyController@index');
@@ -46,13 +44,13 @@ Route::get('v1/gallery', 'MultipleImageController@index');
 
 Route::get('v1/playground', 'PlaygroundController@getall');
 Route::get('v1/playground/{lat}/{lng}/{radius}', 'PlaygroundController@get');
+Route::get('v1/player', 'InfoController@api');
 
 Route::group(['middleware' => ['jwt.verify']], function () {
 
     Route::get('v1/user/', 'UserController@getAuthenticatedUser');
     Route::get('v1/closed/', 'DataController@closed');
 });
-
 
 Route::group([
     'middleware' => ['api', 'cors'],
