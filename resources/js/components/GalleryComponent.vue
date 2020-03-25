@@ -6,7 +6,7 @@
       <div class="row no-gutter">
         <div class="headingsyle">
           <h1>
-            <span>شیفت ها</span>
+            <span>اخبار</span>
           </h1>
         </div>
         <!-- @foreach ($games as $game) -->

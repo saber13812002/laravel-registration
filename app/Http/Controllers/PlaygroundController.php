@@ -2,18 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
 use App\Playground;
-use App\PlaygroundView;
+use App\Models\PlaygroundView;
 use Illuminate\Http\Request;
+use Response;
 
 class PlaygroundController extends Controller
 {
 
-    
+
     public function getall(Request $request)
     {
         //TODO: we should filter it from  last night till 15 next days (performance)
-        $trip = $this->tripView::where('city_id', $request->city_id)->orderBy('id', 'DESC')->paginate(15);
+        $pg = PlaygroundView::where('city_id', $request->city_id)->orderBy('id', 'DESC')->paginate(15);
 
         // $thisuserid = $request->user_id;
         // $pintrips = Pintrip::get();
@@ -30,10 +32,10 @@ class PlaygroundController extends Controller
             return response()->json([
                 'code' => '200',
                 'message' => 'success',
-                "data" => array($trip)
+                "data" => array($pg)
             ]);
         else
-            return $trip->toJson();
+            return $pg->toJson();
     }
 
     /**
@@ -41,11 +43,16 @@ class PlaygroundController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    //http://localhost:8000/api/v1/playground/53.001/35.001/100
+    public function get($lat, $lng, $radius)
     {
-        //
+        if ($lat && $lng)
+            $results = DB::select('SELECT * , ( ACOS( COS( RADIANS( ? ) ) * COS( RADIANS( m.lat ) ) * COS( RADIANS( m.lng ) - RADIANS( ? ) ) + SIN( RADIANS( ? ) ) * SIN( RADIANS( m.lat ) ) ) * 6371000 ) AS distance_in_meters FROM playgrounds as m    where  m.active =1 having distance_in_meters<? ORDER BY distance_in_meters ASC ', [$lat, $lng, $lat, $radius]);
+        if ($results)
+            return Response::json($results);
+        else
+            return [];
     }
-
     /**
      * Show the form for creating a new resource.
      *

@@ -14,7 +14,7 @@ class CreatePlaygroundView extends Migration
     public function up()
     {
         DB::statement("
-            CREATE VIEW playgrounds_view
+            CREATE VIEW playground_views
             AS
             SELECT
                 playgrounds.id,
@@ -76,6 +76,6 @@ class CreatePlaygroundView extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('playgrounds_view');
+        Schema::dropIfExists('playground_views');
     }
 }

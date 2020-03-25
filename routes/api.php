@@ -44,6 +44,9 @@ Route::post('v1/timesheet/mine', 'TimesheetController@index');
 
 Route::get('v1/gallery', 'MultipleImageController@index');
 
+Route::get('v1/playground', 'PlaygroundController@getall');
+Route::get('v1/playground/{lat}/{lng}/{radius}', 'PlaygroundController@get');
+
 Route::group(['middleware' => ['jwt.verify']], function () {
 
     Route::get('v1/user/', 'UserController@getAuthenticatedUser');
