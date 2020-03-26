@@ -45,6 +45,9 @@ Route::get('v1/gallery', 'MultipleImageController@index');
 Route::get('v1/playground', 'PlaygroundController@getall');
 Route::get('v1/playground/{lat}/{lng}/{radius}', 'PlaygroundController@get');
 Route::get('v1/player', 'InfoController@api');
+Route::get('v1/match/{dateInterval}', 'MatchController@getCurrent');
+Route::get('v1/team', 'TeamController@search');
+Route::get('v1/team/{id}', 'TeamController@getbyid');
 
 Route::group(['middleware' => ['jwt.verify']], function () {
 

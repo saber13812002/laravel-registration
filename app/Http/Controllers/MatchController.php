@@ -2,11 +2,37 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
 use App\Match;
 use Illuminate\Http\Request;
+use Response;
 
 class MatchController extends Controller
 {
+    
+    public function getCurrent($dateInterval)
+    {
+        if ($dateInterval)
+        $results = DB::select('SELECT
+        t.`name` AS team_1,
+        t2.`name` AS team_2,
+        m.score_1,
+        m.score_2,
+        t.id AS team_id_1,
+        t2.id AS team_id_2 
+    FROM
+        matches AS m
+        LEFT JOIN ( teams AS t ) ON m.team_id_1 = t.id
+        LEFT JOIN teams AS t2 ON t2.id = m.team_id_2 
+    WHERE
+        m.created_at < now()+ ?', [$dateInterval]);
+    if ($results)
+        return Response::json($results);
+    else
+        return [];
+    }
+
+
     /**
      * Display a listing of the resource.
      *
