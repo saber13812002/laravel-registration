@@ -67,7 +67,11 @@ class HomeController extends Controller
             }
         }
 
-        return view('home', compact('news', 'iframes', 'rules', 'games', 'stats', 'aboutus', 'contactus', 'copyright'));
+        $viewname = 'home';
+        if (env('APP_NAME') != 'jahad')
+            $viewname = 'khamenei';
+
+        return view($viewname, compact('news', 'iframes', 'rules', 'games', 'stats', 'aboutus', 'contactus', 'copyright'));
         //return view('index');
     }
 }

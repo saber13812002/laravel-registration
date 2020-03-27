@@ -1,0 +1,205 @@
+.khamenei_ir-ajs,
+.khamenei_ir-ajs *{box-sizing:border-box;}
+.khamenei_ir-ajs{position:relative; display:block; width:100%; background:#fff;}
+.khamenei_ir-ajs .video-js.khamenei_ir-ajs[preload]{position:relative; z-index:99999; background:none;}
+
+.khamenei_ir-ajs .video-js .vjs-poster{background-color:transparent}
+.khamenei_ir-ajs .video-js .vjs-tech{
+	-webkit-transition:padding ease-out 0.3s;
+	-moz-transition:padding ease-out 0.3s;
+	-ms-transition:padding ease-out 0.3s;
+	-o-transition:padding ease-out 0.3s;
+	transition:padding ease-out 0.3s;
+}
+.khamenei_ir-ajs .video-js.vjs-user-inactive .vjs-tech{padding:0px;}
+.khamenei_ir-ajs .video-js.vjs-user-active:not(.vjs-fullscreen) .vjs-tech{padding:40px;}
+.khamenei_ir-ajs .video-js .vjs-big-play-button{display:none;}
+.khamenei_ir-ajs .video-js .vjs-control-bar{display:flex;}
+.khamenei_ir-ajs .video-js:hover .vjs-big-play-button{background:rgba(8,35,80,0.7)}
+.khamenei_ir-ajs .video-js .vjs-control-bar{background:rgba(255,255,255,0); height:0px}
+.khamenei_ir-ajs .video-js .vjs-play-control{position:absolute; top:0; left:0; width:90px; height:63px; background:transparent; font-size:20px;}
+.khamenei_ir-ajs.playlist:not(.in-archive) .video-js .vjs-play-control{top:-100px}
+.khamenei_ir-ajs .video-js .vjs-current-time{display:flex; padding-right:5px; text-shadow:0 0 1px #000;}
+.khamenei_ir-ajs .video-js .vjs-time-divider{display:flex; padding:0; min-width:0; text-shadow:0 0 1px #000;}
+.khamenei_ir-ajs .video-js .vjs-time-divider>div{line-height:31px}
+.khamenei_ir-ajs .video-js .vjs-duration{display:flex; padding-left:5px; text-shadow:0 0 1px #000;}
+.khamenei_ir-ajs .video-js .vjs-remaining-time{display:none !important}
+.khamenei_ir-ajs .video-js .vjs-play-progress .vjs-time-tooltip{display:none !important;}
+.khamenei_ir-ajs .video-js .vjs-progress-control .vjs-mouse-display{background:transparent !important}
+.khamenei_ir-ajs .video-js .vjs-mouse-display .vjs-time-tooltip{background:rgba(8,35,80,0.8); line-height:10px;}
+
+.khamenei_ir-ajs .video-js .vjs-progress-control{position:absolute; left:0; right:0; width:100%}
+.khamenei_ir-ajs .video-js .vjs-progress-control .vjs-progress-holder{margin:0; height:80px;position: relative;bottom: 40px;}
+.khamenei_ir-ajs .video-js .vjs-progress-control.ajs-simple-progress-control .vjs-progress-holder{height:10px; bottom:5px; background:rgba(0,0,0,0.2);}
+
+.khamenei_ir-ajs .video-js .vjs-progress-control.ajs-simple-progress-control .vjs-progress-holder .vjs-load-progress{background:rgba(115,133,159,.2)}
+.khamenei_ir-ajs .video-js .vjs-progress-control.ajs-simple-progress-control .vjs-progress-holder .vjs-load-progress div{background:rgba(115,133,159,.2)}
+.khamenei_ir-ajs .video-js .vjs-progress-control.ajs-simple-progress-control .vjs-progress-holder .vjs-play-progress{background:#988d31;}
+
+.khamenei_ir-ajs .video-js .vjs-progress-control.ajs-simple-progress-control{width:calc(100% - 5px)}
+
+
+.khamenei_ir-ajs .video-js .vjs-time-control{line-height:30px; margin-top:-80px}
+.khamenei_ir-ajs .video-js .vjs-volume-panel{position:absolute; top:33px; left:90px; background:transparent; width:42px; height:30px}
+.khamenei_ir-ajs.playlist:not(.in-archive) .video-js .vjs-volume-panel{top:-131px}
+
+.khamenei_ir-ajs .video-js .vjs-volume-bar.vjs-slider-horizontal[aria-valuenow="0"]{color:red}
+.khamenei_ir-ajs .video-js .vjs-volume-bar.vjs-slider-horizontal{width:35px;}
+.khamenei_ir-ajs .video-js .vjs-fullscreen-control{display:none}
+
+.khamenei_ir-ajs .video-js .vjs-mute-control.vjs-vol-0:focus{text-shadow:none}
+.khamenei_ir-ajs .video-js .vjs-mute-control.vjs-vol-0 .vjs-icon-placeholder:before{color:red}
+
+.khamenei_ir-ajs .canvas-stage-ajs{position:absolute; top:0; left:0; right:0; bottom:0; display:block; overflow:hidden; overflow-x:1}
+.khamenei_ir-ajs .canvas-stage-ajs>div{
+	background-repeat: no-repeat; background-size:cover; position:absolute; top:-10px; left:-10px; right:-10px; bottom:-10px;
+	-webkit-filter:blur(5px);
+	-moz-filter:blur(5px);
+	-ms-filter:blur(5px);
+	-o-filter:blur(5px);
+	filter:blur(5px);
+	-webkit-transition:-webkit-opacity ease-out 0.3s;
+	-moz-transition:-moz-opacity ease-out 0.3s;
+	-ms-transition:-ms-opacity ease-out 0.3s;
+	-o-transition:-o-opacity ease-out 0.3s;
+	transition:opacity ease-out 0.3s;
+}
+
+.khamenei_ir-ajs .playlist-stage-ajs{position:absolute; top:auto; left:0; right:0; direction:rtl}
+.khamenei_ir-ajs:not(.in-archive) .video-js.vjs-has-started ~ .playlist-stage-ajs .playlist-prev-vjs,
+.khamenei_ir-ajs:not(.in-archive) .video-js.vjs-has-started ~ .playlist-stage-ajs .playlist-next-vjs{
+	position:absolute; top:-75px; left:0; height:30px; background:rgba(8,35,80,0.4); width:44px; border:none; cursor:pointer; z-index:9;
+	-webkit-transition:-webkit-opacity 0.3s ease-out 0.3s;	
+	-moz-transition:-moz-opacity 0.3s ease-out 0.3s;	
+	-ms-transition:-ms-opacity 0.3s ease-out 0.3s;	
+	-o-transition:-o-opacity 0.3s ease-out 0.3s;	
+	transition:opacity 0.3s ease-out 0.3s;	
+}
+.khamenei_ir-ajs:not(.in-archive) .video-js.vjs-has-started ~ .playlist-stage-ajs .playlist-next-vjs{left:46px}
+
+.khamenei_ir-ajs:not(.in-archive) .video-js:not(.vjs-has-started) ~ .playlist-stage-ajs .playlist-prev-vjs,
+.khamenei_ir-ajs:not(.in-archive) .video-js:not(.vjs-has-started) ~ .playlist-stage-ajs .playlist-next-vjs{display:none}
+
+.khamenei_ir-ajs:not(.in-archive) .video-js.vjs-has-started.vjs-user-inactive:not(.vjs-paused) ~ .playlist-stage-ajs .playlist-prev-vjs,
+.khamenei_ir-ajs:not(.in-archive) .video-js.vjs-has-started.vjs-user-inactive:not(.vjs-paused) ~ .playlist-stage-ajs .playlist-next-vjs{
+	-webkit-opacity:0;
+	-moz-opacity:0;
+	-ms-opacity:0;
+	-o-opacity:0;
+	opacity:0;
+}
+.khamenei_ir-ajs:not(.in-archive) .video-js.vjs-has-started.vjs-user-active:not(.vjs-paused) ~ .playlist-stage-ajs .playlist-prev-vjs,
+.khamenei_ir-ajs:not(.in-archive) .video-js.vjs-has-started.vjs-user-active:not(.vjs-paused) ~ .playlist-stage-ajs .playlist-next-vjs{
+	-webkit-transition-delay:0s; 
+	-moz-transition-delay:0s; 
+	-ms-transition-delay:0s; 
+	-o-transition-delay:0s; 
+	transition-delay:0s; 
+}
+
+.khamenei_ir-ajs .playlist-stage-ajs .playlist-prev-vjs:before,
+.khamenei_ir-ajs .playlist-stage-ajs .playlist-next-vjs:before{content:""; position:absolute; width:1px; height:10px; border-radius:1px; background:#fff; top:50%; margin-top:-5px;}
+.khamenei_ir-ajs .playlist-stage-ajs .playlist-prev-vjs:before{left:18px;}
+.khamenei_ir-ajs .playlist-stage-ajs .playlist-next-vjs:before{right:18px;}
+
+.khamenei_ir-ajs .playlist-stage-ajs .playlist-prev-vjs:after{content:""; position:absolute; width:0; height:0; top:50%; left:50%; margin:-6px 0 0 -13px; border-top:6px solid transparent; border-right:10px solid #fff; border-bottom:6px solid transparent; border-left:10px solid transparent;}
+.khamenei_ir-ajs .playlist-stage-ajs .playlist-next-vjs:after{content:""; position:absolute; width:0; height:0; top:50%; left:50%; margin:-6px 0 0 -7px; border-top:6px solid transparent; border-right:10px solid transparent; border-bottom:6px solid transparent; border-left:10px solid #fff;}
+
+
+.khamenei_ir-ajs .playlist-stage-ajs>ul{display:inline; float:right; width:100%; padding:0; margin:0; list-style:none}
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li{
+	display:block; width:100%; height:63px; padding:10px; background:rgba(8,35,80,1); margin-top:1px; cursor:pointer;
+	-webkit-transition:background ease-out 0.3s;
+	-moz-transition:background ease-out 0.3s;
+	-ms-transition:background ease-out 0.3s;
+	-o-transition:background ease-out 0.3s;
+	transition:background ease-out 0.3s;
+}
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li:hover,
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li.selected{background:rgba(8,35,80,0.9);}
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li.selected{cursor:default}
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li .thumbnail{display:inline; float:right; height:100%; margin:0 0 0 10px; padding:0;cursor: inherit; overflow:hidden}
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li:nth-child(n+2) .thumbnail{display:none}
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li .thumbnail a{cursor: inherit}
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li .title{padding:0; margin:0; font:normal 11px/18px tahoma;color:#fff; cursor: inherit}
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li .title a{display:block;color:#fff; text-decoration:none; padding:0 0 3px; cursor:inherit}
+.khamenei_ir-ajs .playlist-stage-ajs>ul>li .title small{display:block; color:#CCC; font-weight:normal;}
+
+.khamenei_ir-ajs .datas-stage-ajs{position:relative; left:0px; right:0; height:63px; padding:10px; box-sizing:border-box; background:rgba(8,35,80,0.7); z-index:9999; direction:rtl;}
+
+.khamenei_ir-ajs .datas-stage-ajs .thumbnail{display:none}
+.khamenei_ir-ajs .datas-stage-ajs .title{padding:0; margin:0; font:normal 11px/18px tahoma;color:#fff; width:calc(100% - 140px)}
+.khamenei_ir-ajs .datas-stage-ajs .title a{display:block;color:#fff; text-decoration:none; padding:0 0 3px}
+.khamenei_ir-ajs .datas-stage-ajs .title small{display:block; color:#CCC; font-weight:normal;}
+
+.khamenei_ir-ajs .video-js .vjs-volume-level:before{line-height:0.867em;}
+.khamenei_ir-ajs .video-js .vjs-play-progress:before{content:"";}
+.khamenei_ir-ajs .video-js .vjs-progress-control .vjs-progress-holder{background:transparent}
+.khamenei_ir-ajs .video-js .vjs-progress-control .vjs-progress-holder .vjs-play-progress{overflow:hidden; background:none}
+.khamenei_ir-ajs .video-js .vjs-progress-control .vjs-progress-holder canvas{position:absolute; height:80px; bottom:0; left:0;}
+.khamenei_ir-ajs .video-js .vjs-progress-control .vjs-progress-holder>canvas{z-index:1; width:100%;}
+.khamenei_ir-ajs .video-js .vjs-progress-control .vjs-progress-holder .vjs-play-progress>canvas{z-index:3;}
+.khamenei_ir-ajs .video-js .vjs-progress-control .vjs-progress-holder .vjs-load-progress{overflow:hidden}
+.khamenei_ir-ajs .video-js .vjs-progress-control .vjs-progress-holder .vjs-load-progress>canvas{z-index:2;}
+.khamenei_ir-ajs .video-js .vjs-load-progress,
+.khamenei_ir-ajs .video-js .vjs-load-progress div{background:transparent}
+
+.khamenei_ir-ajs .video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-vertical{
+	left:-34px !important; bottom:20px; height:20px; background:transparent;
+	-webkit-opacity:1;
+	-moz-opacity:1;
+	-ms-opacity:1;
+	-o-opacity:1;
+	opacity:1;
+}
+.khamenei_ir-ajs .video-js .vjs-volume-panel .vjs-volume-bar.vjs-slider-vertical{height:20px; margin:0 auto}
+
+.khamenei_ir-ajs-small{display:inline; float:left; margin:4px 0 0 10px; position:relative;}
+.khamenei_ir-ajs-small .audio-player-small{display:table; width:100%; position:relative; z-index:999}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-download{display:inline; float: left; margin-right:5px; position:relative; height:20px;}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-download-button{margin:4px 0 0; border-radius:3px; background:rgba(8,35,80,0.9); border:none; color:#fff; height:20px; padding:0 10px; cursor:pointer; font-size: 11px;}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-download-list{display:none; position:absolute; z-index:999; top:20px; left:0; width:100px; background:rgba(8,35,80,0.9); border-radius:3px; border-top:1px solid #fff;}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-download-list.show{display:block;}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-download-list li{display:block; width:100%; height:25px;border-bottom:1px solid rgba(255,255,255,0.3)}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-download-list>li:last-child{border-bottom:none;}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-download-list li a{display:block; width:100%; height:100%; padding:0 10px; text-align: center; box-sizing: border-box; font-size:10px; line-height:24px; color:#fff;} 
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-download-list li a:hover{background:rgba(255,255,255,0.2);}
+
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-play-pause{display:inline; float:left;}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-play-pause-button{margin:4px 0 0 0; padding:0; background:transparent; border:none; width:30px; height:20px; color:rgba(8,35,80,0.9); cursor:pointer}
+
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-play-pause-button i.icon-play{font-family:VideoJS; font-weight:400; font-style: normal; display:none; line-height:0}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-play-pause-button i.icon-pause{font-family:VideoJS; font-weight:400; font-style: normal; display:block; line-height:0}
+
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-play-pause-button.paused i.icon-play{display:block}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-play-pause-button.paused i.icon-pause{display:none}
+
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-play-pause-button i.icon-play:before{ content:"\f101";}
+.khamenei_ir-ajs-small .audio-player-small .audio-player-small-play-pause-button i.icon-pause:before{content:""; width:7px; height:7px; background:rgba(8,35,80,0.8); display:inline-block}
+
+.khamenei_ir-ajs-small:hover{z-index:99999}
+
+.SpchIdxBoxTitle .SpchIdxSlideBar{width:calc(100% - 110px)}
+
+@media only screen and (max-width:700px){
+	.khamenei_ir-ajs .datas-stage-ajs .title a,
+	.khamenei_ir-ajs .datas-stage-ajs .title small,
+	.khamenei_ir-ajs .playlist-stage-ajs>ul>li .title a,
+	.khamenei_ir-ajs .playlist-stage-ajs>ul>li .title small{white-space: nowrap; overflow:hidden; text-overflow: ellipsis}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

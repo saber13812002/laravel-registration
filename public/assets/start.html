@@ -1,0 +1,21 @@
+
+<!-- saved from url=(0051)https://mozbar.moz.com/bartender/third-party/finish -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script language="javascript">
+          function canSetCookie() {
+            if (window.document.cookie.indexOf('mozbar_cookie=') > -1) {
+              window.document.cookie = 'mozbar_cookie=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+              return true;
+            }
+
+            return false;
+          }
+
+          if (window.parent) {
+            var message = canSetCookie() ? 'mozbar:3PCsupported' : 'mozbar:3PCunsupported';
+            window.parent.postMessage(message, '*');
+          }
+        </script>
+      </head>
+      <body>
+    </body></html>
