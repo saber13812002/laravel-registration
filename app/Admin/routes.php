@@ -53,6 +53,8 @@ Route::group([
         'shifts'                => ShiftController::class,
         
         'page-settings'         => PagesettingController::class,
+        'topmenus'              => TopmenuController::class,
+        'news'                  => NewsController::class,
     ]);
 
     $router->group(['prefix' => 'editors'], function ($router) {
