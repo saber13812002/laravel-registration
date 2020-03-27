@@ -7,6 +7,37 @@ use Illuminate\Http\Request;
 
 class TeamController extends Controller
 {
+    //http://localhost:8000/api/v1/team?q=%D9%86
+    public function search(Request $request)
+    {
+        $q = $request->get('q');
+        $t = Team::where('name', 'like', "%$q%")->paginate(15);
+
+        if ($request->data)
+            return response()->json([
+                'code' => '200',
+                'message' => 'success',
+                "data" => array($t)
+            ]);
+        else
+            return $t->toJson();
+    }
+    //http://localhost:8000/api/v1/team/1
+    public function getbyid($id)
+    {
+
+        $t = Team::where('id', $id)->paginate(15);
+
+        if ($id)
+            return response()->json([
+                'code' => '200',
+                'message' => 'success',
+                "data" => array($t)
+            ]);
+        else
+            return $t->toJson();
+    }
+
     /**
      * Display a listing of the resource.
      *

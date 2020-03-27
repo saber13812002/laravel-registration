@@ -4,9 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
-class InfoView extends Eloquent
+class PlaygroundView extends Eloquent
 {
     //
-    protected $hidden = ['token'];
-
 }
