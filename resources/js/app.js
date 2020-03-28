@@ -8,6 +8,9 @@ require("./bootstrap");
 
 window.Vue = require("vue");
 
+Vue.config.productionTip = false;
+
+
 import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
@@ -29,6 +32,9 @@ import ProfileComponent from "./components/ProfileComponent.vue";
 import MenuComponent from "./components/MenuComponent.vue";
 import HeaderComponent from "./components/HeaderComponent.vue";
 import SignoutComponent from "./components/SignoutComponent.vue";
+import MyTeamComponent from "./components/MyTeamComponent.vue";
+import PlaygroundComponent from "./components/PlaygroundComponent.vue";
+import PlaygroundListComponent from "./components/PlaygroundListComponent.vue";
 
 const routes = [
     {
@@ -65,6 +71,21 @@ const routes = [
         name: "shift",
         path: "/shift",
         component: ShiftComponent
+    },
+    {
+        name: "myteam",
+        path: "/myteam",
+        component: MyTeamComponent
+    },
+    {
+        name: "newplayground",
+        path: "/playgroundnew",
+        component: PlaygroundComponent
+    },
+    {
+        name: "playgroundlist",
+        path: "/playgroundlist",
+        component: PlaygroundListComponent
     }
 ];
 

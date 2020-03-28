@@ -245,10 +245,10 @@ export default {
         console.log("infoss");
         console.log(this.infoss);
         this.validation("NationalCode");
-        if (this.infoss.smsSent == 1) {
-          localStorage.setItem("smsSent", 1);
-          this.$router.push({ path: "/shift" });
-        }
+        // if (this.infoss.smsSent == 1) {
+        //   localStorage.setItem("smsSent", 1);
+        //   this.$router.push({ path: "/shift" });
+        // }
 
         if (this.infoss.profile_picture) {
           this.hasPic = true;
