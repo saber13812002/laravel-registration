@@ -13,6 +13,7 @@ use App\Models\Game;
 use App\Models\Statistic;
 use App\Models\Pagesetting;
 use App\Topmenu;
+use Harimayco\Menu\Facades\Menu;
 
 class HomeController extends Controller
 {
@@ -52,7 +53,7 @@ class HomeController extends Controller
 
 
         $topmenu = Topmenu::all();
-
+        $topmenu2 = Menu::getByName('topmenu');
 
         foreach ($pagesettings as $ps) {
             switch ($ps->type) {
@@ -99,7 +100,7 @@ class HomeController extends Controller
         }
 
         // return view($viewname, compact('news', 'iframes', 'rules', 'games', 'stats', 'aboutus', 'contactus', 'copyright'));
-        return view($viewname, compact('topmenu', 'news', 'todaysdate'));
+        return view($viewname, compact('topmenu','topmenu2', 'news', 'todaysdate'));
         // return View::make($viewname, compact('topmenu'));
 
 

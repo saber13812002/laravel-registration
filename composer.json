@@ -12,6 +12,7 @@
         "encore/laravel-admin": "^1.7",
         "fideloper/proxy": "^4.0",
         "fruitcake/laravel-cors": "^1.0",
+        "harimayco/laravel-menu": "^1.4",
         "kavenegar/laravel": "^1.0",
         "laravel-admin-ext/chartjs": "^1.0",
         "laravel-admin-ext/summernote": "^1.0",

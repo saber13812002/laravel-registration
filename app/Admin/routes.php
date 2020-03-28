@@ -54,6 +54,7 @@ Route::group([
         
         'page-settings'         => PagesettingController::class,
         'topmenus'              => TopmenuController::class,
+        'mymenu'                => MenuController::class,
         'news'                  => NewsController::class,
         'playgrounds'           => PlaygroundController::class,
         'matches'               => MatchController::class,
