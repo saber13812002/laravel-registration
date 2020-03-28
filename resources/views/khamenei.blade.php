@@ -344,404 +344,67 @@
 						<button type="button" class="toggle-button"><span></span><span></span><span></span></button>
 						<nav class="toggle-menu-main">
 							<button type="button" class="toggle-button"><span></span><span></span><span></span></button>
+
+							@if($topmenu2)
 							<ul>
+
 								<li>
 									<a href="./">صفحه اصلی</a>
 								</li>
+								@foreach($topmenu2 as $menu)
 								<li class="has-submenu">
-									<a href="javascript:void(0);">اخبار</a>
+									<a href="javascript:void(0);" title="">{{ $menu['label'] }}</a>
+									@if( $menu['child'] )
 									<ul>
-										<li>
-											<a href="./news-index">صفحه اخبار</a>
-										</li>
-										<li>
-											<a href="./around-index">حاشیه دیدارها</a>
-										</li>
-										<li>
-											<a href="./news-index?nt=50">روزنگار</a>
-										</li>
+										@foreach( $menu['child'] as $child )
+										<li><a href="{{ $child['link'] }}" title="">{{ $child['label'] }}</a></li>
+										@endforeach
 									</ul>
+									@endif
 								</li>
-								<li class="has-submenu">
-									<a href="javascript:void(0);">بیانات</a>
-									<ul>
-										<li>
-											<a href="./speech">صفحه بيانات</a>
-										</li>
-										<li>
-											<a href="./selected-index">گزیده بیانات</a>
-										</li>
-										<li>
-											<a href="./speech?nt=4">پیام‌ها و نامه‌ها</a>
-										</li>
-										<li>
-											<a href="./speech?nt=3">نقشه راه</a>
-										</li>
-										<li>
-											<a href="./news-index?nt=49">مرور سریع</a>
-										</li>
-										<li>
-											<a href="./news2?nt=52">پیشخوان</a>
-										</li>
-										<li>
-											<a href="./speech?nt=32">ابلاغیه</a>
-										</li>
-										<li>
-											<a title="آرشیو موضوعی بیانات" href="./speech-topic">موضوعی</a>
-										</li>
-										<li>
-											<a href="./speech-quran?npt=7">قرآن</a>
-										</li>
-										<li>
-											<a href="./speech-hadis?npt=8">حدیث</a>
-										</li>
-										<li>
-											<a href="./speech-nahj?npt=9">نهج‌البلاغه</a>
-										</li>
-										<li>
-											<a href="./speech-family">خانواده ایرانی</a>
-										</li>
-									</ul>
-								</li>
-								<li class="has-submenu">
-									<a href="javascript:void(0);">استفتائات</a>
-									<ul>
-										<li>
-											<a href="https://">صفحه استفتائات</a>
-										</li>
-										<li>
-											<a href="./news-index?nt=56">رساله آموزشی</a>
-										</li>
-										<li>
-											<a href="./page?id=7102">راهنمای فتاوا</a>
-										</li>
-									</ul>
-								</li>
-								<li class="has-submenu">
-									<a href="javascript:void(0);">دیگران</a>
-									<ul>
-										<li>
-											<a href="./others">صفحه دیگران</a>
-										</li>
-										<li>
-											<a href="./others-index?type=12">يادداشت</a>
-										</li>
-										<li>
-											<a href="./others-index?type=13">گفتگو</a>
-										</li>
-										<li>
-											<a href="./others-index?type=14">خاطرات</a>
-										</li>
-										<li>
-											<a href="./others-index?type=22">گزارش</a>
-										</li>
-										<li>
-											<a href="./others-index?type=11">پرونده</a>
-										</li>
-										<li>
-											<a href="./others-index?type=26">مقالات جستار</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="./archive">آرشیو پیشرفته</a>
-								</li>
-								<li>
-									<a href="./search">جستجو</a>
-								</li>
-								<li class="has-submenu">
-									<a href="javascript:void(0);">عکس</a>
-									<ul>
-										<li>
-											<a href="./photo-index">صفحه عکس</a>
-										</li>
-										<li>
-											<a href="./photo-index?type=speech">تصاویر دیدارها</a>
-										</li>
-										<li>
-											<a href="./photo-index?type=selected">تصاویر ویژه</a>
-										</li>
-										<li>
-											<a href="./photo-index?type=poster">پوستر/سایز اصلی</a>
-										</li>
-										<li>
-											<a href="./news-index?nt=51">چندرسانه‌ای</a>
-										</li>
-									</ul>
-								</li>
-								<li class="has-submenu">
-									<a href="javascript:void(0);">صوت</a>
-									<ul>
-										<li>
-											<a href="./audio-index">صفحه صوت</a>
-										</li>
-										<li>
-											<a href="./audio-index?type=speech">صوت کامل بیانات</a>
-										</li>
-										<li>
-											<a href="./audio-index?type=selected">صوت گزیده بیانات</a>
-										</li>
-										<li>
-											<a href="./audio-index?type=clip">کلیپ صوتی</a>
-										</li>
-										<li>
-											<a href="./podcast">نسخه پادکست</a>
-										</li>
-									</ul>
-								</li>
-								<li class="has-submenu">
-									<a href="javascript:void(0);">فیلم</a>
-									<ul>
-										<li>
-											<a href="./video-index">صفحه فیلم</a>
-										</li>
-										<li>
-											<a href="./video-index?type=speech">فیلم دیدارها</a>
-										</li>
-										<li>
-											<a href="./video-index?type=selected">گزیده دیدارها</a>
-										</li>
-										<li>
-											<a href="./video-index?type=clip">نماهنگ</a>
-										</li>
-										<li>
-											<a href="./video-index?type=news">گزارش خبري</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="./memory-content?id=5467">زندگی نامه</a>
-								</li>
-								<li>
-									<a href="./page?id=7100">درس خارج</a>
-								</li>
-								<li>
-									<a href="./hadis-index">شرح حدیث</a>
-								</li>
-								<li>
-									<a href="./memory-index">خاطرات</a>
-								</li>
-								<li class="has-submenu">
-									<a href="javascript:void(0);">جستار</a>
-									<ul>
-										<li>
-											<a href="./keyword-index">صفحه جستار</a>
-										</li>
-										<li>
-											<a href="./others-index?type=26">مقالات جستار</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="./tag">کلیدواژه</a>
-								</li>
-								<li>
-									<a href="./others-index?type=33&amp;year=1394">صفحه ویژه</a>
-								</li>
-								<li class="has-submenu">
-									<a href="javascript:void(0);">کتاب</a>
-									<ul>
-										<li>
-											<a href="./book">صفحه کتاب</a>
-										</li>
-										<li>
-											<a href="./book-archive?nt=46">تلمیحات و اشارات</a>
-										</li>
-										<li>
-											<a href="./book-archive?nt=38&amp;oid=30">کتابخانه</a>
-										</li>
-										<li>
-											<a href="./book-archive?nt=38&amp;oid=21">انتشارات</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="./email-register">عضویت</a>
-								</li>
-								<li>
-									<a href="./contact">ارتباط با ما</a>
-								</li>
+								@endforeach
+								@endif
 							</ul>
+
 						</nav>
 					</div>
 					<div class="gd_2 menu">
 						<div id="menu">
 							<div class="menu-inner">
 								<div id="divO" style="left: 539px; width:45px; background-position: -473px -43px;"></div>
-								<a href="./" class="menu-homepage" title="صفحه اصلی"></a>
-								<a href="/" class="menu-news" title="آرشیو اخبار"></a>
-								<!-- <a href="./memory-content?id=5467" class="menu-biography" title="زندگی نامه آیت الله العظمی سیدعلی خامنه ای"></a><a href="./speech" class="menu-speeches" title="آرشیو بیانات"></a><a href="https://www.leader.ir/fa/services/2/%D9%81%D9%82%D9%87-%D9%88-%D8%A7%D8%AD%DA%A9%D8%A7%D9%85-%D8%B4%D8%B1%D8%B9%DB%8C" class="menu-treatise" title="استفتائات"></a>
-								<a href="./page?id=7100" class="menu-kharej" title="درس خارج"></a>
-								<a href="./hadis-index" class="menu-hadith" title="شرح حدیث"></a>
-								<a href="./memory-index" class="menu-memories" title="آرشیو خاطرات"></a>
-								<a href="./keyword-index" class="menu-keywords" title="صفحه اصلی جستار"></a> -->
-								<a href="./book" class="menu-book" title="صفحه کتاب"></a>
-								<a href="./photo-index" class="menu-photos" title="آرشیو تصاویر"></a>
-								<a href="./audio-index" class="menu-audios" title="آرشیو صوت"></a>
-								<a href="./video-index" class="menu-videos" title="آرشیو فیلم"></a>
+
+
+								@if($topmenu2)
+								@foreach($topmenu2 as $menu)
+								<a href="{{ $menu['link'] }}" class="{{ $menu['class'] }}" title="">{{ $menu['label'] }}</a>
+
+								@endforeach
+								@endif
+
 							</div>
 						</div>
 						<div class="clear"></div>
 						<div id="submenu" style="right: 130px;">
 							<div class="submenu-inner">
-								<ul rel="menu-homepage" style="display: none;">
-									<li class="submenu-first">
-										<a title="صفحه نخست" href="./">صفحه نخست</a>
-									</li>
-									<li>
-										<a title="صفحه ویژه" href="./others-index?type=33">صفحه ویژه</a>
-									</li>
-									<li>
-										<a title="دیگران" href="./others">دیگران</a>
-									</li>
-									<li>
-										<a title="آرشیو پیشرفته" href="./archive">آرشیو پیشرفته</a>
-									</li>
+
+								@if($topmenu2)
+								@foreach($topmenu2 as $menu)
+								<ul rel="{{ $menu['class'] }}" style="display: none;">
+
+									@if( $menu['child'] )
+									@foreach( $menu['child'] as $child )
+									@if ($loop->last)
 									<li class="submenu-last">
-										<a title="درباره ما" href="./about">درباره ما</a>
-									</li>
+										@else
+									<li class="">
+										@endif
+										<a href="{{ $child['link'] }}" title="">{{ $child['label'] }}</a></li>
+									@endforeach
+									@endif
 								</ul>
-								<ul rel="menu-news" style="display: none;">
-									<li class="submenu-first">
-										<a title="آرشیو اخبار" href="./news-index">خبر</a>
-									</li>
-									<li>
-										<a title="" href="./around-index">حاشیه دیدارها</a>
-									</li>
-									<li class="submenu-last">
-										<a title="" href="./news-index?nt=50">روزنگار</a>
-									</li>
-								</ul>
-								<!-- <ul rel="menu-biography" style="display: none;">
-									<li class="submenu-last">
-										<a title="زندگی‌نامه مختصر" href="./memory-content?id=5467">زندگی‌نامه</a>
-									</li>
-								</ul>
-								<ul rel="menu-speeches" style="display: none;">
-									<li class="submenu-first">
-										<a title="" href="./speech">بيانات</a>
-									</li>
-									<li>
-										<a title="" href="./selected-index">گزیده بیانات</a>
-									</li>
-									<li>
-										<a title="" href="./speech?nt=4">پیام‌ها و نامه‌ها</a>
-									</li>
-									<li>
-										<a title="" href="./speech?nt=3">نقشه راه</a>
-									</li>
-									<li>
-										<a title="" href="./news-index?nt=49">مرور سریع</a>
-									</li>
-									<li>
-										<a title="" href="./news2?nt=52">پیشخوان</a>
-									</li>
-									<li>
-										<a title="" href="./speech?nt=32">ابلاغیه</a>
-									</li>
-									<li>
-										<a title="آرشیو موضوعی بیانات" href="./speech-topic">موضوعی</a>
-									</li>
-									<li>
-										<a title="" href="./speech-quran?npt=7">قرآن</a>
-									</li>
-									<li>
-										<a title="" href="./speech-hadis?npt=8">حدیث</a>
-									</li>
-									<li>
-										<a title="" href="./speech-nahj?npt=9">نهج‌البلاغه</a>
-									</li>
-									<li class="submenu-last">
-										<a href="./speech-family">خانواده ایرانی</a>
-									</li>
-								</ul>
-								<ul rel="menu-treatise" style="display: inline;">
-									<li class="submenu-first">
-										<a title="" href="https://www.leader.ir/fa/services/2/%D9%81%D9%82%D9%87-%D9%88-%D8%A7%D8%AD%DA%A9%D8%A7%D9%85-%D8%B4%D8%B1%D8%B9%DB%8C">استفتائات</a>
-									</li>
-									<li>
-										<a title="" href="./news-index?nt=56">رساله آموزشی</a>
-									</li>
-									<li class="submenu-last">
-										<a title="" href="./page?id=7102">راهنمای فتاوا</a>
-									</li>
-								</ul>
-								<ul rel="menu-kharej" style="display: none;">
-									<li class="submenu-last">
-										<a title="" href="./page?id=7100">درس خارج</a>
-									</li>
-								</ul>
-								<ul rel="menu-hadith" style="display: none;">
-									<li class="submenu-last">
-										<a title="" href="./hadis-index">شرح حدیث</a>
-									</li>
-								</ul>
-								<ul rel="menu-memories" style="display: none;">
-									<li class="submenu-last">
-										<a title="" href="./memory-index">آرشیو خاطرات</a>
-									</li>
-								</ul>
-								<ul rel="menu-keywords" style="display: none;">
-									<li class="submenu-first">
-										<a title="" href="./keyword-index">جستار</a>
-									</li>
-									<li class="submenu-last">
-										<a title="" href="./others-index?type=26">مقالات جستار</a>
-									</li>
-								</ul> -->
-								<ul rel="menu-book" style="display: none;">
-									<li class="submenu-first">
-										<a title="" href="./book-archive?nt=46">تلمیحات و اشارات</a>
-									</li>
-									<li>
-										<a title="" href="./book-archive?nt=38&amp;oid=30">کتابخانه</a>
-									</li>
-									<li class="submenu-last">
-										<a title="" href="./book-archive?nt=38&amp;oid=21">انتشارات</a>
-									</li>
-								</ul>
-								<ul rel="menu-photos" style="display: none;">
-									<li class="submenu-first">
-										<a title="" href="./photo-index?type=speech">تصاویر دیدارها</a>
-									</li>
-									<li>
-										<a title="" href="./photo-index?type=selected">تصاویر ویژه</a>
-									</li>
-									<li>
-										<a title="" href="./photo-index?type=poster">پوستر/سایز اصلی</a>
-									</li>
-									<li class="submenu-last">
-										<a title="" href="./news-index?nt=51">چندرسانه‌ای</a>
-									</li>
-								</ul>
-								<ul rel="menu-audios" style="display: none;">
-									<li class="submenu-first">
-										<a title="" href="./audio-index?type=speech">صوت کامل بیانات</a>
-									</li>
-									<li>
-										<a title="" href="./audio-index?type=selected">صوت گزیده بیانات</a>
-									</li>
-									<li>
-										<a title="" href="./audio-index?type=clip">کلیپ صوتی</a>
-									</li>
-									<li class="submenu-last">
-										<a title="" href="./podcast">نسخه پادکست</a>
-									</li>
-								</ul>
-								<ul rel="menu-videos" style="display: none;">
-									<li class="submenu-first">
-										<a title="" href="./video-index?type=speech">فیلم دیدارها</a>
-									</li>
-									<li>
-										<a title="" href="./video-index?type=selected">گزیده دیدارها</a>
-									</li>
-									<li>
-										<a title="" href="./video-index?type=clip">نماهنگ</a>
-									</li>
-									<li class="submenu-last">
-										<a title="" href="./video-index?type=news">گزارش خبري</a>
-									</li>
-								</ul>
+								@endforeach
+								@endif
+
 							</div>
 						</div>
 					</div>

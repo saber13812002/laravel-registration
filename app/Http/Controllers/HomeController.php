@@ -53,7 +53,7 @@ class HomeController extends Controller
 
 
         $topmenu = Topmenu::all();
-        $topmenu2 = Menu::getByName('topmenu');
+        $topmenu2 = Menu::getByName('mainmenu');
 
         foreach ($pagesettings as $ps) {
             switch ($ps->type) {
