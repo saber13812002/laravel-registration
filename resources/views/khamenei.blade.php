@@ -567,8 +567,18 @@
 					<div class="gd_2 menu">
 						<div id="menu">
 							<div class="menu-inner">
-								<div id="divO" style="left: 378px; width: 56px; background-position: -314px -43px;"></div>
-								<a href="./" class="menu-homepage" title="صفحه اصلی"></a><a href="/" class="menu-news" title="آرشیو اخبار"></a><a href="./memory-content?id=5467" class="menu-biography" title="زندگی نامه آیت الله العظمی سیدعلی خامنه ای"></a><a href="./speech" class="menu-speeches" title="آرشیو بیانات"></a><a href="https://www.leader.ir/fa/services/2/%D9%81%D9%82%D9%87-%D9%88-%D8%A7%D8%AD%DA%A9%D8%A7%D9%85-%D8%B4%D8%B1%D8%B9%DB%8C" class="menu-treatise" title="استفتائات"></a><a href="./page?id=7100" class="menu-kharej" title="درس خارج"></a><a href="./hadis-index" class="menu-hadith" title="شرح حدیث"></a><a href="./memory-index" class="menu-memories" title="آرشیو خاطرات"></a><a href="./keyword-index" class="menu-keywords" title="صفحه اصلی جستار"></a><a href="./book" class="menu-book" title="صفحه کتاب"></a><a href="./photo-index" class="menu-photos" title="آرشیو تصاویر"></a><a href="./audio-index" class="menu-audios" title="آرشیو صوت"></a><a href="./video-index" class="menu-videos" title="آرشیو فیلم"></a>
+								<div id="divO" style="left: 539px; width:45px; background-position: -473px -43px;"></div>
+								<a href="./" class="menu-homepage" title="صفحه اصلی"></a>
+								<a href="/" class="menu-news" title="آرشیو اخبار"></a>
+								<!-- <a href="./memory-content?id=5467" class="menu-biography" title="زندگی نامه آیت الله العظمی سیدعلی خامنه ای"></a><a href="./speech" class="menu-speeches" title="آرشیو بیانات"></a><a href="https://www.leader.ir/fa/services/2/%D9%81%D9%82%D9%87-%D9%88-%D8%A7%D8%AD%DA%A9%D8%A7%D9%85-%D8%B4%D8%B1%D8%B9%DB%8C" class="menu-treatise" title="استفتائات"></a>
+								<a href="./page?id=7100" class="menu-kharej" title="درس خارج"></a>
+								<a href="./hadis-index" class="menu-hadith" title="شرح حدیث"></a>
+								<a href="./memory-index" class="menu-memories" title="آرشیو خاطرات"></a>
+								<a href="./keyword-index" class="menu-keywords" title="صفحه اصلی جستار"></a> -->
+								<a href="./book" class="menu-book" title="صفحه کتاب"></a>
+								<a href="./photo-index" class="menu-photos" title="آرشیو تصاویر"></a>
+								<a href="./audio-index" class="menu-audios" title="آرشیو صوت"></a>
+								<a href="./video-index" class="menu-videos" title="آرشیو فیلم"></a>
 							</div>
 						</div>
 						<div class="clear"></div>
@@ -602,7 +612,7 @@
 										<a title="" href="./news-index?nt=50">روزنگار</a>
 									</li>
 								</ul>
-								<ul rel="menu-biography" style="display: none;">
+								<!-- <ul rel="menu-biography" style="display: none;">
 									<li class="submenu-last">
 										<a title="زندگی‌نامه مختصر" href="./memory-content?id=5467">زندگی‌نامه</a>
 									</li>
@@ -678,7 +688,7 @@
 									<li class="submenu-last">
 										<a title="" href="./others-index?type=26">مقالات جستار</a>
 									</li>
-								</ul>
+								</ul> -->
 								<ul rel="menu-book" style="display: none;">
 									<li class="submenu-first">
 										<a title="" href="./book-archive?nt=46">تلمیحات و اشارات</a>
@@ -2352,7 +2362,7 @@
 		</div>
 		<div align="center" id="footerCP">
 			<div style="width:957px;overflow: hidden;" align="right">
-				<div class="footerCopyright">پايگاه اطلاع‌رسانی دفتر حفظ و نشر آثار حضرت آيت‌الله‌العظمی سيدعلی خامنه‌ای (مد‌ظله‌العالی) - مؤسسه پژوهشی فرهنگی انقلاب اسلامی</div>
+				<div class="footerCopyright">پایگاه اطلاع رسانی بنیاد حیات طیبه علمای جهان اسلام</div>
 				<div class="copyright">All Content by <a href="./">.ir</a> is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/deed.fa">Creative Commons Attribution 4.0 International License</a>.</div>
 			</div>
 		</div>
