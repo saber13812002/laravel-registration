@@ -1,0 +1,157 @@
+.khamenei_ir-vjs,
+.khamenei_ir-vjs *{box-sizing:border-box;}
+.khamenei_ir-vjs{position:relative; display:table; width:100%; background:#000;}
+.khamenei_ir-vjs .video-js.khamenei_ir-vjs[preload]{position:relative; z-index:2; background:none;}
+
+.khamenei_ir-vjs .vjs-poster{background-color:transparent}
+.khamenei_ir-vjs .video-js .vjs-tech{
+	transition:padding ease-out 0.3s;
+}
+.khamenei_ir-vjs .video-js.vjs-user-inactive .vjs-tech{
+	padding:0px;
+}
+.khamenei_ir-vjs .video-js.vjs-user-active:not(.vjs-fullscreen) .vjs-tech{
+	padding:40px;	
+}
+.khamenei_ir-vjs .video-js .vjs-big-play-button{border:none; border-radius:0; font-size:40px; left:0; bottom:43px; top:auto; width:90px; height:63px; line-height:63px; background:rgba(8,35,80,0.9)}
+.khamenei_ir-vjs .video-js:hover .vjs-big-play-button{background:rgba(8,35,80,0.7)}
+.khamenei_ir-vjs .video-js .vjs-control-bar{background:rgba(8,35,80,0.4); height:40px}
+.khamenei_ir-vjs .video-js .vjs-play-control{position:absolute; top:-65px; left:0; width:90px; height:63px; background:rgba(8,35,80,0.4); font-size:20px;}
+.khamenei_ir-vjs.playlist:not(.in-archive) .video-js .vjs-play-control{top:-100px}
+.khamenei_ir-vjs .video-js .vjs-current-time{display:flex; padding-right:5px; text-shadow:0 0 1px #000;}
+.khamenei_ir-vjs .video-js .vjs-time-divider{display:flex; padding:0; min-width:0; text-shadow:0 0 1px #000;}
+.khamenei_ir-vjs .video-js .vjs-time-divider>div{line-height:41px}
+.khamenei_ir-vjs .video-js .vjs-duration{display:flex; padding-left:5px; text-shadow:0 0 1px #000;}
+.khamenei_ir-vjs .video-js .vjs-remaining-time{display:none !important}
+.khamenei_ir-vjs .video-js .vjs-play-progress .vjs-time-tooltip{display:none !important;}
+.khamenei_ir-vjs .video-js .vjs-progress-control .vjs-mouse-display{background:transparent !important}
+.khamenei_ir-vjs .video-js .vjs-mouse-display .vjs-time-tooltip{background:rgba(0,0,0,0); line-height:10px; text-shadow:1px 1px 1px #000}
+
+.khamenei_ir-vjs .video-js .vjs-mouse-display>video{position:absolute; bottom:20px; left:-40px;}
+
+
+.khamenei_ir-vjs .video-js .vjs-time-control{line-height:40px}
+.khamenei_ir-vjs .video-js .vjs-volume-panel{position:absolute; top:-97px; left:0; background:rgba(8,35,80,0.4); width:90px; height:30px}
+.khamenei_ir-vjs.playlist:not(.in-archive) .video-js .vjs-volume-panel{top:-131px}
+.khamenei_ir-vjs .video-js .vjs-volume-panel .vjs-volume-control{
+	width:50px;
+	opacity:1;
+}
+.khamenei_ir-vjs .video-js .vjs-volume-bar.vjs-slider-horizontal[aria-valuenow="0"]{color:red}
+.khamenei_ir-vjs .video-js .vjs-volume-bar.vjs-slider-horizontal{width:35px;}
+.khamenei_ir-vjs .video-js .vjs-fullscreen-control{line-height:40px; font-size:13px; width:40px}
+/*.khamenei_ir-vjs .video-js .vjs-fullscreen-control{position:absolute; top:-40px; right:0; background:rgba(0,0,0,0.5)}
+.khamenei_ir-vjs .video-js .vjs-progress-control{width:100%; position:absolute; left:0; right:0; bottom:0}*/
+.khamenei_ir-vjs .video-js .vjs-mute-control.vjs-vol-0:focus{text-shadow:none}
+.khamenei_ir-vjs .video-js .vjs-mute-control.vjs-vol-0 .vjs-icon-placeholder:before{color:red}
+
+.khamenei_ir-vjs .canvas-stage-vjs{position:absolute; top:0; left:0; right:0; bottom:0; display:block; overflow:hidden; overflow-x:1}
+.khamenei_ir-vjs .canvas-stage-vjs>div{
+	background-repeat: no-repeat; background-size:cover; position:absolute; top:-10px; left:-10px; right:-10px; bottom:-10px;
+	filter:blur(5px);
+	transition:opacity ease-out 0.3s;
+}
+
+.khamenei_ir-vjs .playlist-stage-vjs{position:absolute; top:auto; left:0; right:0; direction:rtl}
+.khamenei_ir-vjs:not(.in-archive) .video-js.vjs-has-started ~ .playlist-stage-vjs .playlist-prev-vjs,
+.khamenei_ir-vjs:not(.in-archive) .video-js.vjs-has-started ~ .playlist-stage-vjs .playlist-next-vjs{
+	position:absolute; top:-75px; left:0; height:30px; background:rgba(8,35,80,0.4); width:44px; border:none; cursor:pointer; z-index:9;
+	transition:opacity 0.3s ease-out 0.3s;	
+}
+.khamenei_ir-vjs:not(.in-archive) .video-js.vjs-has-started ~ .playlist-stage-vjs .playlist-next-vjs{left:46px}
+
+.khamenei_ir-vjs:not(.in-archive) .video-js:not(.vjs-has-started) ~ .playlist-stage-vjs .playlist-prev-vjs,
+.khamenei_ir-vjs:not(.in-archive) .video-js:not(.vjs-has-started) ~ .playlist-stage-vjs .playlist-next-vjs{display:none}
+
+.khamenei_ir-vjs:not(.in-archive) .video-js.vjs-has-started.vjs-user-inactive:not(.vjs-paused) ~ .playlist-stage-vjs .playlist-prev-vjs,
+.khamenei_ir-vjs:not(.in-archive) .video-js.vjs-has-started.vjs-user-inactive:not(.vjs-paused) ~ .playlist-stage-vjs .playlist-next-vjs{
+	opacity:0;
+}
+.khamenei_ir-vjs:not(.in-archive) .video-js.vjs-has-started.vjs-user-active:not(.vjs-paused) ~ .playlist-stage-vjs .playlist-prev-vjs,
+.khamenei_ir-vjs:not(.in-archive) .video-js.vjs-has-started.vjs-user-active:not(.vjs-paused) ~ .playlist-stage-vjs .playlist-next-vjs{
+	transition-delay:0s; 
+}
+
+.khamenei_ir-vjs .playlist-stage-vjs .playlist-prev-vjs:before,
+.khamenei_ir-vjs .playlist-stage-vjs .playlist-next-vjs:before{content:""; position:absolute; width:1px; height:10px; border-radius:1px; background:#fff; top:50%; margin-top:-5px;}
+.khamenei_ir-vjs .playlist-stage-vjs .playlist-prev-vjs:before{left:18px;}
+.khamenei_ir-vjs .playlist-stage-vjs .playlist-next-vjs:before{right:18px;}
+
+.khamenei_ir-vjs .playlist-stage-vjs .playlist-prev-vjs:after{content:""; position:absolute; width:0; height:0; top:50%; left:50%; margin:-6px 0 0 -13px; border-top:6px solid transparent; border-right:10px solid #fff; border-bottom:6px solid transparent; border-left:10px solid transparent;}
+.khamenei_ir-vjs .playlist-stage-vjs .playlist-next-vjs:after{content:""; position:absolute; width:0; height:0; top:50%; left:50%; margin:-6px 0 0 -7px; border-top:6px solid transparent; border-right:10px solid transparent; border-bottom:6px solid transparent; border-left:10px solid #fff;}
+
+
+.khamenei_ir-vjs .playlist-stage-vjs>ul{display:inline; float:right; width:100%; padding:0; margin:0; list-style:none}
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li{
+	display:block; width:100%; height:63px; padding:10px; background:rgba(8,35,80,1); margin-top:1px; cursor:pointer;
+	transition:background ease-out 0.3s;
+}
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li:hover,
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li.selected{background:rgba(8,35,80,0.9);}
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li.selected{cursor:default}
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li .thumbnail{display:inline; float:right; height:100%; margin:0 0 0 10px; padding:0;cursor: inherit; overflow:hidden}
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li:nth-child(n+2) .thumbnail{display:none}
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li .thumbnail a{cursor: inherit}
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li .title{padding:0; margin:0; font:normal 11px/18px tahoma;color:#fff; cursor: inherit}
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li .title a{display:block;color:#fff; text-decoration:none; padding:0 0 3px; cursor:inherit}
+.khamenei_ir-vjs .playlist-stage-vjs>ul>li .title small{display:block; color:#CCC; font-weight:normal;}
+
+
+.khamenei_ir-vjs .video-js.vjs-has-started ~ .datas-stage-vjs{position:absolute; top:0; left:0; right:0; height:0; z-index:9999; direction:rtl}
+.khamenei_ir-vjs .video-js.vjs-has-started ~ .datas-stage-vjs .thumbnail{display:none}
+.khamenei_ir-vjs .video-js.vjs-has-started ~ .datas-stage-vjs .title{
+	position:absolute; top:0; left:0; right:0; height:0px; padding:0 15px; margin:0; font:bold 11px/0px tahoma;color:#fff; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; 
+	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	transition:height ease-out 0.3s,line-height ease-out 0.3s;
+}
+.khamenei_ir-vjs .video-js.vjs-has-started.vjs-user-active ~ .datas-stage-vjs .title,
+.khamenei_ir-vjs .video-js.vjs-has-started.vjs-paused ~ .datas-stage-vjs .title{
+	height:40px; line-height:40px; 
+}
+.khamenei_ir-vjs .video-js.vjs-has-started ~ .datas-stage-vjs .title a{color:#fff; text-decoration:none;}
+.khamenei_ir-vjs .video-js.vjs-has-started ~ .datas-stage-vjs .title small{color:#CCC; font-weight:normal; margin-right:5px;}
+.khamenei_ir-vjs .video-js.vjs-has-started ~ .canvas-stage-vjs>div{
+	opacity:0.1;
+}
+
+.khamenei_ir-vjs .video-js:not(.vjs-has-started) ~ .datas-stage-vjs{position:absolute; bottom:43px; left:92px; width:400px; height:63px; padding:10px; box-sizing:border-box; background:rgba(8,35,80,0.7); z-index:9999; direction:rtl;}
+.khamenei_ir-vjs .video-js:not(.vjs-has-started) ~ .datas-stage-vjs .thumbnail{display:inline; float:right; height:100%; margin:0 0 0 10px; padding:0}
+.khamenei_ir-vjs .video-js:not(.vjs-has-started) ~ .datas-stage-vjs .title{padding:0; margin:0; font:normal 11px/18px tahoma;color:#fff;}
+.khamenei_ir-vjs .video-js:not(.vjs-has-started) ~ .datas-stage-vjs .title a{display:block;color:#fff; text-decoration:none; padding:0 0 3px}
+.khamenei_ir-vjs .video-js:not(.vjs-has-started) ~ .datas-stage-vjs .title small{display:block; color:#CCC; font-weight:normal;}
+
+.khamenei_ir-vjs .video-js .vjs-volume-level:before{line-height:0.867em;}
+.khamenei_ir-vjs .video-js .vjs-play-progress:before{line-height:0.99em;}
+
+
+@media only screen and (max-width:810px){
+	.khamenei_ir-vjs .video-js{height:350px !important}
+}
+@media only screen and (max-width:700px){
+	.khamenei_ir-vjs .video-js{height:250px !important}
+	
+	.khamenei_ir-vjs .video-js:not(.vjs-has-started) ~ .datas-stage-vjs{width:calc(100% - 92px);}
+	.khamenei_ir-vjs .video-js:not(.vjs-has-started) ~ .datas-stage-vjs .title a,
+	.khamenei_ir-vjs .video-js:not(.vjs-has-started) ~ .datas-stage-vjs .title small,
+	.khamenei_ir-vjs .playlist-stage-vjs>ul>li .title a,
+	.khamenei_ir-vjs .playlist-stage-vjs>ul>li .title small{white-space: nowrap; overflow:hidden; text-overflow: ellipsis}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

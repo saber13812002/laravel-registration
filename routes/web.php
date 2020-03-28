@@ -44,6 +44,7 @@ Route::get('/register', function () {
     return File::get(public_path() . '/app/index.html');
 });
 */
+// Route::get('/{any}', 'KhameneiController@index')->where('any',  '^(?!api).*$')->where('any',  '^(?!image-upload).*$');
 
 Route::get('/{any}', 'HomeController@index')->where('any',  '^(?!api).*$')->where('any',  '^(?!image-upload).*$');
 

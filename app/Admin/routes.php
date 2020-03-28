@@ -53,11 +53,11 @@ Route::group([
         'shifts'                => ShiftController::class,
         
         'page-settings'         => PagesettingController::class,
-
+        'topmenus'              => TopmenuController::class,
+        'news'                  => NewsController::class,
         'playgrounds'           => PlaygroundController::class,
         'matches'               => MatchController::class,
         'teams'                 => TeamController::class,
-
 
     ]);
 

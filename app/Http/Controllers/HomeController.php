@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\View;
+
+
 use Illuminate\Http\Request;
 use App\Models\News;
 use App\Models\Iframe;
@@ -9,6 +12,7 @@ use App\Models\Rule;
 use App\Models\Game;
 use App\Models\Statistic;
 use App\Models\Pagesetting;
+use App\Topmenu;
 
 class HomeController extends Controller
 {
@@ -41,10 +45,14 @@ class HomeController extends Controller
         $games = Game::all();
         $stats = Statistic::all();
         $pagesettings = Pagesetting::all();
-
         $aboutus = '';
         $contactus = '';
         $copyright = '';
+        $todaysdate = \Morilog\Jalali\Jalalian::now()->format('%A, %d %B %y');
+
+
+        $topmenu = Topmenu::all();
+
 
         foreach ($pagesettings as $ps) {
             switch ($ps->type) {
@@ -67,7 +75,34 @@ class HomeController extends Controller
             }
         }
 
-        return view('home', compact('news', 'iframes', 'rules', 'games', 'stats', 'aboutus', 'contactus', 'copyright'));
+        $data = [
+            'news',
+            'iframes',
+            'rules',
+            'games',
+            'stats',
+            'aboutus',
+            'contactus',
+            'copyright',
+            'todaysdate'
+        ];
+
+        $viewname = 'home';
+        if (env('APP_NAME') != 'jahad') {
+            $viewname = 'khamenei';
+
+            $data = [
+                'news',
+                'topmenu',
+                'todaysdate'
+            ];
+        }
+
+        // return view($viewname, compact('news', 'iframes', 'rules', 'games', 'stats', 'aboutus', 'contactus', 'copyright'));
+        return view($viewname, compact('topmenu', 'news', 'todaysdate'));
+        // return View::make($viewname, compact('topmenu'));
+
+
         //return view('index');
     }
 }
