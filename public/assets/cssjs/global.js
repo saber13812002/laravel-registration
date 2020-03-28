@@ -194,46 +194,46 @@ $(document).ready(function() {
 */
     currClassName= $(this).attr("class");
     var _pos=0;
-    var _bgPos=-434;
+    var _bgPos=-473;
     if (currClassName=="menu-videos"){
-      _pos=380;
-	  _bgPos=-4;
-	}else if (currClassName=="menu-audios"){
-      _pos=252;
-	  _bgPos=-27;
-	}else if (currClassName=="menu-photos"){
-      _pos=270;
-	  _bgPos=-61;
-	}else if (currClassName=="menu-book"){
-      _pos=335;
-	  _bgPos=-91;
-	}else if (currClassName=="menu-keywords"){
-      _pos=335;
-	  _bgPos=-131;
-	}else if (currClassName=="menu-yad"){
-      _pos=289;
-	  _bgPos=-158;
-	}else if (currClassName=="menu-memories"){
-      _pos=295;
-	  _bgPos=-158;
-	}else if (currClassName=="menu-hadith"){
-      _pos=245;
-	  _bgPos=-203;
-	}else if (currClassName=="menu-kharej"){
-      _pos=195;
-	  _bgPos=-269;
-	}else if (currClassName=="menu-treatise"){
       _pos=130;
-	  _bgPos=-314;
-	}else if (currClassName=="menu-speeches"){
-      _pos=-20
-      ;
-	  _bgPos=-365;
-	}else if (currClassName=="menu-biography"){
+	  _bgPos=-322;
+	}else if (currClassName=="menu-audios"){
+      _pos=130;
+	  _bgPos=-344;
+	}else if (currClassName=="menu-photos"){
+      _pos=-20;
+	  _bgPos=-377;
+	}else if (currClassName=="menu-book"){
       _pos=60;
-	  _bgPos=-402;
-	}else if (currClassName=="menu-news"){
-	  _bgPos=-447;
+	  _bgPos=-409;
+	}else if (currClassName=="menu-keywords"){
+    _pos=335;
+  _bgPos=-131;
+}else if (currClassName=="menu-yad"){
+    _pos=289;
+  _bgPos=-158;
+}else if (currClassName=="menu-memories"){
+    _pos=295;
+  _bgPos=-158;
+}else if (currClassName=="menu-hadith"){
+    _pos=245;
+  _bgPos=-203;
+}else if (currClassName=="menu-kharej"){
+    _pos=195;
+  _bgPos=-269;
+}else if (currClassName=="menu-treatise"){
+    _pos=130;
+  _bgPos=-314;
+}else if (currClassName=="menu-speeches"){
+    _pos=-20
+    ;
+  _bgPos=-365;
+}else if (currClassName=="menu-biography"){
+    _pos=60;
+  _bgPos=-402;
+}else if (currClassName=="menu-news"){
+	  _bgPos=-448;
 	}else if (currClassName=="menu-homepage"){
 	  _bgPos=-473;
 	}
