@@ -43,53 +43,6 @@
 			src: './assets/themes/fonts/bnazanin.ttf';
 		}
 
-		.dideo-tooltip {
-			position: relative;
-			display: inline-block;
-			font-family: 'bnazanin';
-			font-size: 0;
-			padding: 3px 5px;
-		}
-
-		.dideo-tooltip .tooltiptext {
-			visibility: hidden;
-			font-family: 'bnazanin';
-			width: 120px;
-			font-size: 13px;
-			background-color: black;
-			color: #fff;
-			text-align: center;
-			border-radius: 6px;
-			padding: 5px 0;
-			position: absolute;
-			z-index: 1;
-			top: 0px;
-			left: 110%;
-		}
-
-		.dideo-img {
-			width: 18px;
-			height: 18px;
-			margin-bottom: -3px;
-			filter: drop-shadow(0px 0px 2px #adadad);
-			webkit: filter: drop-shadow(0px 0px 2px #adadad);
-		}
-
-		.dideo-tooltip .tooltiptext::after {
-			content: "";
-			position: absolute;
-			top: 50%;
-			right: 100%;
-			margin-top: -5px;
-			border-width: 5px;
-			border-style: solid;
-			border-color: transparent black transparent transparent;
-		}
-
-		.dideo-tooltip:hover .tooltiptext {
-			visibility: visible;
-		}
-
 		.srg {
 			min-width: 750px;
 		}
@@ -124,37 +77,6 @@
 
 
 	<style type="text/css">
-		/*
-				
-				#photo-list .box-inner-vertical li a img,
-				#audio-list .box-inner-vertical li a img,
-				#video-list .box-inner-vertical li a img,
-				.divAds,
-				#selections-list li img,
-				
-				.divTitr1,
-				.divTitr2{
-					-moz-filter: grayscale(90%);
-					-webkit-filter: grayscale(90%);
-					-ms-filter: grayscale(90%);
-					-o-filter: grayscale(90%);
-					filter: grayscale(90%);
-					
-					-moz-transition:all ease-out 0.3s;
-					-webkit-transition:all ease-out 0.3s;
-					-ms-transition:all ease-out 0.3s;
-					-o-transition:all ease-out 0.3s;
-					transition:all ease-out 0.3s;
-				}
-				
-				.divTitr1:hover,.divTitr2:hover, .divAds:hover{
-					-moz-filter: grayscale(0%);
-					-webkit-filter: grayscale(0%);
-					-ms-filter: grayscale(0%);
-					-o-filter: grayscale(0%);
-					filter: grayscale(0%);
-				}
-				*/
 		#features .divTitr1 {
 			position: relative;
 		}
@@ -185,24 +107,8 @@
 			-ms-transition: all ease-out 0.3s;
 			-o-transition: all ease-out 0.3s;
 			transition: all ease-out 0.3s;
-			/*
-					-moz-filter: grayscale(90%);
-					-webkit-filter: grayscale(90%);
-					-ms-filter: grayscale(90%);
-					-o-filter: grayscale(90%);
-					filter: grayscale(90%);
-					*/
 		}
 
-		/*
-				div.footerLogo18x div{
-					-moz-filter: grayscale(90%);
-					-webkit-filter: grayscale(90%);
-					-ms-filter: grayscale(90%);
-					-o-filter: grayscale(90%);
-					filter: grayscale(90%);
-				}
-				*/
 		#scroll-top i {
 			display: block;
 			width: 100%;
@@ -238,15 +144,6 @@
 			transform: rotate(0deg);
 		}
 
-		/*
-				div.footerLogo18x div a img, #scroll-top, .navigate-up, .navigate-down, #multimedia .box-head-bg, #selections-list #points1{
-					-webkit-filter:grayscale(90%);
-					-moz-filter:grayscale(90%);
-					-ms-filter:grayscale(90%);
-					-o-filter:grayscale(90%);
-					filter:grayscale(90%);
-				}
-				*/
 		@media only screen and (max-width: 1065px) {
 			#scroll-top {
 				bottom: -1px;
@@ -459,7 +356,7 @@
 									<br>
 									<br>
 									<br>
-									&nbsp;&nbsp; <a href="./speech-content?id=45076"><span style="color:#ffffff;">بیانات</span></a><span style="color:#ffffff;"> | </span><a href="./photo-album?id=45066"><span style="color:#ffffff;">عکس</span></a><span style="color:#ffffff;"> | </span><a href="./video-content?id=45089"><span style="color:#ffffff;">فیلم</span></a>
+									&nbsp;&nbsp; <a href="./speech-content?id=45076"><span style="color:#ffffff;">بیانات</span></a><span style="color:#ffffff;"> | </span><a href="./photo-content?id=45066"><span style="color:#ffffff;">عکس</span></a><span style="color:#ffffff;"> | </span><a href="./video-content?id=45089"><span style="color:#ffffff;">فیلم</span></a>
 								</div>
 							</div>
 						</div>
@@ -502,10 +399,10 @@
 										<a href="./redirect?id=45122&amp;u=./audio-content?id=45106" title="1398/12/16"><img alt="کلیپ صوتی | در سختی‌ها، پروردگارت را یاد کن" src="./assets/ndata/smps(2).jpg"><span>کلیپ صوتی | در سختی‌ها، پروردگارت را یاد کن</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./redirect?id=45125&amp;u=./photo-album?id=45110" title="1398/12/15"><img alt="با صحیفه سجادیه انس داشته باشید" src="./assets/ndata/smps(3).jpg"><span>با صحیفه سجادیه انس داشته باشید</span></a>
+										<a href="./redirect?id=45125&amp;u=./photo-content?id=45110" title="1398/12/15"><img alt="با صحیفه سجادیه انس داشته باشید" src="./assets/ndata/smps(3).jpg"><span>با صحیفه سجادیه انس داشته باشید</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./redirect?id=45124&amp;u=./photo-album?id=45108" title="1398/12/15"><img alt="توصیه‌های رهبر انقلاب در مقابله با کرونا" src="./assets/ndata/smps(4).jpg"><span>توصیه‌های رهبر انقلاب در مقابله با کرونا</span></a>
+										<a href="./redirect?id=45124&amp;u=./photo-content?id=45108" title="1398/12/15"><img alt="توصیه‌های رهبر انقلاب در مقابله با کرونا" src="./assets/ndata/smps(4).jpg"><span>توصیه‌های رهبر انقلاب در مقابله با کرونا</span></a>
 									</li>
 									<li style="float: right;">
 										<a href="./redirect?id=44849&amp;u=./message-content?id=45111" title="1398/12/15"><img alt="پیام تسلیت در پی درگذشت حجت‌الاسلام محسن حبیبی" src="./assets/ndata/smps(5).jpg"><span>پیام تسلیت در پی درگذشت حجت‌الاسلام محسن حبیبی</span></a>
@@ -1360,40 +1257,40 @@
 								<div id="photo-list" class="box-inside-wrapper" rel="next">
 									<ul class="box-inner-vertical">
 										<li>
-											<a href="./photo-album?id=45133" title="1398/12/16"><img alt="قدردان دلتنگی‌های شما..." src="./assets/ndata/smps(12).jpg">قدردان دلتنگی‌های شما...</a>
+											<a href="./photo-content?id=45133" title="1398/12/16"><img alt="قدردان دلتنگی‌های شما..." src="./assets/ndata/smps(12).jpg">قدردان دلتنگی‌های شما...</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45120" title="1398/12/16"><img alt="جهادگران دیروز و امروز و فردا" src="./assets/ndata/smps(13).jpg">جهادگران دیروز و امروز و فردا</a>
+											<a href="./photo-content?id=45120" title="1398/12/16"><img alt="جهادگران دیروز و امروز و فردا" src="./assets/ndata/smps(13).jpg">جهادگران دیروز و امروز و فردا</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45116" title="1398/12/15"><img alt="قلوب جریحه‌دار" src="./assets/ndata/smps(14).jpg">قلوب جریحه‌دار</a>
+											<a href="./photo-content?id=45116" title="1398/12/15"><img alt="قلوب جریحه‌دار" src="./assets/ndata/smps(14).jpg">قلوب جریحه‌دار</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45110" title="1398/12/15"><img alt="اطلاع‌نگاشت | انس با صحیفه سجادیه" src="./assets/ndata/smps(15).jpg">اطلاع‌نگاشت | انس با صحیفه سجادیه</a>
+											<a href="./photo-content?id=45110" title="1398/12/15"><img alt="اطلاع‌نگاشت | انس با صحیفه سجادیه" src="./assets/ndata/smps(15).jpg">اطلاع‌نگاشت | انس با صحیفه سجادیه</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45108" title="1398/12/15"><img alt="اطلاع‌نگاشت | توصیه‌های رهبر انقلاب در مقابله با کرونا" src="./assets/ndata/smps(16).jpg">اطلاع‌نگاشت | توصیه‌های رهبر انقلاب در مقابله با کرونا</a>
+											<a href="./photo-content?id=45108" title="1398/12/15"><img alt="اطلاع‌نگاشت | توصیه‌های رهبر انقلاب در مقابله با کرونا" src="./assets/ndata/smps(16).jpg">اطلاع‌نگاشت | توصیه‌های رهبر انقلاب در مقابله با کرونا</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45099" title="1398/12/14"><img alt="اطلاع‌نگاشت | فقط باید از خدا خواست" src="./assets/ndata/smps(17).jpg">اطلاع‌نگاشت | فقط باید از خدا خواست</a>
+											<a href="./photo-content?id=45099" title="1398/12/14"><img alt="اطلاع‌نگاشت | فقط باید از خدا خواست" src="./assets/ndata/smps(17).jpg">اطلاع‌نگاشت | فقط باید از خدا خواست</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45102" title="1398/12/14"><img alt="سخن نگاشت | تشکیلات قوی شیعه ویژگی دوران امام جواد علیه‌السلام" src="./assets/ndata/smps(18).jpg">سخن نگاشت | تشکیلات قوی شیعه ویژگی دوران امام جواد علیه‌السلام</a>
+											<a href="./photo-content?id=45102" title="1398/12/14"><img alt="سخن نگاشت | تشکیلات قوی شیعه ویژگی دوران امام جواد علیه‌السلام" src="./assets/ndata/smps(18).jpg">سخن نگاشت | تشکیلات قوی شیعه ویژگی دوران امام جواد علیه‌السلام</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45066" title="1398/12/13"><img alt="کاشت نهال در آستانه روز درختکاری" rel="./assets/ndata/news/45066/smps.jpg">کاشت نهال در آستانه روز درختکاری</a>
+											<a href="./photo-content?id=45066" title="1398/12/13"><img alt="کاشت نهال در آستانه روز درختکاری" rel="./assets/ndata/news/45066/smps.jpg">کاشت نهال در آستانه روز درختکاری</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45079" title="1398/12/13"><img alt="سخن نگاشت | کاشت نهال در آستانه روز درختکاری" rel="./assets/ndata/news/45079/smps.jpg">سخن نگاشت | کاشت نهال در آستانه روز درختکاری</a>
+											<a href="./photo-content?id=45079" title="1398/12/13"><img alt="سخن نگاشت | کاشت نهال در آستانه روز درختکاری" rel="./assets/ndata/news/45079/smps.jpg">سخن نگاشت | کاشت نهال در آستانه روز درختکاری</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45065" title="1398/12/13"><img alt="تصاویری از مرحوم سیدمحمد میرمحمدی در کنار رهبر انقلاب" rel="./assets/ndata/news/45065/smps.jpg">تصاویری از مرحوم سیدمحمد میرمحمدی در کنار رهبر انقلاب</a>
+											<a href="./photo-content?id=45065" title="1398/12/13"><img alt="تصاویری از مرحوم سیدمحمد میرمحمدی در کنار رهبر انقلاب" rel="./assets/ndata/news/45065/smps.jpg">تصاویری از مرحوم سیدمحمد میرمحمدی در کنار رهبر انقلاب</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45040" title="1398/12/08"><img alt="پزشکان و پرستاران، اجرتان با خدا" rel="./assets/ndata/news/45040/smps.jpg">پزشکان و پرستاران، اجرتان با خدا</a>
+											<a href="./photo-content?id=45040" title="1398/12/08"><img alt="پزشکان و پرستاران، اجرتان با خدا" rel="./assets/ndata/news/45040/smps.jpg">پزشکان و پرستاران، اجرتان با خدا</a>
 										</li>
 										<li>
-											<a href="./photo-album?id=45034" title="1398/12/08"><img alt="پیام تشکر از زحمات پزشکان و پرستاران در مبارزه با کرونا" rel="./assets/ndata/news/45034/smps.jpg">پیام تشکر از زحمات پزشکان و پرستاران در مبارزه با کرونا</a>
+											<a href="./photo-content?id=45034" title="1398/12/08"><img alt="پیام تشکر از زحمات پزشکان و پرستاران در مبارزه با کرونا" rel="./assets/ndata/news/45034/smps.jpg">پیام تشکر از زحمات پزشکان و پرستاران در مبارزه با کرونا</a>
 										</li>
 										<li class="__last" style="width: 1px; height: 1px; visibility: hidden;"></li>
 									</ul>
@@ -1606,7 +1503,7 @@
 							<div id="appended-list" class="box-inside-wrapper" rel="next" style="direction: rtl;">
 								<ul class="box-inner-horizontal">
 									<li style="float: right;">
-										<a href="./photo-album?id=44582" title=""><img alt="لوح: یا حسین فرماندهی از آن توست..." src="./assets/ndata/44582.jpg"><span>لوح: یا حسین فرماندهی از آن توست...</span></a>
+										<a href="./photo-content?id=44582" title=""><img alt="لوح: یا حسین فرماندهی از آن توست..." src="./assets/ndata/44582.jpg"><span>لوح: یا حسین فرماندهی از آن توست...</span></a>
 									</li>
 									<li style="float: right;">
 										<a href="./others-note?id=44644" title=""><img alt="تحلیل: خون‌آوردهای حاج‌قاسم" src="./assets/ndata/44644.jpg"><span>تحلیل: خون‌آوردهای حاج‌قاسم</span></a>
@@ -1621,7 +1518,7 @@
 										<a href="./message-content?id=44554" title=""><img alt="پیام تسلیت در پی شهادت شهید سپهبد قاسم سلیمانی" src="./assets/ndata/44554.jpg"><span>پیام تسلیت در پی شهادت شهید سپهبد قاسم سلیمانی</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44571" title=""><img alt="سخن‌نگاشت پیام تسلیت " src="./assets/ndata/44571.jpg"><span>سخن‌نگاشت پیام تسلیت </span></a>
+										<a href="./photo-content?id=44571" title=""><img alt="سخن‌نگاشت پیام تسلیت " src="./assets/ndata/44571.jpg"><span>سخن‌نگاشت پیام تسلیت </span></a>
 									</li>
 									<li style="float: right;">
 										<a href="./message-content?id=44555" title=""><img alt="" src="./assets/ndata/44555.jpg"><span>انتصاب سردار سرتیپ قاآنی به فرماندهی نیرو قدس سپاه</span></a>
@@ -1633,10 +1530,10 @@
 										<a href="./speech-content?id=44574" title=""><img rel="/ndata/news/appends/44574.jpg" alt="بیانات در منزل سپهبد شهید حاج قاسم سلیمانی"><span>بیانات در منزل سپهبد شهید حاج قاسم سلیمانی</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44566" title=""><img rel="/ndata/news/appends/44566.jpg" alt="تصاویر حضور در منزل سپهبد شهید سلیمانی"><span>تصاویر حضور در منزل سپهبد شهید سلیمانی</span></a>
+										<a href="./photo-content?id=44566" title=""><img rel="/ndata/news/appends/44566.jpg" alt="تصاویر حضور در منزل سپهبد شهید سلیمانی"><span>تصاویر حضور در منزل سپهبد شهید سلیمانی</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44572" title=""><img rel="/ndata/news/appends/44572.jpg" alt="سخن‌نگاشت حضور در منزل سپهبد شهید سلیمانی"><span>سخن‌نگاشت حضور در منزل سپهبد شهید سلیمانی</span></a>
+										<a href="./photo-content?id=44572" title=""><img rel="/ndata/news/appends/44572.jpg" alt="سخن‌نگاشت حضور در منزل سپهبد شهید سلیمانی"><span>سخن‌نگاشت حضور در منزل سپهبد شهید سلیمانی</span></a>
 									</li>
 									<li style="float: right;">
 										<a href="./video-content?id=44595" title=""><img rel="/ndata/news/appends/44595.jpg" alt="فیلم حضور در منزل سپهبد شهید حاج قاسم سلیمانی"><span>فیلم حضور در منزل سپهبد شهید حاج قاسم سلیمانی</span></a>
@@ -1651,34 +1548,34 @@
 										<a href="./video-content?id=44573" title=""><img rel="/ndata/news/appends/44573.jpg" alt="نماهنگ | رقص در خون"><span>نماهنگ | رقص در خون</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44560" title=""><img rel="/ndata/news/appends/44560.jpg" alt="لوح | سردار بزرگ و پر افتخار اسلام آسمانی شد"><span>لوح | سردار بزرگ و پر افتخار اسلام آسمانی شد</span></a>
+										<a href="./photo-content?id=44560" title=""><img rel="/ndata/news/appends/44560.jpg" alt="لوح | سردار بزرگ و پر افتخار اسلام آسمانی شد"><span>لوح | سردار بزرگ و پر افتخار اسلام آسمانی شد</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44582" title=""><img rel="/ndata/news/appends/44582.jpg" alt="لوح | یا حسین فرماندهی از آن توست..."><span>لوح | یا حسین فرماندهی از آن توست...</span></a>
+										<a href="./photo-content?id=44582" title=""><img rel="/ndata/news/appends/44582.jpg" alt="لوح | یا حسین فرماندهی از آن توست..."><span>لوح | یا حسین فرماندهی از آن توست...</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44569" title=""><img rel="/ndata/news/appends/44569.jpg" alt="لوح | دلبستگان مقاومت، خونخواهان سلیمانی آسمانی"><span>لوح | دلبستگان مقاومت، خونخواهان سلیمانی آسمانی</span></a>
+										<a href="./photo-content?id=44569" title=""><img rel="/ndata/news/appends/44569.jpg" alt="لوح | دلبستگان مقاومت، خونخواهان سلیمانی آسمانی"><span>لوح | دلبستگان مقاومت، خونخواهان سلیمانی آسمانی</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44577" title=""><img rel="/ndata/news/appends/44577.jpg" alt="لوح | انتقام سخت"><span>لوح | انتقام سخت</span></a>
+										<a href="./photo-content?id=44577" title=""><img rel="/ndata/news/appends/44577.jpg" alt="لوح | انتقام سخت"><span>لوح | انتقام سخت</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44564" title=""><img rel="/ndata/news/appends/44564.jpg" alt="لوح | سلیمانی آسمانی"><span>لوح | سلیمانی آسمانی</span></a>
+										<a href="./photo-content?id=44564" title=""><img rel="/ndata/news/appends/44564.jpg" alt="لوح | سلیمانی آسمانی"><span>لوح | سلیمانی آسمانی</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44601" title=""><img rel="/ndata/news/appends/44601.jpg" alt="مجموعه لوح | سردار آسمانی"><span>مجموعه لوح | سردار آسمانی</span></a>
+										<a href="./photo-content?id=44601" title=""><img rel="/ndata/news/appends/44601.jpg" alt="مجموعه لوح | سردار آسمانی"><span>مجموعه لوح | سردار آسمانی</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44587" title=""><img rel="/ndata/news/appends/44587.jpg" alt="لوح |خط جهاد ادامه دارد"><span>لوح |خط جهاد ادامه دارد</span></a>
+										<a href="./photo-content?id=44587" title=""><img rel="/ndata/news/appends/44587.jpg" alt="لوح |خط جهاد ادامه دارد"><span>لوح |خط جهاد ادامه دارد</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44565" title=""><img rel="/ndata/news/appends/44565.jpg" alt="تصاویری از شهید سپهبد قاسم سلیمانی در کنار رهبر انقلاب"><span>تصاویری از شهید سپهبد قاسم سلیمانی در کنار رهبر انقلاب</span></a>
+										<a href="./photo-content?id=44565" title=""><img rel="/ndata/news/appends/44565.jpg" alt="تصاویری از شهید سپهبد قاسم سلیمانی در کنار رهبر انقلاب"><span>تصاویری از شهید سپهبد قاسم سلیمانی در کنار رهبر انقلاب</span></a>
 									</li>
 									<li style="float: right;">
 										<a href="./news-content?id=44603" title=""><img rel="/ndata/news/appends/44603.jpg" alt="اقامه نماز بر پیکر شهید سپهبد قاسم سلیمانی"><span>اقامه نماز بر پیکر شهید سپهبد قاسم سلیمانی</span></a>
 									</li>
 									<li style="float: right;">
-										<a href="./photo-album?id=44606" title=""><img rel="/ndata/news/appends/44606.jpg" alt="تصاویر اقامه نماز بر پیکر شهید سپهبد قاسم سلیمانی"><span>تصاویر اقامه نماز بر پیکر شهید سپهبد قاسم سلیمانی</span></a>
+										<a href="./photo-content?id=44606" title=""><img rel="/ndata/news/appends/44606.jpg" alt="تصاویر اقامه نماز بر پیکر شهید سپهبد قاسم سلیمانی"><span>تصاویر اقامه نماز بر پیکر شهید سپهبد قاسم سلیمانی</span></a>
 									</li>
 									<li style="float: right;">
 										<a href="./video-content?id=44605" title=""><img rel="/ndata/news/appends/44605.jpg" alt="فیلم اقامه نماز بر پیکر شهید سپهبد قاسم سلیمانی"><span>فیلم اقامه نماز بر پیکر شهید سپهبد قاسم سلیمانی</span></a>
@@ -1790,194 +1687,22 @@
 		<div align="center" id="footersitemap">
 			<div style="width:957px;overflow: hidden;text-align:center" align="right">
 				<div class="footer">
+
+					@if($topmenu2)
+					@foreach($topmenu2 as $menu)
 					<ul>
 						<li class="titr">
-							<a href="./speech">بيانات</a>
+							<a href="{{ $menu['link'] }}" title="">{{ $menu['label'] }}</a>
 						</li>
-						<li>
-							<a href="./selected-index">گزیده بیانات</a>
-						</li>
-						<li>
-							<a href="./speech?nt=4">پیام‌ها و نامه‌ها</a>
-						</li>
-						<li>
-							<a href="./speech?nt=3">نقشه راه</a>
-						</li>
-						<li>
-							<a href="./news-index?nt=49">مرور سریع</a>
-						</li>
-						<li>
-							<a href="./news2?nt=52">پیشخوان</a>
-						</li>
-						<li>
-							<a href="./speech?nt=32">ابلاغیه</a>
-						</li>
-						<li>
-							<a href="./keyword-index">جستار</a>
-						</li>
-						<li>
-							<a title="آرشیو موضوعی بیانات" href="./speech-topic">موضوعی</a>
-						</li>
-						<li>
-							<a href="./speech-quran?npt=7">قرآن</a>
-						</li>
-						<li>
-							<a href="./speech-hadis?npt=8">حدیث</a>
-						</li>
-						<li>
-							<a href="./speech-nahj?npt=9">نهج‌البلاغه</a>
-						</li>
-						<li>
-							<a href="./speech-family">خانواده ایرانی</a>
-						</li>
+						@if( $menu['child'] )
+						@foreach( $menu['child'] as $child )
+						<li><a href="{{ $child['link'] }}" title="">{{ $child['label'] }}</a></li>
+						@endforeach
+						@endif
 					</ul>
-					<ul>
-						<li class="titr">
-							<a href="./news-index">اخبار</a>
-						</li>
-						<li>
-							<a href="./news-index">خبر</a>
-						</li>
-						<li>
-							<a href="./around-index">حاشیه دیدارها</a>
-						</li>
-						<li>
-							<a href="./news-index?nt=50">روزنگار</a>
-						</li>
-						<li>
-							<a href="./page?id=20991">عضویت در سامانه پیامکی</a>
-						</li>
-						<li>
-							<a href="./email-register">عضویت</a>
-						</li>
-					</ul>
-					<ul>
-						<li class="titr">
-							<a href="./memory-index">خاطرات</a>
-						</li>
-						<li>
-							<a href="./memory-index">خاطرات</a>
-						</li>
-						<li>
-							<a href="./memory-content?id=5467">زندگی‌نامه</a>
-						</li>
-					</ul>
-					<ul>
-						<li class="titr">
-							<a href="./treatise-index">علمی - فقهی</a>
-						</li>
-						<li>
-							<a href="./treatise-index">استفتائات</a>
-						</li>
-						<li>
-							<a href="./page?id=7102">راهنمای فتاوا</a>
-						</li>
-						<li>
-							<a title="" href="./news-index?nt=56">رساله آموزشی</a>
-						</li>
-						<li>
-							<a href="./tag-content?id=5478">استهلال ماهانه</a>
-						</li>
-						<li>
-							<a href="./page?id=7100">درس خارج</a>
-						</li>
-						<li>
-							<a href="./hadis-index">شرح حدیث</a>
-						</li>
-						<li>
-							<a href="./treatise-imam">
-								توضيح المسائل امام
-							</a>
-						</li>
-					</ul>
-					<ul>
-						<li class="titr">
-							<a href="./others">دیگران</a>
-						</li>
-						<li>
-							<a href="./others-index?type=12">یادداشت</a>
-						</li>
-						<li>
-							<a href="./others-index?type=13">گفتگو</a>
-						</li>
-						<li>
-							<a href="./others-index?type=14">خاطره</a>
-						</li>
-						<li>
-							<a href="./others-index?type=22">گزارش</a>
-						</li>
-						<li>
-							<a href="./others-index?type=11">آرشیو پرونده ها</a>
-						</li>
-						<li>
-							<a href="./others-index?type=33">صفحه ویژه</a>
-						</li>
-					</ul>
-					<ul>
-						<li class="titr">
-							<a href="./book">کتاب</a>
-						</li>
-						<li>
-							<a href="./book-archive?nt=46">تلمیحات و اشارات</a>
-						</li>
-						<li>
-							<a href="./book-archive?nt=38&amp;oid=30">کتابخانه</a>
-						</li>
-						<li>
-							<a href="./book-archive?nt=38&amp;oid=21">انتشارات</a>
-						</li>
-					</ul>
-					<ul>
-						<li class="titr">
-							<a href="./photo-index">عکس</a>
-						</li>
-						<li>
-							<a href="./photo-index?type=speech">تصاویر دیدارها</a>
-						</li>
-						<li>
-							<a href="./photo-index?type=selected">تصاویر ویژه</a>
-						</li>
-						<li>
-							<a href="./photo-index?type=poster">پوستر/سایز اصلی</a>
-						</li>
-						<li>
-							<a href="./news-index?nt=51">چندرسانه‌ای</a>
-						</li>
-					</ul>
-					<ul>
-						<li class="titr">
-							<a href="./audio-index">صوت</a>
-						</li>
-						<li>
-							<a href="./audio-index?type=speech">صوت کامل بیانات</a>
-						</li>
-						<li>
-							<a href="./audio-index?type=selected">صوت گزیده بیانات</a>
-						</li>
-						<li>
-							<a href="./audio-index?type=clip">کلیپ صوتی</a>
-						</li>
-						<li>
-							<a href="./podcast">نسخه پادکست</a>
-						</li>
-					</ul>
-					<ul>
-						<li class="titr">
-							<a href="./video-index">فیلم</a>
-						</li>
-						<li>
-							<a href="./video-index?type=speech">فیلم دیدارها</a>
-						</li>
-						<li>
-							<a href="./video-index?type=selected">گزیده دیدارها</a>
-						</li>
-						<li>
-							<a href="./video-index?type=clip">نماهنگ</a>
-						</li>
-						<li>
-							<a title="" href="./video-index?type=news">گزارش خبری</a>
-						</li>
-					</ul>
+					@endforeach
+					@endif
+
 				</div>
 			</div>
 			<div style="width:960px; padding:10px 10px 10px 0; height:26px;">
