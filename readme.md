@@ -3,7 +3,7 @@
 
 ## Demo
 
-https://wiki.liara.run
+/
 
 ## Installation: https://github.com/saber13812002/laravel-registration/wiki
 

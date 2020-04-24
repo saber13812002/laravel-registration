@@ -47,18 +47,21 @@ Route::group([
 
         'documents'             => DocumentController::class,
 
-        'timesheets'            => TimesheetController::class,
-        'periods'               => PeriodController::class,
-        'bakhshes'              => BakhshController::class,
-        'shifts'                => ShiftController::class,
+        //basij shift
+        // 'timesheets'            => TimesheetController::class,
+        // 'periods'               => PeriodController::class,
+        // 'bakhshes'              => BakhshController::class,
+        // 'shifts'                => ShiftController::class,
         
         'page-settings'         => PagesettingController::class,
         'topmenus'              => TopmenuController::class,
         'mymenu'                => MenuController::class,
         'news'                  => NewsController::class,
-        'playgrounds'           => PlaygroundController::class,
-        'matches'               => MatchController::class,
-        'teams'                 => TeamController::class,
+
+        //berimbasket
+        // 'playgrounds'           => PlaygroundController::class,
+        // 'matches'               => MatchController::class,
+        // 'teams'                 => TeamController::class,
 
     ]);
 

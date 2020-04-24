@@ -24,6 +24,8 @@ import Toasted from "vue-toasted";
 Vue.use(VueAxios, axios);
 
 import ShiftComponent from "./components/ShiftComponent.vue";
+import PersonComponent from "./components/PersonComponent.vue";
+import DashboardComponent from "./components/DashboardComponent.vue";
 import HomeComponent from "./components/HomeComponent.vue";
 import RegisterComponent from "./components/RegisterComponent.vue";
 import VerifyComponent from "./components/VerifyComponent.vue";
@@ -35,6 +37,7 @@ import SignoutComponent from "./components/SignoutComponent.vue";
 import MyTeamComponent from "./components/MyTeamComponent.vue";
 import PlaygroundComponent from "./components/PlaygroundComponent.vue";
 import PlaygroundListComponent from "./components/PlaygroundListComponent.vue";
+import BlogComponent from "./components/BlogComponent.vue";
 
 const routes = [
     {
@@ -71,6 +74,21 @@ const routes = [
         name: "shift",
         path: "/shift",
         component: ShiftComponent
+    },
+    {
+        name: "person",
+        path: "/p",
+        component: PersonComponent
+    },
+    {
+        name: "blog",
+        path: "/blog",
+        component: BlogComponent
+    },
+    {
+        name: "dashboard",
+        path: "/dashboard",
+        component: DashboardComponent
     },
     {
         name: "myteam",

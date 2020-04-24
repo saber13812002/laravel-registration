@@ -56,7 +56,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://wiki.liara.run";
+        : "/";
     },
     isLoggedIn() {
       if (localStorage.getItem("jwt")) {
@@ -83,7 +83,7 @@ export default {
           this.isLoad = true;
         })
         .catch(error => {
-          console.log("Error pageValues");
+          console.log("Error pageValues getInit headerComponent");
           console.log(error);
         });
     }
