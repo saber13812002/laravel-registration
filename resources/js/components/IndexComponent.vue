@@ -54,7 +54,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "/";
+        : "";
     },
     deletePost(id) {
       let uri = `/api/info/delete/${id}`;

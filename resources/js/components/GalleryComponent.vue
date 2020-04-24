@@ -51,7 +51,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "/";
+        : "";
     },
     isLoggedIn() {
       if (localStorage.getItem("jwt")) {

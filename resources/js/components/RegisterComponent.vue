@@ -93,7 +93,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "/";
+        : "";
     },
     requestOtp() {
       let uri = `${this.url}/api/v1/otp11/${this.formInline1.mobno}`;

@@ -58,7 +58,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "/";
+        : "";
     },
     requestOtp() {
       if (this.$route.params.phone) {

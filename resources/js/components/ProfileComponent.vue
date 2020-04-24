@@ -477,7 +477,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "/";
+        : "";
     },
     onImageChange(e) {
       console.log(e.target.files[0]);

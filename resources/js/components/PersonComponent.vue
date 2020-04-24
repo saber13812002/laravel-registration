@@ -258,7 +258,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "/";
+        : "";
     },
     initUI() {
       for (let i = 0; i < this.tsheet.length; i++) {
