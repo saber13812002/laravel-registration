@@ -105,6 +105,11 @@ then run liara deploy
 
 now you can have a sample demo site like this: wiki.liara.run
 
+
+## .htaccess
+
+if yoursite.com/admin not open please check out your .htaccess files 
+
 ## License:
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
