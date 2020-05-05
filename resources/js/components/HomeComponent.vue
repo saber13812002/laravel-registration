@@ -33,6 +33,7 @@
     </section>
 
     <GalleryComponent></GalleryComponent>
+    <SokhanranComponent></SokhanranComponent>
     <!-- End Contact -->
   </form>
 </template>
@@ -40,6 +41,7 @@
 <script>
 import HeaderComponent from "../components/HeaderComponent.vue";
 import GalleryComponent from "../components/GalleryComponent.vue";
+import SokhanranComponent from "../components/SokhanranComponent.vue";
 
 export default {
   data() {
@@ -59,7 +61,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://wiki.liara.run";
+        : "";
     },
     isLoggedIn() {
       if (localStorage.getItem("jwt")) {
@@ -71,7 +73,8 @@ export default {
   },
   components: {
     HeaderComponent: HeaderComponent,
-    GalleryComponent: GalleryComponent
+    GalleryComponent: GalleryComponent,
+    SokhanranComponent: SokhanranComponent
   }
 };
 </script>

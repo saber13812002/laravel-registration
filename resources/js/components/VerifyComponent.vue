@@ -58,12 +58,12 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://wiki.liara.run";
+        : "";
     },
     requestOtp() {
       if (this.$route.params.phone) {
         if (this.formInline1.pin.length > 4) {
-          let uri = `${this.url}/api/v1/otp22/${this.$route.params.phone}/${this.formInline1.pin}`;
+          let uri = `/api/v1/otp22/${this.$route.params.phone}/${this.formInline1.pin}`;
           console.log(uri);
           this.axios
             .get(uri)

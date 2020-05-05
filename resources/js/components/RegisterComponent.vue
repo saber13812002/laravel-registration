@@ -87,16 +87,16 @@ export default {
     const jwt = localStorage.getItem("jwt");
     const smsSent = localStorage.getItem("smsSent") ? 1 : 0;
     if (jwt && smsSent == 0) this.$router.push({ path: "/profile" });
-    if (jwt && smsSent == 1) this.$router.push({ path: "/shift" });
+    if (jwt && smsSent == 1) this.$router.push({ path: "/dashboard" });
   },
   methods: {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://wiki.liara.run";
+        : "";
     },
     requestOtp() {
-      let uri = `${this.url}/api/v1/otp11/${this.formInline1.mobno}`;
+      let uri = `/api/v1/otp11/${this.formInline1.mobno}`;
       console.log(uri);
       this.axios
         .get(uri)

@@ -51,7 +51,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://wiki.liara.run";
+        : "";
     },
     isLoggedIn() {
       if (localStorage.getItem("jwt")) {
@@ -64,7 +64,7 @@ export default {
     },
     getInit() {
       this.isLoad = false;
-      let uri = `${this.url}/api/v1/gallery`;
+      let uri = `/api/v1/gallery`;
       console.log(uri);
       this.axios
         .get(uri)
@@ -79,7 +79,7 @@ export default {
           this.isLoad = true;
         })
         .catch(error => {
-          console.log("Error pageValues");
+          console.log("Error pageValues get init galleryComponent");
           console.log(error);
         });
     }

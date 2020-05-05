@@ -29,7 +29,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://wiki.liara.run";
+        : "";
     },
     logout() {
       localStorage.removeItem("jwt");

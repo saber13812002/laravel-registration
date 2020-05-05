@@ -3,7 +3,7 @@
 
 ## Demo
 
-https://wiki.liara.run
+/
 
 ## Installation: https://github.com/saber13812002/laravel-registration/wiki
 
@@ -104,6 +104,11 @@ then install npm liara npm package
 then run liara deploy
 
 now you can have a sample demo site like this: wiki.liara.run
+
+
+## .htaccess
+
+if yoursite.com/admin not open please check out your .htaccess files 
 
 ## License:
 

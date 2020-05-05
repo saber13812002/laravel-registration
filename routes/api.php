@@ -41,6 +41,7 @@ Route::get('v1/period', 'PeriodController@index');
 Route::post('v1/timesheet/mine', 'TimesheetController@index');
 
 Route::get('v1/gallery', 'MultipleImageController@index');
+Route::get('v1/sokhanran', 'SokhanranController@api');
 
 Route::get('v1/playground', 'PlaygroundController@getall');
 Route::get('v1/playground/{lat}/{lng}/{radius}', 'PlaygroundController@get');

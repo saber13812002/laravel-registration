@@ -97,13 +97,16 @@ class HomeController extends Controller
                 'topmenu',
                 'todaysdate'
             ];
-        }
 
-        // return view($viewname, compact('news', 'iframes', 'rules', 'games', 'stats', 'aboutus', 'contactus', 'copyright'));
-        return view($viewname, compact('topmenu','topmenu2', 'news', 'todaysdate'));
-        // return View::make($viewname, compact('topmenu'));
+
+            return view($viewname, compact('topmenu', 'topmenu2', 'news', 'todaysdate'));
+        } else
+            return view($viewname, compact('news', 'iframes', 'rules', 'games', 'stats', 'aboutus', 'contactus', 'copyright'));
+    }
+}
+
 
 
         //return view('index');
-    }
-}
+        // 
+        // return View::make($viewname, compact('topmenu'));

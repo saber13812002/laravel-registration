@@ -156,7 +156,7 @@ export default {
     },
     getPeriod() {
       this.provLoad = false;
-      let uri = `${this.url}/api/v1/period`;
+      let uri = `/api/v1/period`;
       console.log(uri);
       this.axios
         .get(uri)
@@ -174,7 +174,7 @@ export default {
     },
     getMyTimesheet() {
       this.provLoad = false;
-      let uri = `${this.url}/api/v1/timesheet/mine`;
+      let uri = `/api/v1/timesheet/mine`;
       console.log(uri);
       this.axios
         .post(uri, this.infoss)
@@ -205,7 +205,7 @@ export default {
     urlInit() {
       this.url = process.env.MIX_API_URL
         ? process.env.MIX_API_URL
-        : "https://wiki.liara.run";
+        : "";
     },
     initUI() {
       // console.log($(e.target));
@@ -321,7 +321,7 @@ export default {
         ? this.addDays(wd - 1)
         : new Date();
       console.log(this.infoss);
-      let uri = `${this.url}/api/v1/reserve`;
+      let uri = `/api/v1/reserve`;
       this.axios
         .post(uri, this.infoss)
         .then(response => {
