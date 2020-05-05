@@ -29,6 +29,7 @@ class ImageUploadController extends Controller
 
         $imageName = time() . '.' . request()->image->getClientOriginalExtension();
         request()->image->move(public_path('images') . '/avatars', $imageName);
+        // request()->image->move(env('IMAGES_PUBLIC_FOLDER2') . '/avatars', $imageName);
 
         $url = env("APP_URL") . "/images/avatars/" . $imageName;
         $file = file_get_contents($url);
@@ -53,7 +54,10 @@ class ImageUploadController extends Controller
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
         $imageName = time() . '.' . request()->image->getClientOriginalExtension();
-        request()->image->move(public_path('images') . '/avatars', $imageName);
+        if (!env('IMAGES_PUBLIC_FOLDER2'))
+            request()->image->move(public_path('images') . '/avatars', $imageName);
+        else
+            request()->image->move(env('IMAGES_PUBLIC_FOLDER2') . '/avatars', $imageName);
 
         $p = Info::where('token', $request->token)->first();
         $p->profile_picture = $imageName;

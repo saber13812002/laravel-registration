@@ -275,7 +275,7 @@ export default {
     },
     getInit() {
       this.isLoad = false;
-      let uri = `${this.url}/api/v1/sokhanran`;
+      let uri = `/api/v1/sokhanran`;
       console.log(uri);
       this.axios
         .get(uri)
@@ -296,7 +296,7 @@ export default {
     },
     getSokhanran() {
       this.isLoad = false;
-      let uri = `${this.url}/api/v1/sokhanran`;
+      let uri = `/api/v1/sokhanran`;
       console.log(uri);
       this.axios
         .get(uri)

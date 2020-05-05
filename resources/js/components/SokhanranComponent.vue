@@ -674,12 +674,22 @@
                 </div>
               </div>
               <p class="title">CEO & Founder, Example</p>
-  <p>Harvard University</p>
-  <a href="#"><i class="fa fa-dribbble"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-linkedin"></i></a>
-  <a href="#"><i class="fa fa-facebook"></i></a>
-  <p><button>Contact</button></p>
+              <p>Harvard University</p>
+              <a href="#">
+                <i class="fa fa-dribbble"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <p>
+                <button>Contact</button>
+              </p>
             </div>
           </div>
         </div>
@@ -762,9 +772,7 @@ export default {
   },
   methods: {
     urlInit() {
-      this.url = process.env.MIX_API_URL
-        ? process.env.MIX_API_URL
-        : "";
+      this.url = process.env.MIX_API_URL ? process.env.MIX_API_URL : "";
     },
     isLoggedIn() {
       if (localStorage.getItem("jwt")) {
@@ -775,30 +783,10 @@ export default {
         this.loginText = "ورود/ثبت نام";
       }
     },
-    getInit() {
-      this.isLoad = false;
-      let uri = `${this.url}/api/v1/sokhanran`;
-      console.log(uri);
-      this.axios
-        .get(uri)
-        .then(response => {
-          console.log(response);
-          let g = response.data[0].pictures;
-          g.forEach(function(part, index) {
-            this[index] = "uploads/" + this[index];
-          }, g); // use arr as this
-          this.pics = g;
-          console.log(this.gallery);
-          this.isLoad = true;
-        })
-        .catch(error => {
-          console.log("Error pageValues get init sokhanranComponent");
-          console.log(error);
-        });
-    },
+    getInit() {},
     getSokhanran() {
       this.isLoad = false;
-      let uri = `${this.url}/api/v1/sokhanran`;
+      let uri = `/api/v1/sokhanran`;
       console.log(uri);
       this.axios
         .get(uri)
@@ -811,8 +799,8 @@ export default {
               this[index].img =
                 "/images/avatars/" + this[index].profile_picture;
             else this[index].img = "/images/noimage.png";
-
             this[index].link = "/p/" + this[index].id;
+            this[index].link = "/person";
           }, this.sokhanrans);
 
           console.log("sokhanran");
@@ -3149,7 +3137,6 @@ body {
   }
 }
 
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -3181,12 +3168,10 @@ a {
   color: black;
 }
 
-button:hover, a:hover {
+button:hover,
+a:hover {
   opacity: 0.7;
 }
-
-
-
 </style>
 
 <style lang="scss">

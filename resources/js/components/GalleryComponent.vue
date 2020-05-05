@@ -64,7 +64,7 @@ export default {
     },
     getInit() {
       this.isLoad = false;
-      let uri = `${this.url}/api/v1/gallery`;
+      let uri = `/api/v1/gallery`;
       console.log(uri);
       this.axios
         .get(uri)

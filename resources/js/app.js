@@ -77,7 +77,7 @@ const routes = [
     },
     {
         name: "person",
-        path: "/p",
+        path: "/person",
         component: PersonComponent
     },
     {

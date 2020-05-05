@@ -432,7 +432,7 @@ export default {
     const jwt = localStorage.getItem("jwt");
     if (!jwt) this.$router.push({ name: "reg" });
     this.urlInit();
-    let uri = `${this.url}/api/v1/info/me`;
+    let uri = `/api/v1/info/me`;
     console.log(uri);
     this.infoss.token = jwt;
     this.axios
@@ -454,11 +454,11 @@ export default {
           //   this.infoss.profile_picture_cdn == null ? false : true;
           // this.hasPic_cdn = false;
           this.profile_picture =
-            `${this.url}/images/avatars/` + this.infoss.profile_picture;
+            `/images/avatars/` + this.infoss.profile_picture;
           this.profile_picture_cdn = this.infoss.profile_picture_cdn;
         } else {
           this.hasPic = true;
-          this.profile_picture = `${this.url}/images/noimage.png`;
+          this.profile_picture = `/images/noimage.png`;
         }
 
         this.loading = true;
@@ -501,7 +501,7 @@ export default {
       console.log("image uploader start");
 
       axios
-        .post(`${this.url}/api/v1/formSubmit`, formData, config)
+        .post(`/api/v1/formSubmit`, formData, config)
         .then(function(response) {
           let res = response;
           currentObj.success = res.data.success;
@@ -560,7 +560,7 @@ export default {
     },
     updateInfoss() {
       this.save = false;
-      let uri = `${this.url}/api/v1/info/me`;
+      let uri = `/api/v1/info/me`;
       this.axios
         .post(uri, this.infoss)
         .then(response => {
@@ -580,7 +580,7 @@ export default {
     },
     getProvince() {
       this.provLoad = false;
-      let uri = `${this.url}/api/v1/province`;
+      let uri = `/api/v1/province`;
       console.log(uri);
       this.axios
         .get(uri)
@@ -599,7 +599,7 @@ export default {
     },
     getCounty() {
       this.counLoad = false;
-      let uri = `${this.url}/api/v1/county/${this.infoss.province}`;
+      let uri = `/api/v1/county/${this.infoss.province}`;
       console.log(uri);
       this.axios
         .get(uri)
@@ -617,7 +617,7 @@ export default {
     },
     getCity() {
       this.cityLoad = false;
-      let uri = `${this.url}/api/v1/city/${this.infoss.county}`;
+      let uri = `/api/v1/city/${this.infoss.county}`;
       console.log(uri);
       this.axios
         .get(uri)

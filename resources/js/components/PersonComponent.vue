@@ -204,28 +204,6 @@ export default {
   data() {
     return {
       url: "",
-      infoss: {},
-      periods: {},
-      tsheetLoad: false,
-      loading: true,
-      periodLoad: false,
-      save: false,
-      success: "",
-      output: "",
-      editedButNotSaved: false,
-      bakhshes: [],
-      weekday: [],
-      shifts: [],
-      selected: null,
-      lastitem: {},
-      tsheet: {},
-      doorOptions: [
-        { key: 1, value: "رزرو ظرفیت اصلی" },
-        { key: 2, value: "رزرو ظرفیت مازاد" },
-        { key: 3, value: "لغو رزرو" },
-        { key: 4, value: "25" },
-        { key: 5, value: "5" }
-      ]
     };
   },
   created() {
@@ -241,11 +219,6 @@ export default {
   },
   components: {
     MenuComponent: MenuComponent,
-    // BlogComponent: BlogComponent,
-    mdbTbl,
-    mdbTblHead,
-    mdbTblBody,
-    RadioSet
   },
   updated() {
     console.log("updated");
@@ -260,24 +233,6 @@ export default {
         ? process.env.MIX_API_URL
         : "";
     },
-    initUI() {
-      for (let i = 0; i < this.tsheet.length; i++) {
-        let element = this.tsheet[i];
-        this.$refs.myref;
-        console.log(element);
-        console.log(this.$refs.myref);
-        if (element.extra)
-          this.$refs.myref
-            .querySelector("#_" + element.day_of_week + "_" + element.shift_id)
-            .classList.add("selected-item");
-        else
-          this.$refs.myref
-            .querySelector("#_" + element.day_of_week + "_" + element.shift_id)
-            .classList.add("selected-item");
-      }
-      this.loading = true;
-    },
-    getColor() {}
   }
 };
 </script>

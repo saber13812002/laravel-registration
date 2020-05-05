@@ -69,7 +69,7 @@ export default {
     },
     getInit() {
       this.isLoad = false;
-      let uri = `${this.url}/api/v1/init`;
+      let uri = `/api/v1/init`;
       console.log(uri);
       this.axios
         .get(uri)

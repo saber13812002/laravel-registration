@@ -96,7 +96,7 @@ export default {
         : "";
     },
     requestOtp() {
-      let uri = `${this.url}/api/v1/otp11/${this.formInline1.mobno}`;
+      let uri = `/api/v1/otp11/${this.formInline1.mobno}`;
       console.log(uri);
       this.axios
         .get(uri)
