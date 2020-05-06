@@ -86,7 +86,7 @@ export default {
     this.urlInit();
     const jwt = localStorage.getItem("jwt");
     const smsSent = localStorage.getItem("smsSent") ? 1 : 0;
-    if (jwt && smsSent == 0) this.$router.push({ path: "/profile" });
+    if (jwt && smsSent == 0) this.$router.push({ path: "/dashboard/profile" });
     if (jwt && smsSent == 1) this.$router.push({ path: "/dashboard" });
   },
   methods: {

@@ -15,7 +15,7 @@
           </div>
           <div class="navi">
             <ul>
-              <li class="active">
+              <li>
                 <a href="#">
                   <i class="fa fa-home" aria-hidden="true"></i>
                   <span class="hidden-xs hidden-sm">خانه</span>
@@ -39,7 +39,7 @@
                   <span class="hidden-xs hidden-sm">تقویم شما</span>
                 </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="/dashboard/profile">
                   <i class="fa fa-calendar" aria-hidden="true"></i>
                   <span class="hidden-xs hidden-sm">پروفایل</span>
@@ -178,8 +178,10 @@
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
+          <ProfileComponent></ProfileComponent>
         </div>
       </div>
     </div>
@@ -213,6 +215,7 @@
 // import HeaderComponent from "../components/HeaderComponent.vue";
 import SokhanranComponent from "../components/SokhanranComponent.vue";
 import MenuComponent from "../components/MenuComponent.vue";
+import ProfileComponent from "../components/ProfileComponent.vue";
 
 export default {
   data() {
@@ -245,8 +248,8 @@ export default {
   components: {
     // HeaderComponent: HeaderComponent,
     SokhanranComponent: SokhanranComponent,
-
-    MenuComponent: MenuComponent
+    MenuComponent: MenuComponent,
+    ProfileComponent: ProfileComponent
   }
 };
 </script>

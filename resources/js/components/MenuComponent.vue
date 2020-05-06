@@ -57,7 +57,7 @@
                 </a>
               </li>
               <li class="dropdown__menu-item">
-                <a href="/profile" class="dropdown__menu-link" title="Account">
+                <a href="/dashboard/profile" class="dropdown__menu-link" title="Account">
                   <div class="dropdown__menu-svg">
                     <svg viewBox="0 0 496 512">
                       <path
@@ -70,7 +70,7 @@
                 </a>
               </li>
               <li class="dropdown__menu-item">
-                <a href="/profile" class="dropdown__menu-link" title="Personal info">
+                <a href="/dashboard/profile" class="dropdown__menu-link" title="Personal info">
                   <div class="dropdown__menu-svg">
                     <svg viewBox="0 0 576 512">
                       <path

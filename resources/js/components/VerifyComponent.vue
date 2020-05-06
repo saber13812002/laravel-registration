@@ -75,17 +75,17 @@ export default {
                 if (data.status < 300) {
                   localStorage.setItem("jwt", data.token);
                   this.$router.push({
-                    name: "profile",
+                    name: "dashboardProfile",
                     params: { id: data.usr.id, jwt: data.token }
                   });
                 } else {
-                  // this.$router.push({ name: "profile" });
+                  // this.$router.push({ name: "dashboardProfile" });
                   if (data.status == 310) {
                     this.output = "توکن اشتباه است لطفا مجدد تلاش کنید.";
                   }
                 }
               } else {
-                // this.$router.push({ name: "profile" });
+                // this.$router.push({ name: "dashboardProfile" });
                 if (response.status == 310) {
                   this.output = "توکن اشتباه است لطفا مجدد تلاش کنید.";
                 }
@@ -102,7 +102,7 @@ export default {
           this.output = "توکن باید 5 رقمی باشد";
         }
       } else {
-        this.$router.push({ name: "profile" });
+        this.$router.push({ name: "dashboardProfile" });
       }
     }
   }

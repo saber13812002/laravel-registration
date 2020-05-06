@@ -20,12 +20,15 @@ import axios from "axios";
 import App from "./app.vue";
 
 import Toasted from "vue-toasted";
+import Notifications from 'vue-notification'
 
 Vue.use(VueAxios, axios);
+Vue.use(Notifications)
 
 import ShiftComponent from "./components/ShiftComponent.vue";
 import PersonComponent from "./components/PersonComponent.vue";
 import DashboardComponent from "./components/DashboardComponent.vue";
+import DashboardProfileComponent from "./components/DashboardProfileComponent.vue";
 import HomeComponent from "./components/HomeComponent.vue";
 import RegisterComponent from "./components/RegisterComponent.vue";
 import VerifyComponent from "./components/VerifyComponent.vue";
@@ -89,6 +92,11 @@ const routes = [
         name: "dashboard",
         path: "/dashboard",
         component: DashboardComponent
+    },
+    {
+        name: "dashboardProfile",
+        path: "/dashboard/profile",
+        component: DashboardProfileComponent
     },
     {
         name: "myteam",

@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <header class="header">
+    <!-- <header class="header">
       <MenuComponent></MenuComponent>
-    </header>
+    </header>-->
+    <notifications group="foo" />
 
     <div class="wrapper">
       <form :model="infoss" @submit.prevent="updateInfoss" v-if="loading" class="form">
@@ -429,6 +430,7 @@ export default {
   //   DatePicker: VuePersianDatetimePicker
   // },
   created() {
+    this.selected = "sokhanran";
     const jwt = localStorage.getItem("jwt");
     if (!jwt) this.$router.push({ name: "reg" });
     this.urlInit();
@@ -475,9 +477,7 @@ export default {
   },
   methods: {
     urlInit() {
-      this.url = process.env.MIX_API_URL
-        ? process.env.MIX_API_URL
-        : "";
+      this.url = process.env.MIX_API_URL ? process.env.MIX_API_URL : "";
     },
     onImageChange(e) {
       console.log(e.target.files[0]);
@@ -572,6 +572,11 @@ export default {
             // this.$router.push({ path: "/dashboard" });
           }
           this.save = true;
+          this.$notify({
+            group: "foo",
+            title: "فرم ذخیره شد",
+            text: "فرم پروفایل ذخیره شد"
+          });
         })
         .catch(error => {
           console.log("Error login");
