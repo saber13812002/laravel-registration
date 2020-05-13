@@ -16,18 +16,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">وبلاگ</a>
+          <a class="navbar-brand" href="#">Blog Name</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active">
-              <a href="/">خانه</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#about">درباره من</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#contact">تماس با من</a>
+              <a href="#contact">Contact</a>
             </li>
             <li class="dropdown">
               <a
@@ -38,42 +38,42 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                منوی زیرشاخه ای
+                Dropdown
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="#">اکشن اول</a>
+                  <a href="#">Action</a>
                 </li>
                 <li>
-                  <a href="#">اکشن دوم</a>
+                  <a href="#">Another action</a>
                 </li>
                 <li>
-                  <a href="#">اکشن سوم</a>
+                  <a href="#">Something else here</a>
                 </li>
                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">منوی ناوبری</li>
+                <li class="dropdown-header">Nav header</li>
                 <li>
-                  <a href="#">لینک</a>
+                  <a href="#">Separated link</a>
                 </li>
                 <li>
-                  <a href="#">یک لینک دیگه</a>
+                  <a href="#">One more separated link</a>
                 </li>
               </ul>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="../navbar/">منوی </a>
+              <a href="../navbar/">Default</a>
             </li>
             <li class="active">
               <a href="./">
-                منوی استاتیک
-                <span class="sr-only">(منوی کنونی)</span>
+                Static top
+                <span class="sr-only">(current)</span>
               </a>
             </li>
             <li>
-              <a href="../navbar-fixed-top/">منوی ثابت</a>
+              <a href="../navbar-fixed-top/">Fixed top</a>
             </li>
           </ul>
         </div>
@@ -86,33 +86,33 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
-            <h1 class="text-center">عنوان مطلب نوشته شده</h1>
+            <h1 class="text-center">post Title goes here</h1>
             <ul class="list-inline text-center">
-              <li>نویسنده | نوسینده وبلاگ</li>
-              <li>دسته بندی | دین سیاست فرهنگ اقتصاد</li>
-              <li>تاریخ | امروز</li>
+              <li>Author |</li>
+              <li>Category |</li>
+              <li>Date |</li>
             </ul>
           </div>
-          <div class="col-lg-9 col-md-9 col-sm-12" style="background-color: white;">
+          <div class="col-lg-9 col-md-9 col-sm-12">
             <p
               class="lead"
-            >شسیبشسیبشسیبشسیب شسیب شسی بشسی بش سی بسش یب شس یب شسی بش سیب شس یب شسیب سش یب شسیب شس یب شسیب شس یب شسیب .</p>
-            <p>شیسبشسی بشسی ب شسی بشس یب شسی بش سیب شس یبش سیب شسی بش سیب شسی ب شسیب شس یبش سیب شس یبشس یب شسیب شس یب شسیب .</p>
+            >Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
             <div class="well">
               <large>This is image</large>
             </div>
-            <p>شسیبشسیبشسیب شسیب شسیبشس یبشسیبشسی بشسیبشسیب شسی بشسیب شسیب شسیبشس یبشسی بشسیب شسیب شسیب شسیب .</p>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             <blockquote>
-              <p>شسیبشسی بشسی بش سیب شسیب شس یب شسیب شسی بش سیب شسیب شس یبش سیب .</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
               <footer>
-                شسیبشسیبشسیبشسیبشسیب
-                <cite title="Source Title">شسیبشسیبشسیبش</cite>
+                Someone famous in
+                <cite title="Source Title">Source Title</cite>
               </footer>
             </blockquote>
-            <p>شسیبشسیبشسیب شسیب شسیبشس یبشسیبشسی بشسیبشسیب شسی بشسیب شسیب شسیبشس یبشسی بشسیب شسیب شسیب شسیب.</p>
-            <p>شسیبشسیبشسیب شسیب شسیبشس یبشسیبشسی بشسیبشسیب شسی بشسیب شسیب شسیبشس یبشسی بشسیب شسیب شسیب شسیب.</p>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             <blockquote>
-              <p>شسیبشسیبشسیب شسیب شسیبشس یبشسیبشسی بشسیبشسیب شسی بشسیب شسیب شسیبشس یبشسی بشسیب شسیب شسیب شسیب.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
             </blockquote>
 
             <div class="image-block">
@@ -122,12 +122,12 @@
               />
             </div>
 
-            <p>شسیبشسیبشسیب شسیب شسیبشس یبشسیبشسی بشسیبشسیب شسی بشسیب شسیب شسیبشس یبشسی بشسیب شسیب شسیب شسیب.</p>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12">
             <div class="well">
-              <h2>عضویت در خبرنامه این وبلاگ</h2>
-              <p>توضیحات فرم</p>
+              <h2>Subscription Box</h2>
+              <p>Form Description Goes here</p>
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search for..." />
                 <span class="input-group-btn">
@@ -136,7 +136,7 @@
               </div>
             </div>
             <div class="well">
-              <h2>به اشتراک گذاری</h2>
+              <h2>Share love</h2>
               <ul class="list-inline">
                 <li>
                   <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
@@ -153,29 +153,29 @@
               </ul>
             </div>
             <div class="well">
-              <h2>درباره نویسنده</h2>
+              <h2>About Author</h2>
               <img src class="img-rounded" />
-              <p>شسیبشسیبشسیب شسیب شسیبشس یبشسیبشسی بشسیبشسیب شسی بشسیب شسیب شسیبشس یبشسی بشسیب شسیب شسیب شسیب</p>
-              <a href="#" class="btn btn-default">مطالعه بیشتر</a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <a href="#" class="btn btn-default">Read more</a>
             </div>
             <div class="list-group">
               <a class="list-group-item active" href="#">
-                <h4 class="list-group-item-heading">لیست گروپ هدینگ</h4>
+                <h4 class="list-group-item-heading">List group item heading</h4>
                 <p
                   class="list-group-item-text"
-                >شسیبشسیبشسیب شسیب شسیبشس یبشسیبشسی بشسیبشسیب شسی بشسیب شسیب شسیبشس یبشسی بشسیب شسیب شسیب شسیب.</p>
+                >Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
               </a>
               <a class="list-group-item" href="#">
-                <h4 class="list-group-item-heading">لیست گروپ هدینگ</h4>
+                <h4 class="list-group-item-heading">List group item heading</h4>
                 <p
                   class="list-group-item-text"
-                >شسیبشسیبشسیب شسیب شسیبشس یبشسیبشسی بشسیبشسیب شسی بشسیب شسیب شسیبشس یبشسی بشسیب شسیب شسیب شسیب.</p>
+                >Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
               </a>
               <a class="list-group-item" href="#">
-                <h4 class="list-group-item-heading">لیست گروپ هدینگ</h4>
+                <h4 class="list-group-item-heading">List group item heading</h4>
                 <p
                   class="list-group-item-text"
-                >شسیبشسیبشسیب شسیب شسیبشس یبشسیبشسی بشسیبشسیب شسی بشسیب شسیب شسیبشس یبشسی بشسیب شسیب شسیب شسیب.</p>
+                >Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
               </a>
             </div>
             <div class="well">
@@ -193,7 +193,7 @@
                   </a>
                 </div>
                 <div class="media-body">
-                  <h4 class="media-heading">مدیا</h4>شیسبشسیبشسیبشسیب.
+                  <h4 class="media-heading">Media heading</h4>Cras sit amet nibh libero, in gravida nulla.
                 </div>
               </div>
               <div class="media">
@@ -210,7 +210,7 @@
                   </a>
                 </div>
                 <div class="media-body">
-                  <h4 class="media-heading">شسیبشیسب</h4>شیبشسیبشسیبشسیبشسیبشسیبسشیب.
+                  <h4 class="media-heading">Media heading</h4>Cras sit amet nibh libero, in gravida nulla.
                 </div>
               </div>
               <div class="media">
@@ -227,7 +227,7 @@
                   </a>
                 </div>
                 <div class="media-body">
-                  <h4 class="media-heading">لسیبلسیبل</h4>شیبشسیبشسیبشسیبشسیبشسیبسشیب.
+                  <h4 class="media-heading">Media heading</h4>Cras sit amet nibh libero, in gravida nulla.
                 </div>
               </div>
             </div>
@@ -238,7 +238,7 @@
     </section>
 
     <section class="footer-link">
-      <a href="http://bootsnipp.com/grafreez" target="_blank">شسیبشسیبشسیب</a>
+      <a href="http://bootsnipp.com/grafreez" target="_blank">View Our All Snnips</a>
     </section>
   </div>
 </template>
