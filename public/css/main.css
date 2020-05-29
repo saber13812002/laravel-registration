@@ -57,7 +57,7 @@ h5 {
 }
 
 .btn {
-    background-color: #6600CC;
+    background-color: #34a998;
     color: #fff;
     font-size: 13px;
     font-weight: 600;
@@ -82,7 +82,7 @@ h5 {
 	General Styles
 ========================================================================== */
 a {
-    color: #6600CC;
+    color: #34a998;
 }
 
     a:hover, a:focus {
@@ -139,14 +139,14 @@ ul, ol {
     }
 
         .headingsyle h1 span {
-            background: #6600CC;
+            background: #34a998;
             padding: 0 15px;
             position: relative;
             z-index: 1;
         }
 
         .headingsyle h1:before {
-            background: #6600CC;
+            background: #34a998;
             content: "";
             display: block;
             height: 1px;
@@ -183,7 +183,7 @@ ul, ol {
     }
 
     #header .logo {
-        float: left;
+        /* float: left; */
     }
 
     #header.fixed {
@@ -269,7 +269,7 @@ ul, ol {
     }
 
     .nav-toggle:before {
-        background-color: #6600CC;
+        background-color: #34a998;
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         -webkit-transform: scale(1);
@@ -281,7 +281,7 @@ ul, ol {
     }
 
     .nav-toggle:after {
-        background-color: #6600CC;
+        background-color: #34a998;
         -moz-transform: scale(0);
         -ms-transform: scale(0);
         -webkit-transform: scale(0);
@@ -432,13 +432,13 @@ ul, ol {
 }
 
 .feature-content {
-    border: 1px dotted #6600CC;
+    border: 1px dotted #34a998;
     padding: 0 15px;
     margin-top: 30px;
 }
 
 .feature .icon {
-    color: #6600CC;
+    color: #34a998;
     font-size: 60px;
 }
 
@@ -538,7 +538,7 @@ ul, ol {
 .person-content {
     border-style: solid none solid none;
     border-width: 1px 3px 5px 3px;
-    border-color: #6600CC;
+    border-color: #34a998;
     margin-top: 20px;
     padding-right: 10px;
     padding-left: 10px;
@@ -550,7 +550,7 @@ ul, ol {
 }
 
 .person h5 {
-    color: #6600CC;
+    color: #34a998;
     font-size: 13px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -580,8 +580,8 @@ ul, ol {
     }
 
         .social-icons a:hover, .footer .footer-share a:hover {
-            background-color: #6600CC;
-            border-color: #6600CC;
+            background-color: #34a998;
+            border-color: #34a998;
             color: #fff;
         }
 
@@ -721,7 +721,7 @@ ul, ol {
 }
 
     .footer a:hover {
-        color: #6600CC;
+        color: #34a998;
     }
 
 .footer .footer-share {
@@ -739,7 +739,7 @@ ul, ol {
     }
 
 .footer .fa-heart {
-    color: #6600CC;
+    color: #34a998;
     font-size: 11px;
     margin: 0 2px;
 }

@@ -38,7 +38,7 @@ h1 {
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   border-radius: 10px;
   padding: 35px;
-  border-top: 78px solid rgb(65, 125, 244);
+  border-top: 78px solid #34a998;
   padding-top: 0%;
 }
 .wrapper {
