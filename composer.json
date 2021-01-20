@@ -16,7 +16,7 @@
         "kavenegar/laravel": "^1.0",
         "laravel-admin-ext/chartjs": "^1.0",
         "laravel-admin-ext/summernote": "^1.0",
-        "laravel/framework": "5.8.*",
+        "laravel/framework": "6.20.*",
         "laravel/tinker": "^1.0",
         "league/flysystem-aws-s3-v3": "^1.0",
         "morilog/jalali": "3.*",
