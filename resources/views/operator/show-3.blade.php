@@ -23,27 +23,27 @@
 			<ul>
 
 				<li class=" ">
-					<a class="item" href="index.html"><i class="icon mz-cube"></i>پیشخوان </a>
+					<a class="item" href="index"><i class="icon mz-cube"></i>پیشخوان </a>
 
 				</li>
 
 				<li class=" ">
-					<a class="item" href="import.html"><i class="icon mz-folder-plus-o"></i>ورود اطلاعات </a>
+					<a class="item" href="import"><i class="icon mz-folder-plus-o"></i>ورود اطلاعات </a>
 
 				</li>
 
 				<li class=" active">
-					<a class="item" href="show.html"><i class="icon mz-folder-open-o"></i>نمایش اطلاعات </a>
+					<a class="item" href="show"><i class="icon mz-folder-open-o"></i>نمایش اطلاعات </a>
 
 				</li>
 
 				<li class=" ">
-					<a class="item" href="cartable.html"><i class="icon mz-clipboard"></i>کارتابل </a>
+					<a class="item" href="cartable"><i class="icon mz-clipboard"></i>کارتابل </a>
 
 				</li>
 
 				<li class=" ">
-					<a class="item" href="taxonomies.html"><i class="icon mz-list"></i>موضوعات </a>
+					<a class="item" href="taxonomies"><i class="icon mz-list"></i>موضوعات </a>
 
 				</li>
 
@@ -51,21 +51,21 @@
 					<a class="item" href="#"><i class="icon mz-people"></i>دوستان </a>
 					<ul>
 
-						<li class=""><a class="item" href="f-friends.html">لیست دوستان </a></li>
+						<li class=""><a class="item" href="f-friends">لیست دوستان </a></li>
 
-						<li class=""><a class="item" href="f-followers.html">دنبال‌کنندگان من </a></li>
+						<li class=""><a class="item" href="f-followers">دنبال‌کنندگان من </a></li>
 
 						<li class=""><a class="item" href="#">دنبال می‌کنم </a></li>
 
-						<li class=""><a class="item" href="f-suggestion.html">پیشنهاد دوست </a></li>
+						<li class=""><a class="item" href="f-suggestion">پیشنهاد دوست </a></li>
 
-						<li class=""><a class="item" href="f-my-requests.html">درخواست‌های من </a></li>
+						<li class=""><a class="item" href="f-my-requests">درخواست‌های من </a></li>
 
-						<li class=""><a class="item" href="f-user-requests.html">درخواست‌ها به من </a></li>
+						<li class=""><a class="item" href="f-user-requests">درخواست‌ها به من </a></li>
 
-						<li class=""><a class="item" href="f-block-list.html">مسدود شده‌ها </a></li>
+						<li class=""><a class="item" href="f-block-list">مسدود شده‌ها </a></li>
 
-						<li class=""><a class="item" href="f-new-category.html">ایجاد دسته جدید </a></li>
+						<li class=""><a class="item" href="f-new-category">ایجاد دسته جدید </a></li>
 
 					</ul>
 				</li>
@@ -75,17 +75,17 @@
 							persian>47</span></a>
 					<ul>
 
-						<li class=""><a class="item" href="messages-inbox.html">صندوق ورودی </a></li>
+						<li class=""><a class="item" href="messages-inbox">صندوق ورودی </a></li>
 
-						<li class=""><a class="item" href="messages-compose.html">ارسال پیام </a></li>
+						<li class=""><a class="item" href="messages-compose">ارسال پیام </a></li>
 
-						<li class=""><a class="item" href="messages-draft.html">پیشنویس‌ها </a></li>
+						<li class=""><a class="item" href="messages-draft">پیشنویس‌ها </a></li>
 
-						<li class=""><a class="item" href="messages-sent.html">صندوق ارسال </a></li>
+						<li class=""><a class="item" href="messages-sent">صندوق ارسال </a></li>
 
-						<li class=""><a class="item" href="messages-trash.html">بازیافت </a></li>
+						<li class=""><a class="item" href="messages-trash">بازیافت </a></li>
 
-						<li class=""><a class="item" href="messages-archive.html">بایگانی </a></li>
+						<li class=""><a class="item" href="messages-archive">بایگانی </a></li>
 
 					</ul>
 				</li>
@@ -130,17 +130,17 @@
 					<div class="item"><i class="icon mz-radio-o"></i>Assets </div>
 					<ul>
 
-						<li class=""><a class="item" href="asset-field.html">Field </a></li>
+						<li class=""><a class="item" href="asset-field">Field </a></li>
 
 						<li class=""><a class="item" href="#">Calendar </a></li>
 
 						<li class=""><a class="item" href="#">List </a></li>
 
-						<li class=""><a class="item" href="asset-photo.html">Photo </a></li>
+						<li class=""><a class="item" href="asset-photo">Photo </a></li>
 
-						<li class=""><a class="item" href="asset-file.html">File </a></li>
+						<li class=""><a class="item" href="asset-file">File </a></li>
 
-						<li class=""><a class="item" href="asset-map.html">Map </a></li>
+						<li class=""><a class="item" href="asset-map">Map </a></li>
 
 						<li class=""><a class="item" href="#">Sign-in </a></li>
 

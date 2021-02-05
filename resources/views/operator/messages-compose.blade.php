@@ -23,27 +23,27 @@
             </a>
             <ul>
                 <li class=" ">
-                    <a class="item" href="index.html"><i class="icon mz-cube"></i>پیشخوان
+                    <a class="item" href="index"><i class="icon mz-cube"></i>پیشخوان
                     </a>
                 </li>
 
                 <li class=" ">
-                    <a class="item" href="import.html"><i class="icon mz-folder-plus-o"></i>ورود اطلاعات
+                    <a class="item" href="import"><i class="icon mz-folder-plus-o"></i>ورود اطلاعات
                     </a>
                 </li>
 
                 <li class=" ">
-                    <a class="item" href="show.html"><i class="icon mz-folder-open-o"></i>نمایش اطلاعات
+                    <a class="item" href="show"><i class="icon mz-folder-open-o"></i>نمایش اطلاعات
                     </a>
                 </li>
 
                 <li class=" ">
-                    <a class="item" href="cartable.html"><i class="icon mz-clipboard"></i>کارتابل
+                    <a class="item" href="cartable"><i class="icon mz-clipboard"></i>کارتابل
                     </a>
                 </li>
 
                 <li class=" ">
-                    <a class="item" href="taxonomies.html"><i class="icon mz-list"></i>موضوعات
+                    <a class="item" href="taxonomies"><i class="icon mz-list"></i>موضوعات
                     </a>
                 </li>
 
@@ -52,12 +52,12 @@
                     </a>
                     <ul>
                         <li class="">
-                            <a class="item" href="f-friends.html">لیست دوستان
+                            <a class="item" href="f-friends">لیست دوستان
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="f-followers.html">دنبال‌کنندگان من
+                            <a class="item" href="f-followers">دنبال‌کنندگان من
                             </a>
                         </li>
 
@@ -66,27 +66,27 @@
                         </li>
 
                         <li class="">
-                            <a class="item" href="f-suggestion.html">پیشنهاد دوست
+                            <a class="item" href="f-suggestion">پیشنهاد دوست
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="f-my-requests.html">درخواست‌های من
+                            <a class="item" href="f-my-requests">درخواست‌های من
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="f-user-requests.html">درخواست‌ها به من
+                            <a class="item" href="f-user-requests">درخواست‌ها به من
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="f-block-list.html">مسدود شده‌ها
+                            <a class="item" href="f-block-list">مسدود شده‌ها
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="f-new-category.html">ایجاد دسته جدید
+                            <a class="item" href="f-new-category">ایجاد دسته جدید
                             </a>
                         </li>
                     </ul>
@@ -97,32 +97,32 @@
                         <span class="badge badge-warning" persian>47</span></a>
                     <ul>
                         <li class="">
-                            <a class="item" href="messages-inbox.html">صندوق ورودی
+                            <a class="item" href="messages-inbox">صندوق ورودی
                             </a>
                         </li>
 
                         <li class="active">
-                            <a class="item" href="messages-compose.html">ارسال پیام
+                            <a class="item" href="messages-compose">ارسال پیام
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="messages-draft.html">پیشنویس‌ها
+                            <a class="item" href="messages-draft">پیشنویس‌ها
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="messages-sent.html">صندوق ارسال
+                            <a class="item" href="messages-sent">صندوق ارسال
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="messages-trash.html">بازیافت
+                            <a class="item" href="messages-trash">بازیافت
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="messages-archive.html">بایگانی
+                            <a class="item" href="messages-archive">بایگانی
                             </a>
                         </li>
                     </ul>
@@ -169,7 +169,7 @@
                     </div>
                     <ul>
                         <li class="">
-                            <a class="item" href="asset-field.html">Field
+                            <a class="item" href="asset-field">Field
                             </a>
                         </li>
 
@@ -180,16 +180,16 @@
                         <li class=""><a class="item" href="#">List </a></li>
 
                         <li class="">
-                            <a class="item" href="asset-photo.html">Photo
+                            <a class="item" href="asset-photo">Photo
                             </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="asset-file.html">File </a>
+                            <a class="item" href="asset-file">File </a>
                         </li>
 
                         <li class="">
-                            <a class="item" href="asset-map.html">Map </a>
+                            <a class="item" href="asset-map">Map </a>
                         </li>
 
                         <li class="">

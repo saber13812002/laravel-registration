@@ -23,27 +23,27 @@
             </a>
             <ul>
                 <li class=" active">
-                    <a class="item" href="index"><i class="icon mz-cube"></i>پیشخوان
+                    <a class="item" href="/panel"><i class="icon mz-cube"></i>پیشخوان
                     </a>
                 </li>
 
                 <li class=" ">
-                    <a class="item" href="import"><i class="icon mz-folder-plus-o"></i>ورود اطلاعات
+                    <a class="item" href="/panel/import"><i class="icon mz-folder-plus-o"></i>ورود اطلاعات
                     </a>
                 </li>
 
                 <li class=" ">
-                    <a class="item" href="show"><i class="icon mz-folder-open-o"></i>نمایش اطلاعات
+                    <a class="item" href="/panel/show"><i class="icon mz-folder-open-o"></i>نمایش اطلاعات
                     </a>
                 </li>
 
                 <li class=" ">
-                    <a class="item" href="cartable"><i class="icon mz-clipboard"></i>کارتابل
+                    <a class="item" href="/panel/cartable"><i class="icon mz-clipboard"></i>کارتابل
                     </a>
                 </li>
 
                 <li class=" ">
-                    <a class="item" href="taxonomies"><i class="icon mz-list"></i>موضوعات
+                    <a class="item" href="/panel/taxonomies"><i class="icon mz-list"></i>موضوعات
                     </a>
                 </li>
 
