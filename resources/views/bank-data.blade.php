@@ -276,7 +276,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -293,7 +293,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -310,7 +310,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -327,7 +327,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -344,7 +344,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -361,7 +361,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -378,7 +378,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -395,7 +395,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -412,7 +412,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -429,7 +429,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -446,7 +446,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -463,7 +463,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -480,7 +480,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -497,7 +497,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -514,7 +514,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -531,7 +531,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -548,7 +548,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -565,7 +565,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -582,7 +582,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>
@@ -599,7 +599,7 @@
 								<div class="avatar"><img src="/img/avatar.jpeg"></div>
 								<div class="title">نام کتاب در اینجا می آید</div>
 								<div class="info">
-									<span class="owner">محمد جوادی</span>
+									<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 									<span class="types"><i class="icon mz-music"></i><i
 											class="icon mz-attach"></i></span>
 									<span class="date" persian>1396/06/25</span>

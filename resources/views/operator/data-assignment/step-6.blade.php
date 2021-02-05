@@ -326,7 +326,7 @@
                             <a href="show-3.html">یادداشت هایی از بهشت</a>
                         </div>
                         <div class="info">
-                            <span class="owner">محمد جوادی</span>
+                            <span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
                             <span class="date" persian>1396/06/25</span>
                             <span class="actions">
                                 <a href="#"><i class="icon mz-close"></i></a>
@@ -348,7 +348,7 @@
                             <a href="show-3.html">یادداشت هایی از بهشت</a>
                         </div>
                         <div class="info">
-                            <span class="owner">محمد جوادی</span>
+                            <span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
                             <span class="date" persian>1396/06/25</span>
                             <span class="actions">
                                 <a href="#"><i class="icon mz-close"></i></a>
@@ -370,7 +370,7 @@
                             <a href="show-3.html">یادداشت هایی از بهشت</a>
                         </div>
                         <div class="info">
-                            <span class="owner">محمد جوادی</span>
+                            <span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
                             <span class="date" persian>1396/06/25</span>
                             <span class="actions">
                                 <a href="#"><i class="icon mz-close"></i></a>
@@ -392,7 +392,7 @@
                             <a href="show-3.html">یادداشت هایی از بهشت</a>
                         </div>
                         <div class="info">
-                            <span class="owner">محمد جوادی</span>
+                            <span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
                             <span class="date" persian>1396/06/25</span>
                             <span class="actions">
                                 <a href="#"><i class="icon mz-close"></i></a>
@@ -414,7 +414,7 @@
                             <a href="show-3.html">یادداشت هایی از بهشت</a>
                         </div>
                         <div class="info">
-                            <span class="owner">محمد جوادی</span>
+                            <span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
                             <span class="date" persian>1396/06/25</span>
                             <span class="actions">
                                 <a href="#"><i class="icon mz-close"></i></a>
@@ -436,7 +436,7 @@
                             <a href="show-3.html">یادداشت هایی از بهشت</a>
                         </div>
                         <div class="info">
-                            <span class="owner">محمد جوادی</span>
+                            <span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
                             <span class="date" persian>1396/06/25</span>
                             <span class="actions">
                                 <a href="#"><i class="icon mz-close"></i></a>
@@ -458,7 +458,7 @@
                             <a href="show-3.html">یادداشت هایی از بهشت</a>
                         </div>
                         <div class="info">
-                            <span class="owner">محمد جوادی</span>
+                            <span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
                             <span class="date" persian>1396/06/25</span>
                             <span class="actions">
                                 <a href="#"><i class="icon mz-close"></i></a>
@@ -480,7 +480,7 @@
                             <a href="show-3.html">یادداشت هایی از بهشت</a>
                         </div>
                         <div class="info">
-                            <span class="owner">محمد جوادی</span>
+                            <span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
                             <span class="date" persian>1396/06/25</span>
                             <span class="actions">
                                 <a href="#"><i class="icon mz-close"></i></a>
@@ -502,7 +502,7 @@
                             <a href="show-3.html">یادداشت هایی از بهشت</a>
                         </div>
                         <div class="info">
-                            <span class="owner">محمد جوادی</span>
+                            <span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
                             <span class="date" persian>1396/06/25</span>
                             <span class="actions">
                                 <a href="#"><i class="icon mz-close"></i></a>

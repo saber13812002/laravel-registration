@@ -122,7 +122,7 @@
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
-											<span class="owner">محمد جوادی</span>
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 											<span class="types"><i class="icon mz-music"></i><i
 													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
@@ -139,45 +139,7 @@
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
-											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i
-													class="icon mz-attach"></i></span>
-											<span class="date" persian>1396/06/25</span>
-											<span class="actions">
-												<a href="#"><i class="icon mz-close"></i></a>
-												<a href="#"><i class="icon mz-edit"></i></a>
-												<a href="#"><i class="icon mz-eye-hidden"></i></a>
-											</span>
-										</div>
-									</div>
-
-								</div>
-
-								<div class="datesets-column">
-
-									<div href="/show" class="dataset block">
-										<div class="cover"><img src="/sample_img/3.jpg"></div>
-										<div class="avatar"><img src="/img/avatar.jpeg"></div>
-										<div class="title">نام کتاب در اینجا می آید</div>
-										<div class="info">
-											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i
-													class="icon mz-attach"></i></span>
-											<span class="date" persian>1396/06/25</span>
-											<span class="actions">
-												<a href="#"><i class="icon mz-close"></i></a>
-												<a href="#"><i class="icon mz-edit"></i></a>
-												<a href="#"><i class="icon mz-eye-hidden"></i></a>
-											</span>
-										</div>
-									</div>
-
-									<div href="/show" class="dataset block">
-										<div class="cover"><img src="/sample_img/3.jpg"></div>
-										<div class="avatar"><img src="/img/avatar.jpeg"></div>
-										<div class="title">نام کتاب در اینجا می آید</div>
-										<div class="info">
-											<span class="owner">محمد جوادی</span>
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 											<span class="types"><i class="icon mz-music"></i><i
 													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
@@ -198,7 +160,7 @@
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
-											<span class="owner">محمد جوادی</span>
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 											<span class="types"><i class="icon mz-music"></i><i
 													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
@@ -215,45 +177,7 @@
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
-											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i
-													class="icon mz-attach"></i></span>
-											<span class="date" persian>1396/06/25</span>
-											<span class="actions">
-												<a href="#"><i class="icon mz-close"></i></a>
-												<a href="#"><i class="icon mz-edit"></i></a>
-												<a href="#"><i class="icon mz-eye-hidden"></i></a>
-											</span>
-										</div>
-									</div>
-
-								</div>
-
-								<div class="datesets-column">
-
-									<div href="/show" class="dataset block">
-										<div class="cover"><img src="/sample_img/3.jpg"></div>
-										<div class="avatar"><img src="/img/avatar.jpeg"></div>
-										<div class="title">نام کتاب در اینجا می آید</div>
-										<div class="info">
-											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i
-													class="icon mz-attach"></i></span>
-											<span class="date" persian>1396/06/25</span>
-											<span class="actions">
-												<a href="#"><i class="icon mz-close"></i></a>
-												<a href="#"><i class="icon mz-edit"></i></a>
-												<a href="#"><i class="icon mz-eye-hidden"></i></a>
-											</span>
-										</div>
-									</div>
-
-									<div href="/show" class="dataset block">
-										<div class="cover"><img src="/sample_img/3.jpg"></div>
-										<div class="avatar"><img src="/img/avatar.jpeg"></div>
-										<div class="title">نام کتاب در اینجا می آید</div>
-										<div class="info">
-											<span class="owner">محمد جوادی</span>
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 											<span class="types"><i class="icon mz-music"></i><i
 													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
@@ -274,7 +198,7 @@
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
-											<span class="owner">محمد جوادی</span>
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 											<span class="types"><i class="icon mz-music"></i><i
 													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
@@ -291,7 +215,7 @@
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
-											<span class="owner">محمد جوادی</span>
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 											<span class="types"><i class="icon mz-music"></i><i
 													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
@@ -312,7 +236,7 @@
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
-											<span class="owner">محمد جوادی</span>
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 											<span class="types"><i class="icon mz-music"></i><i
 													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
@@ -329,7 +253,83 @@
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
-											<span class="owner">محمد جوادی</span>
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
+											<span class="date" persian>1396/06/25</span>
+											<span class="actions">
+												<a href="#"><i class="icon mz-close"></i></a>
+												<a href="#"><i class="icon mz-edit"></i></a>
+												<a href="#"><i class="icon mz-eye-hidden"></i></a>
+											</span>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="datesets-column">
+
+									<div href="/show" class="dataset block">
+										<div class="cover"><img src="/sample_img/3.jpg"></div>
+										<div class="avatar"><img src="/img/avatar.jpeg"></div>
+										<div class="title">نام کتاب در اینجا می آید</div>
+										<div class="info">
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
+											<span class="date" persian>1396/06/25</span>
+											<span class="actions">
+												<a href="#"><i class="icon mz-close"></i></a>
+												<a href="#"><i class="icon mz-edit"></i></a>
+												<a href="#"><i class="icon mz-eye-hidden"></i></a>
+											</span>
+										</div>
+									</div>
+
+									<div href="/show" class="dataset block">
+										<div class="cover"><img src="/sample_img/3.jpg"></div>
+										<div class="avatar"><img src="/img/avatar.jpeg"></div>
+										<div class="title">نام کتاب در اینجا می آید</div>
+										<div class="info">
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
+											<span class="date" persian>1396/06/25</span>
+											<span class="actions">
+												<a href="#"><i class="icon mz-close"></i></a>
+												<a href="#"><i class="icon mz-edit"></i></a>
+												<a href="#"><i class="icon mz-eye-hidden"></i></a>
+											</span>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="datesets-column">
+
+									<div href="/show" class="dataset block">
+										<div class="cover"><img src="/sample_img/3.jpg"></div>
+										<div class="avatar"><img src="/img/avatar.jpeg"></div>
+										<div class="title">نام کتاب در اینجا می آید</div>
+										<div class="info">
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
+											<span class="date" persian>1396/06/25</span>
+											<span class="actions">
+												<a href="#"><i class="icon mz-close"></i></a>
+												<a href="#"><i class="icon mz-edit"></i></a>
+												<a href="#"><i class="icon mz-eye-hidden"></i></a>
+											</span>
+										</div>
+									</div>
+
+									<div href="/show" class="dataset block">
+										<div class="cover"><img src="/sample_img/3.jpg"></div>
+										<div class="avatar"><img src="/img/avatar.jpeg"></div>
+										<div class="title">نام کتاب در اینجا می آید</div>
+										<div class="info">
+											<span class="owner"><a href="/profile?id=231">محمد جوادی</a></span>
 											<span class="types"><i class="icon mz-music"></i><i
 													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
