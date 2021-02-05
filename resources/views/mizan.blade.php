@@ -32,7 +32,7 @@
 				<a href="/profile" href="/profile" class="menu-item">
 					<i class="icon mz-user-c"></i>
 				</a>
-				<a href="" class="menu-item">
+				<a href="/bank-data" class="menu-item">
 					<i class="icon mz-search"></i>
 				</a>
 			</div>
