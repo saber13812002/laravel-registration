@@ -23,13 +23,13 @@
 				<li><a href="#">پیامستان</a></li>
 				<li><a href="#">آموزش</a></li>
 				<li><a href="#">مشاوره</a></li>
-				<li><a href="#" class="active">اطلاعات</a></li>
+				<li><a href="/bank" class="active">اطلاعات</a></li>
 			</ul>
 			<div class="icon-menu">
-				<a href="" class="menu-item roselife">
+				<a href="/" class="menu-item roselife">
 					<img src="/img/rose.png">
 				</a>
-				<a href="" class="menu-item">
+				<a href="/profile" href="/profile" class="menu-item">
 					<i class="icon mz-user-c"></i>
 				</a>
 				<a href="" class="menu-item">
@@ -62,7 +62,8 @@
 							<option>خدمات</option>
 						</select>
 						<div class="input-group-append">
-							<button type="button" class="btn btn-black mw-4"><i class="icon mz-magnifier"></i></button>
+							<button onclick="location.href='/bank-data'" type="button" class="btn btn-black mw-4"><i
+									class="icon mz-magnifier"></i></button>
 						</div>
 					</div>
 				</div>
@@ -182,13 +183,15 @@
 					<div class="cbox">
 						<div class="datasets-carousel">
 							<div class="header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
-								<button class="btn btn-sm btn-light-blue">پربازدیدترین</button>
-								<span class="title">مکتوبات</span>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
+								<button onclick="location.href='/bank'"
+									class="btn btn-sm btn-light-blue">پربازدیدترین</button>
+								<span href="/bank" class="title">مکتوبات</span>
 							</div>
 							<div class="owl-carousel" data-items="4" data-margin="30">
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -205,7 +208,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -222,7 +225,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -239,7 +242,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -256,7 +259,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -273,7 +276,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -297,13 +300,14 @@
 					<div class="cbox">
 						<div class="datasets-carousel">
 							<div class="header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">پربازدیدترین</button>
-								<span class="title">دیجیتال</span>
+								<span href="/bank" class="title">دیجیتال</span>
 							</div>
 							<div class="owl-carousel" data-items="4" data-margin="30">
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -320,7 +324,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -337,7 +341,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -354,7 +358,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -371,7 +375,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -388,7 +392,7 @@
 									</div>
 								</div>
 
-								<div class="dataset block">
+								<div href="/show" class="dataset block">
 									<div class="cover"><img src="/sample_img/3.jpg"></div>
 									<div class="avatar"><img src="/img/avatar.jpeg"></div>
 									<div class="title">نام کتاب در اینجا می آید</div>
@@ -414,7 +418,8 @@
 					<div class="cbox">
 						<div class="datasets-carousel">
 							<div class="header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">فعال‌ترین</button>
 								<span class="title">پدیدآورندگان حقیقی</span>
 							</div>
@@ -467,7 +472,8 @@
 					<div class="cbox">
 						<div class="datasets-carousel">
 							<div class="header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">فعال‌ترین</button>
 								<span class="title">پدیدآورندگان حقوقی</span>
 							</div>
@@ -522,7 +528,8 @@
 
 						<div class="col-lg-6">
 							<div class="cbox-header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">فعال‌ترین</button>
 								<span class="title">اعضا حقیقی</span>
 							</div>
@@ -581,7 +588,8 @@
 
 						<div class="col-lg-6">
 							<div class="cbox-header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">فعال‌ترین</button>
 								<span class="title">اعضا حقوقی</span>
 							</div>

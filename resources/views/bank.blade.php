@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-   <title>میزان</title>
-   <link rel="stylesheet" type="text/css" href="/css/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+	<title>میزان</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
+
 <body>
 	<div class="mainApp">
 		<div class="site-header">
@@ -21,13 +23,13 @@
 				<li><a href="#">پیامستان</a></li>
 				<li><a href="#">آموزش</a></li>
 				<li><a href="#">مشاوره</a></li>
-				<li><a href="#" class="active">اطلاعات</a></li>
+				<li><a href="/bank" class="active">اطلاعات</a></li>
 			</ul>
 			<div class="icon-menu">
-				<a href="" class="menu-item roselife">
+				<a href="/" class="menu-item roselife">
 					<img src="/img/rose.png">
 				</a>
-				<a href="" class="menu-item">
+				<a href="/profile" class="menu-item">
 					<i class="icon mz-user-c"></i>
 				</a>
 				<a href="" class="menu-item">
@@ -45,7 +47,7 @@
 				</ul>
 			</div>
 		</div>
- 
+
 
 		<div class="intro-box">
 			<div class="container main-pd">
@@ -60,7 +62,8 @@
 							<option>خدمات</option>
 						</select>
 						<div class="input-group-append">
-							<button type="button" class="btn btn-black mw-4"><i class="icon mz-magnifier"></i></button>
+							<button onclick="location.href='/bank-data'" type="button" class="btn btn-black mw-4"><i
+									class="icon mz-magnifier"></i></button>
 						</div>
 					</div>
 				</div>
@@ -75,7 +78,7 @@
 						</div>
 						<ul>
 							<li class="header">مکتوب</li>
-							
+
 							<li class="has-child">
 								<a href="#">کتاب</a>
 							</li>
@@ -105,21 +108,23 @@
 					<div class="cbox">
 						<div class="datasets-carousel">
 							<div class="header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">پربازدیدترین</button>
 								<button class="btn btn-sm btn-light-blue">برترین‌ها</button>
 							</div>
 							<div class="owl-carousel" data-items="4" data-margin="30">
-								
+
 								<div class="datesets-column">
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -128,14 +133,15 @@
 											</span>
 										</div>
 									</div>
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -144,18 +150,19 @@
 											</span>
 										</div>
 									</div>
-									
+
 								</div>
-								
+
 								<div class="datesets-column">
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -164,14 +171,15 @@
 											</span>
 										</div>
 									</div>
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -180,18 +188,19 @@
 											</span>
 										</div>
 									</div>
-									
+
 								</div>
-								
+
 								<div class="datesets-column">
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -200,14 +209,15 @@
 											</span>
 										</div>
 									</div>
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -216,18 +226,19 @@
 											</span>
 										</div>
 									</div>
-									
+
 								</div>
-								
+
 								<div class="datesets-column">
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -236,14 +247,15 @@
 											</span>
 										</div>
 									</div>
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -252,18 +264,19 @@
 											</span>
 										</div>
 									</div>
-									
+
 								</div>
-								
+
 								<div class="datesets-column">
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -272,14 +285,15 @@
 											</span>
 										</div>
 									</div>
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -288,18 +302,19 @@
 											</span>
 										</div>
 									</div>
-									
+
 								</div>
-								
+
 								<div class="datesets-column">
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -308,14 +323,15 @@
 											</span>
 										</div>
 									</div>
-									
-									<div class="dataset block">
+
+									<div href="/show" class="dataset block">
 										<div class="cover"><img src="/sample_img/3.jpg"></div>
 										<div class="avatar"><img src="/img/avatar.jpeg"></div>
 										<div class="title">نام کتاب در اینجا می آید</div>
 										<div class="info">
 											<span class="owner">محمد جوادی</span>
-											<span class="types"><i class="icon mz-music"></i><i class="icon mz-attach"></i></span>
+											<span class="types"><i class="icon mz-music"></i><i
+													class="icon mz-attach"></i></span>
 											<span class="date" persian>1396/06/25</span>
 											<span class="actions">
 												<a href="#"><i class="icon mz-close"></i></a>
@@ -324,9 +340,9 @@
 											</span>
 										</div>
 									</div>
-									
+
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
@@ -345,241 +361,245 @@
 						</div>
 					</div>
 
-					
+
 					<div class="cbox">
 						<div class="datasets-carousel">
 							<div class="header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">فعال‌ترین</button>
 								<span class="title">پدیدآورندگان حقیقی</span>
 							</div>
 							<div class="owl-carousel" data-items="6" data-margin="30">
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
-					
+
 					<div class="cbox">
 						<div class="datasets-carousel">
 							<div class="header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">فعال‌ترین</button>
 								<span class="title">پدیدآورندگان حقوقی</span>
 							</div>
 							<div class="owl-carousel" data-items="6" data-margin="30">
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 								<div class="dataset block min">
 									<div class="cover"><img src="/img/avatar.jpeg"></div>
 									<!-- <div class="title">نام کتاب در اینجا می آید</div> -->
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
-					
-					
+
+
 					<div class="cbox row">
-						
+
 						<div class="col-lg-6">
 							<div class="cbox-header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">فعال‌ترین</button>
 								<span class="title">اعضا حقیقی</span>
 							</div>
 							<div class="row">
-								
-									<div class="col-sm-6">
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
+
+								<div class="col-sm-6">
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
 									</div>
-								
-									<div class="col-sm-6">
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
 									</div>
-								
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+								</div>
+
+								<div class="col-sm-6">
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+								</div>
+
 							</div>
 						</div>
-						
+
 						<div class="col-lg-6">
 							<div class="cbox-header">
-								<button class="btn btn-sm btn-primary">تازه ترین</button>
+								<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه
+									ترین</button>
 								<button class="btn btn-sm btn-light-blue">فعال‌ترین</button>
 								<span class="title">اعضا حقوقی</span>
 							</div>
 							<div class="row">
-								
-									<div class="col-sm-6">
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
+
+								<div class="col-sm-6">
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
 									</div>
-								
-									<div class="col-sm-6">
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
-										<div class="avatar-box one">
-											<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
-											<div class="name">محمد جوادی</div>
-										</div>
-										
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
 									</div>
-								
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+								</div>
+
+								<div class="col-sm-6">
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+									<div class="avatar-box one">
+										<div class="avatar sm"><img src="/img/avatar.jpeg"></div>
+										<div class="name">محمد جوادی</div>
+									</div>
+
+								</div>
+
 							</div>
 						</div>
-						
+
 					</div>
 
 				</div>
 			</div>
 		</main>
 
- 
+
 		<div class="page-backdrop"></div>
 	</div>
 	<footer>
@@ -600,6 +620,7 @@
 		</div>
 	</footer>
 	<script type="text/javascript" src="/js/scripts.js"></script>
-	
+
 </body>
+
 </html>

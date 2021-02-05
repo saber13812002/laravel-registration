@@ -23,13 +23,13 @@
 				<li><a href="#">پیامستان</a></li>
 				<li><a href="#">آموزش</a></li>
 				<li><a href="#">مشاوره</a></li>
-				<li><a href="#" class="active">اطلاعات</a></li>
+				<li><a href="/bank" class="active">اطلاعات</a></li>
 			</ul>
 			<div class="icon-menu">
-				<a href="" class="menu-item roselife">
+				<a href="/" class="menu-item roselife">
 					<img src="/img/rose.png">
 				</a>
-				<a href="" class="menu-item">
+				<a href="/profile" class="menu-item">
 					<i class="icon mz-user-c"></i>
 				</a>
 				<a href="" class="menu-item">
@@ -62,7 +62,8 @@
 							<option>خدمات</option>
 						</select>
 						<div class="input-group-append">
-							<button type="button" class="btn btn-black mw-4"><i class="icon mz-magnifier"></i></button>
+							<button onclick="location.href='/bank-data'" type="button" class="btn btn-black mw-4"><i
+									class="icon mz-magnifier"></i></button>
 						</div>
 					</div>
 				</div>
@@ -264,7 +265,7 @@
 
 					<div class="cbox">
 						<div class="cbox-header">
-							<button class="btn btn-sm btn-primary">تازه ترین</button>
+							<button onclick="location.href='/bank'" class="btn btn-sm btn-primary">تازه ترین</button>
 							<button class="btn btn-sm btn-light-blue">پربازدیدترین</button>
 							<button class="btn btn-sm btn-light-blue">برترین‌ها</button>
 						</div>

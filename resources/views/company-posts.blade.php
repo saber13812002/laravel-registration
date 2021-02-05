@@ -23,13 +23,13 @@
 				<li><a href="#">پیامستان</a></li>
 				<li><a href="#">آموزش</a></li>
 				<li><a href="#">مشاوره</a></li>
-				<li><a href="#" class="active">اطلاعات</a></li>
+				<li><a href="/bank" class="active">اطلاعات</a></li>
 			</ul>
 			<div class="icon-menu">
-				<a href="" class="menu-item roselife">
+				<a href="/" class="menu-item roselife">
 					<img src="/img/rose.png">
 				</a>
-				<a href="" class="menu-item">
+				<a href="/profile" class="menu-item">
 					<i class="icon mz-user-c"></i>
 				</a>
 				<a href="" class="menu-item">
