@@ -10,7 +10,6 @@ window.Vue = require("vue");
 
 Vue.config.productionTip = false;
 
-
 import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
@@ -20,10 +19,10 @@ import axios from "axios";
 import App from "./app.vue";
 
 import Toasted from "vue-toasted";
-import Notifications from 'vue-notification'
+import Notifications from "vue-notification";
 
 Vue.use(VueAxios, axios);
-Vue.use(Notifications)
+Vue.use(Notifications);
 
 import ShiftComponent from "./components/ShiftComponent.vue";
 import PersonComponent from "./components/PersonComponent.vue";
@@ -65,7 +64,7 @@ const routes = [
     },
     {
         name: "profile",
-        path: "/profile",
+        path: "/panel",
         component: ProfileComponent
     },
     {
