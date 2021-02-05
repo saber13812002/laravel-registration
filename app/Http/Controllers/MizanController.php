@@ -7,7 +7,7 @@ class MizanController extends Controller
 
     public function index()
     {
-        return view('Mizan');
+        return view('mizan');
     }
 
     public function profile()
