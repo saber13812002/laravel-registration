@@ -8326,7 +8326,7 @@ body {
     color: #cccccc;
     font-size: 1.5rem; }
   .site-header .site-brand {
-    background: #ffffff;
+    background: #000;
     position: absolute;
     -webkit-box-shadow: 0px 0 15px #7a7a7a;
             box-shadow: 0px 0 15px #7a7a7a;
