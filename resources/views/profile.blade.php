@@ -245,7 +245,7 @@
 
 								<div class="box-header nb mt-4">
 									<div class="avatar">
-										<img src="..//img/avatar.jpeg">
+										<img src="../img/avatar.jpeg">
 									</div>
 									<div class="content">
 										<div class="title">محمد رضایی</div>
@@ -260,7 +260,7 @@
 
 								<div class="box-header nb mt-4">
 									<div class="avatar">
-										<img src="..//img/avatar.jpeg">
+										<img src="../img/avatar.jpeg">
 									</div>
 									<div class="content">
 										<div class="title">محمد رضایی</div>
@@ -275,7 +275,7 @@
 
 								<div class="box-header nb mt-4">
 									<div class="avatar">
-										<img src="..//img/avatar.jpeg">
+										<img src="../img/avatar.jpeg">
 									</div>
 									<div class="content">
 										<div class="title">محمد رضایی</div>
@@ -290,7 +290,7 @@
 
 								<div class="box-header nb mt-4">
 									<div class="avatar">
-										<img src="..//img/avatar.jpeg">
+										<img src="../img/avatar.jpeg">
 									</div>
 									<div class="content">
 										<div class="title">محمد رضایی</div>

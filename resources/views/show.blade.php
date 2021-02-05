@@ -355,7 +355,7 @@
 									</dic>
 									<div class="comment">
 										<div class="avatar">
-											<img src="..//img/avatar.jpeg">
+											<img src="../img/avatar.jpeg">
 										</div>
 										<div class="comment-header">
 											<div class="item">
@@ -391,7 +391,7 @@
 									</div>
 									<div class="comment">
 										<div class="avatar">
-											<img src="..//img/avatar.jpeg">
+											<img src="../img/avatar.jpeg">
 										</div>
 										<div class="comment-header">
 											<div class="item">
@@ -427,7 +427,7 @@
 									</div>
 									<div class="comment">
 										<div class="avatar">
-											<img src="..//img/avatar.jpeg">
+											<img src="../img/avatar.jpeg">
 										</div>
 										<div class="comment-header">
 											<div class="item">
@@ -495,7 +495,7 @@
 									</dic>
 									<div class="comment">
 										<div class="avatar">
-											<img src="..//img/avatar.jpeg">
+											<img src="../img/avatar.jpeg">
 										</div>
 										<div class="comment-header">
 											<div class="item">
@@ -525,7 +525,7 @@
 										<div class="replies">
 											<div class="comment">
 												<div class="avatar">
-													<img src="..//img/avatar.jpeg">
+													<img src="../img/avatar.jpeg">
 												</div>
 												<div class="comment-header">
 													<div class="item">
@@ -681,7 +681,7 @@
 						<div class="box npx">
 							<div class="box-header nb">
 								<div class="avatar">
-									<img src="..//img/avatar.jpeg">
+									<img src="../img/avatar.jpeg">
 								</div>
 								<div class="content">
 									<div class="title">مجید قاسمیان</div>
@@ -719,7 +719,7 @@
 						<div class="box npx">
 							<div class="box-header nb">
 								<div class="avatar">
-									<img src="..//img/avatar.jpeg">
+									<img src="../img/avatar.jpeg">
 								</div>
 								<div class="content">
 									<div class="title">سوره مهر</div>

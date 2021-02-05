@@ -27,6 +27,9 @@ Route::get('/mega-menu', 'MizanController@megaMenu');
 Route::get('/show', 'MizanController@show');
 // Route::get('/', 'MizanController@index');
 
+Route::get('/panel', 'PanelController@index');
+Route::get('/panel/cartable', 'PanelController@cartable');
+Route::get('/panel/messages', 'PanelController@messages');
 /*
 // Route::get('/', 'HomeController@index');
 

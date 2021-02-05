@@ -174,7 +174,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
@@ -216,7 +216,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
@@ -258,7 +258,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
@@ -300,7 +300,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
@@ -342,7 +342,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
@@ -384,7 +384,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
@@ -426,7 +426,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
@@ -468,7 +468,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
@@ -510,7 +510,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
@@ -552,7 +552,7 @@
 					<div class="f-box shadow-d">
 						<div class="avatar-box">
 							<div class="avatar">
-								<img src="..//img/avatar.jpeg">
+								<img src="../img/avatar.jpeg">
 							</div>
 							<div class="details">
 								<div class="name">سلمان عرب عامری</div>
