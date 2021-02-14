@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /home2/sokhanra/public_html
+RewriteBase /home2/bhtoir/public_html
 
 # Handle Authorization Header
 RewriteCond %{HTTP:Authorization} .
