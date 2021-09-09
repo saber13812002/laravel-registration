@@ -97,7 +97,7 @@ if you type a phone number for registration you can see 5 digit otp in opts tabl
 
 create new account in liara.ir
 
-then create a mashine
+then create a machine
 
 then install npm liara npm package
 
@@ -110,9 +110,9 @@ now you can have a sample demo site like this: wiki.liara.run
 
 if yoursite.com/admin not open please check out your .htaccess files 
 
-if yoursite.com/links didnt open please modifu .htaccess file : like this:
+if yoursite.com/links didn't open please modify .htaccess file : like this:
 
-
+two .htaccess files: /public/.htaccess /.htaccess
 
 ## License:
 
