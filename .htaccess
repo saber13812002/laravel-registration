@@ -1,5 +1,6 @@
 RewriteEngine On
-RewriteBase /home2/bhtoir/public_html
+#RewriteBase /home2/bhtoir/public_html
+RewriteBase /home/pardisa2/api.berimbasket.ir
 
 # Handle Authorization Header
 RewriteCond %{HTTP:Authorization} .

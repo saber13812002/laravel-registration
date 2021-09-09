@@ -110,6 +110,10 @@ now you can have a sample demo site like this: wiki.liara.run
 
 if yoursite.com/admin not open please check out your .htaccess files 
 
+if yoursite.com/links didnt open please modifu .htaccess file : like this:
+
+
+
 ## License:
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
